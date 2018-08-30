@@ -37,6 +37,12 @@ from msk.util import ask_for_github_credentials, register_git_injector
 from msm import MycroftSkillsManager, SkillEntry, SkillRepo
 
 
+# Enter username and password as strings to avoid typing while testing, etc.
+github_username = None
+github_password = None
+use_branch = None  # defaults to "18.08"
+
+
 usage = '''
 Generates a JSON file containing info on all Mycroft Skills referenced by the
 mycroft-skills repository (https://github.com/MycroftAI/mycroft-skills)
@@ -50,6 +56,9 @@ mycroft-skills repository (https://github.com/MycroftAI/mycroft-skills)
 
 root = dirname(abspath(__file__))
 
+
+##########################################################################
+# Utilities
 
 class TempClone:
     """Create a clone in a temp dir used to write and push file changes"""
@@ -69,30 +78,59 @@ class TempClone:
 
 
 def load_github() -> Github:
-    """Creates Github api object from token.txt, GITHUB_TOKEN variable, or by asking the user"""
+    """ Create Github API object """
     if isfile(join(root, 'token.txt')):
+        # Get token from file
         with open(join(root, 'token.txt')) as f:
             token = f.read().strip()
         register_git_injector(token, '')
         return Github(token)
     elif os.environ.get('GITHUB_TOKEN'):
+        # Get token from environment variable
         token = os.environ['GITHUB_TOKEN']
         register_git_injector(token, '')
         return Github(token)
+    elif github_username and github_password:
+        # Use credentials entered above
+        github = Github(github_username, github_password)
+        github.get_user().login
+        register_git_injector(github_username, github_password)
+        return github
     elif isatty(sys.stdout.fileno()):
+        # Interactive
         return ask_for_github_credentials()
     else:
         print('Warning: No authentication. May exceed GitHub rate limit')
         return Github()
 
 
+def upload_summaries(github: Github, summaries: dict):
+    print('Uploading skill-metadata.json...')
+    repo = github.get_repo('MycroftAI/mycroft-skills-data')  # type: Repository
+    if not repo.permissions.push:
+        print('You don\'t have write permissions')
+        exit(1)
+    clone = TempClone('https://github.com/mycroftai/mycroft-skills-data')
+    clone.write('skill-metadata.json', json.dumps(summaries, indent=4))
+
+##########################################################################
+# README.md parsing/formatting
+
+
 def extract_sections(readme_content: str) -> OrderedDict:
-    """Returns {'Header Title': 'content under\nheader'} from readme markdown"""
+    """ Split README.md markdown into sections
+    Returns:
+        {
+            'Header Title': 'content under\nheader',
+            'Header2 Title': 'content under\nheader2',
+            ...
+        }
+    """
     last_section = ''
     sections = OrderedDict({last_section: ''})
     for line in readme_content.split('\n'):
         line = line.strip()
-        if line.startswith('#'):
+        if line.startswith('# ') or line.startswith('## '):
             last_section = line.strip('# ')
             sections[last_section] = ''
         else:
@@ -108,18 +146,25 @@ def compare(a: str, b: str) -> float:
 
 
 def norm(x: str) -> str:
-    """Normalize string for comparison between skill-names and spaced names"""
+    """ Normalize string for comparison between:
+        skill-names
+    and
+        skill name
+    """
     return x.lower().replace('-', ' ')
 
 
-def find_section(name: str, sections: dict, min_conf: float = 0.5) -> Optional[str]:
-    """Return the section content containing the heading that matches `name` most closely"""
-    title, conf = max([(title, compare(title, name)) for title in sections], key=lambda x: x[1])
+def find_section(name: str, sections: dict,
+                 min_conf: float = 0.5) -> Optional[str]:
+    """ Return the section with heading that matches `name` most closely """
+    title, conf = max([(title, compare(title, name)) for title in sections],
+                      key=lambda x: x[1])
+
     return None if conf < min_conf else sections[title]
 
 
-def format_sent(s: str) -> str:
-    """ this is a test -> This is a test. """
+def format_sentence(s: str) -> str:
+    """ 'this is a test' -> 'This is a test.' """
     s = caps(s)
     if s and s[-1].isalnum():
         return s + '.'
@@ -127,7 +172,7 @@ def format_sent(s: str) -> str:
 
 
 def caps(s: str) -> str:
-    """Capitalize first letter without lowercasing the rest"""
+    """ Capitalize first letter without lowercasing the rest"""
     return s[:1].upper() + s[1:]
 
 
@@ -147,13 +192,13 @@ def parse_example(example: str) -> str:
             for suffix in ["'s", "s", "", "'d", "d" "'re", "re"]
     ):
         example = example.rstrip('?.') + '?'
-    example = format_sent(example)
+    example = format_sentence(example)
     return example
 
 
 def find_examples(sections: dict) -> list:
     """
-    Example: {'Examples': ' - "Hey Mycroft, how are you?"\n - "Hey Mycroft, perform test" <<< Does a test'}
+    Example: {'Examples': ' - "Hey Mycroft, how are you?"\n - "Hey Mycroft, perform test" <<< Does a test'}  # nopep8
     Returns: ['How are you?', 'Perform test.']
     """
     return re.findall(
@@ -163,57 +208,197 @@ def find_examples(sections: dict) -> list:
 
 
 def find_title_info(sections: dict, skill_name: str) -> tuple:
-    """Determines if first section contains a title (or something else like "Description")"""
+    """ Extract title from first section
+
+    Handles both:
+        # <img src=.../> My skill
+    and
+        # My skill
+
+    Returns:
+        title (string), short_desc (string)
+    """
+    # Get first section's title
     title_section = next(iter(sections))
-    if compare(norm(title_section), norm(skill_name)) >= 0.3:
-        return caps(title_section), sections[title_section]
-    else:
-        return norm(skill_name).title(), sections['']
+
+    # Remove traces of any <img> tag that might exist, get text that follows
+    title = title_section.split("/>")[-1].strip()
+    short_desc = sections[title_section]
+    return title, short_desc
+
+
+def find_icon(sections: dict) -> tuple:
+    # Get first section's title (icon is in the title itself), like:
+    # <img src='https://rawgi...' card_color='maroon' height='50'/> Skill Name
+    title_section = next(iter(sections)).replace('"', "'")
+
+    url = None
+    name = None
+    color = None
+    prev = ''
+    for part in title_section.split("'"):
+        part = part.strip()
+        if prev.endswith("src="):
+            url = part
+        elif prev.endswith("card_color="):
+            color = part
+        prev = part
+
+    # Check if URL is a Font Awesome preview image
+    if url and url.startswith("https://rawgithub.com/FortAwesome/Font-Awesome"):
+        # Break down down just the filename part, e.g.
+        #   "https://rawgithub...vg/solid/microchip.svg" -> "microchip"
+        name = url.split('/')[-1].split(".")[0]
+        url = None
+
+    return url, name, color
+
+
+def make_credits(lines: str) -> list:
+    # Convert multiline credits into list
+    # Ex:
+    #   @acmcgee\nMycroftAI (@MycroftAI)\nTom's great songs
+    result = []
+    for line in lines.splitlines():
+        words = []
+        username = None
+        for word in line.split():
+            word = word.strip("()")
+            if word.startswith("@"):
+                username = word[1:]
+            else:
+                words.append(word)
+        if words and username:
+            result.append({"name": " ".join(words),
+                           "github_id": username})
+        elif words:
+            result.append({"name": " ".join(words)})
+        elif username:
+            result.append({"github_id": username})
+
+    return result
 
 
 def generate_summary(github: Github, skill_entry: SkillEntry):
-    author = skill_entry.extract_author(skill_entry.url)
-    repo_name = skill_entry.extract_repo_name(skill_entry.url)
-    repo_id = '/'.join([author, repo_name])
-    repo = github.get_repo(repo_id)  # type: Repository
-    readme_file = repo.get_readme()  # type: ContentFile
-    readme = readme_file.decoded_content.decode()
+    """
+    Generate an entry for a Skill that has been accepted to the
+    Mycroft Skills repo (https://github.com/mycroft-skills).
+
+    {
+       "mycroft-reminder": {
+            # repo url
+            "repo": "https://github.com/MycroftAI/skill-reminder",
+            # branch of the repo
+            "branch": "18.08",
+            # Exact commit accepted
+            "tree": "https://github.com/MycroftAI/skill-reminder/tree/afb9d3387e782de19fdf2ae9ec6d2e6c83fee48c",
+            # name for the folder on disk, e.g. /opt/mycroft/skills/mycroft-reminder.mycroftai
+            "name": "mycroft-reminder",
+            "github_username": "mycroftai",
+
+            # Used in titles and for 'Hey Mycroft, install ...'
+            "title": "Set reminders",
+
+            # One of the following two entries
+            "icon" : {"name": "info", "color": "#22a7f0" },
+            "icon_img" : "https://somewhere.org/picture.png",
+
+            # List of credited contributors.  Some might not have a github_id
+            # such as when crediting a song.
+            "credits" : [
+                {"name": "Mycroft AI", "github_id": "MycroftAI"},
+                {"name": "Reminder tone from Tony of Tony's Sounds"}
+            ],
+
+            # The tagline description
+            "short_desc": "Set single and repeating reminders for tasks",
+
+            # The detailed description.  Can contain markdown
+            "description": "Flexible reminder Skill, allowing you to set single and repeating reminders for tasks. The reminders are set on the Device, and have no external dependencies. ",
+
+            # Example phrases.  Order counts, first is most representative.
+            "examples": [
+                "Set a reminder every day to take my vitamin pill.",
+                "Remind me to put the garbage out at 8pm.",
+                "Remind me to walk the dog in an hour.",
+                "Set a reminder every Friday at 2pm.",
+                "Remind me to stretch in 10 minutes."
+            ],
+
+            # Categories.  Order counts, first is the primary category.
+            "categories": ["Daily","Productivity"],
+
+            # Tags are arbitrary and order has no meaning.
+            "tags": ["reminder", "reminders"],
+
+            # Supported platforms by name, or "all"
+            "platforms": ["platform_mark1"]
+        }
+    }
+    """
+    if github:
+        author = skill_entry.extract_author(skill_entry.url)
+        repo_name = skill_entry.extract_repo_name(skill_entry.url)
+        repo_id = '/'.join([author, repo_name])
+        repo = github.get_repo(repo_id)  # type: Repository
+        repo_url = repo.html_url
+        readme_file = repo.get_readme()  # type: ContentFile
+        readme = readme_file.decoded_content.decode()
+    else:
+        readme = skill_entry.readme
+        repo_url = "http://dummy.url"
     sections = extract_sections(readme)
     title, short_desc = find_title_info(sections, skill_entry.name)
 
-    return {
-        'repo': repo.html_url,
-        'title': title,
+    entry = {
+        'repo': repo_url,
+        # 'branch': "18.08",              # TODO: repo.branch,
+        'tree': skill_entry.sha,
         'name': skill_entry.name,
-        'author': (
-            find_section('credits', sections, 0.9) or
-            find_section('author', sections, 0.9) or caps(skill_entry.author)
-        ),
         'github_username': skill_entry.author,
-        'short_desc': format_sent(short_desc.replace('\n', ' ')).rstrip('.'),
-        'description': format_sent(find_section('description', sections) or ''),
+
+        'title': title,
+        'short_desc': format_sentence(short_desc.replace('\n',
+                                                         ' ')).rstrip('.'),
+        'description': format_sentence(find_section('About',
+                                                    sections) or ''),
+
         'examples': [parse_example(i) for i in find_examples(sections)],
-        'requires': (find_section('require', sections, 0.9) or '').split(),
-        'excludes': (find_section('exclude', sections, 0.9) or '').split()
+
+        'credits': make_credits((find_section('Credits',
+                                              sections, 0.9) or caps(skill_entry.author))),
+        'categories': [
+            cat.replace('*', '') for cat in sorted((find_section('Category',
+                                                    sections,
+                                                    0.9) or '').split())],
+        'platforms': (find_section('Supported Devices',
+                                   sections, 0.9) or 'all').split(),
+        'tags': (find_section('Tags',
+                              sections) or '').replace('#', '').split()
     }
 
+    icon_url, icon_name, icon_color = find_icon(sections)
+    if icon_url:
+        entry["icon_img"] = icon_url
+    elif icon_name:
+        entry["icon"] = {"icon": icon_name, "color": icon_color}
 
-def upload_summaries(github: Github, summaries: dict):
-    print('Uploading skill-metadata.json...')
-    repo = github.get_repo('MycroftAI/mycroft-skills-data')  # type: Repository
-    if not repo.permissions.push:
-        print('You don\'t have write permissions')
-        exit(1)
-    clone = TempClone('https://github.com/mycroftai/mycroft-skills-data')
-    clone.write('skill-metadata.json', json.dumps(summaries, indent=4))
+    return entry
+
+
+##########################################################################
 
 
 def main():
     args = create_parser(usage).parse_args()
+
     github = load_github()
 
     summaries = {}
-    repo = SkillRepo(path=join(gettempdir(), 'mycroft-skills-repo'))
+    repo = SkillRepo(path=join(gettempdir(), 'mycroft-skills-repo'),
+                     branch=use_branch)
+    print("Working on repository: ", repo.url)
+    print("               branch: ", repo.branch)
     for skill_entry in MycroftSkillsManager(repo=repo).list():
         if not skill_entry.url:
             continue
@@ -234,5 +419,30 @@ def main():
         upload_summaries(github, summaries)
 
 
+def test_main():
+    # Use this
+    TEST_README = """
+    For rapid bugfix/testing, you can paste a README.md here
+    """
+
+    class FauxSkillEntry:
+        @property
+        def name(self):
+            return "picroft_example_skill_gpio"
+
+        @property
+        def author(self):
+            return "MycroftAI"
+
+        @property
+        def readme(self):
+            return TEST_README
+
+    print(json.dumps(
+            generate_summary(None, FauxSkillEntry()),
+            indent=4))
+
+
 if __name__ == '__main__':
+    # test_main()
     main()

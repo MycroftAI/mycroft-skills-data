@@ -36,6 +36,7 @@ from typing import Optional
 from msk.util import ask_for_github_credentials, register_git_injector
 from msm import MycroftSkillsManager, SkillEntry, SkillRepo
 
+DEFAULT_BRANCH='18.08'
 
 # Enter username and password as strings to avoid typing while testing, etc.
 github_username = None
@@ -62,12 +63,14 @@ root = dirname(abspath(__file__))
 
 class TempClone:
     """Create a clone in a temp dir used to write and push file changes"""
-    def __init__(self, url: str):
+    def __init__(self, url: str, branch: str=None):
         import posixpath
         self.path = join(gettempdir(), posixpath.basename(url))
         if not isdir(self.path):
             Repo.clone_from(url, self.path)
         self.git = Git(self.path)
+        if branch:
+            self.git.checkout(branch)
 
     def write(self, path: str, content: str):
         with open(join(self.path, path), 'w') as f:
@@ -104,13 +107,15 @@ def load_github() -> Github:
         return Github()
 
 
-def upload_summaries(github: Github, summaries: dict):
+def upload_summaries(github: Github, summaries: dict, branch: str=None):
     print('Uploading skill-metadata.json...')
     repo = github.get_repo('MycroftAI/mycroft-skills-data')  # type: Repository
+    branch = branch or DEFAULT_BRANCH
     if not repo.permissions.push:
         print('You don\'t have write permissions')
         exit(1)
-    clone = TempClone('https://github.com/mycroftai/mycroft-skills-data')
+    clone = TempClone('https://github.com/mycroftai/mycroft-skills-data',
+                      branch)
     clone.write('skill-metadata.json', json.dumps(summaries, indent=4))
 
 ##########################################################################
@@ -416,7 +421,7 @@ def main():
     else:
         print(json.dumps(summaries, indent=4))
     if args.upload:
-        upload_summaries(github, summaries)
+        upload_summaries(github, summaries, use_branch)
 
 
 def test_main():

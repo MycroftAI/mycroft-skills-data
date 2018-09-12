@@ -19,6 +19,7 @@ from collections import OrderedDict
 
 import json
 import os
+import shutil
 import re
 from difflib import SequenceMatcher
 from git import Repo, Git
@@ -69,6 +70,7 @@ class TempClone:
         if not isdir(self.path):
             Repo.clone_from(url, self.path)
         self.git = Git(self.path)
+        self.git.fetch()
         if branch:
             self.git.checkout(branch)
 
@@ -76,9 +78,11 @@ class TempClone:
         with open(join(self.path, path), 'w') as f:
             f.write(content)
         self.git.add(path)
-        self.git.commit(amend=True, no_edit=True)
-        self.git.push(force=True)
+        self.git.commit(message="Automatic update of skill-metadata.json")
+        self.git.push()
 
+    def delete(self):
+        shutil.rmtree(self.path)
 
 def load_github() -> Github:
     """ Create Github API object """
@@ -117,6 +121,7 @@ def upload_summaries(github: Github, summaries: dict, branch: str=None):
     clone = TempClone('https://github.com/mycroftai/mycroft-skills-data',
                       branch)
     clone.write('skill-metadata.json', json.dumps(summaries, indent=4))
+    clone.delete()
 
 ##########################################################################
 # README.md parsing/formatting

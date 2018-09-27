@@ -1,92 +1,26 @@
 {
-    "mycroft-spotify": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "forslund",
-        "title": "Spotify",
-        "description": "Stream your favorite music from the popular Spotify music service.  Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### API connection to your Spotify account\nAfter installing `mycroft-spotify`, in your [Skill\nsettings for Spotify](https://home.mycroft.ai/#/skill) in home.mycroft.ai you will see settings for the Spotify Skill. You will see a username and password field and a 'Connect' button. Ignore the username and password field for now, and click the 'Connect' button. You will be prompted to log in to Spotify, and to authorize Mycroft AI to use your Spotify account using OAuth. This allows Mycroft access to your account details such as Playlists.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spot-ify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
-        "credits": [
-            {
-                "github_id": "forslund"
-            },
-            {
-                "name": "The Mycroft devs"
-            }
-        ],
-        "short_desc": "Listen to music from your Spotify Premium music account",
-        "tree": "07cb663ec317f6b409e23bd22208eda642c104e5",
-        "tags": [
-            "spotify",
-            "music"
-        ],
-        "name": "mycroft-spotify",
-        "repo": "https://github.com/forslund/spotify-skill",
-        "examples": [
-            "What Spotify devices are available?",
-            "Play discover weekly.",
-            "Search Spotify for Hello Nasty.",
-            "Play something by Coventant.",
-            "Play the album Hello Nasty on Spotify."
-        ],
-        "categories": [
-            "Music"
-        ],
-        "icon": {
-            "icon": "music",
-            "color": "#40db60"
-        }
-    },
-    "mycroft-reminder": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Set reminders",
-        "description": "Flexible reminder Skill, allowing you to set single and repeating reminders for tasks. The reminders are set on the Device, and have no external dependencies.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Set single and repeating reminders for tasks",
-        "tree": "8330d1500594b7f406facbbf699afcaaa95e29b1",
-        "tags": [
-            "reminder",
-            "reminders"
-        ],
-        "name": "mycroft-reminder",
-        "repo": "https://github.com/MycroftAI/skill-reminder",
-        "examples": [
-            "Set a reminder every day to take my vitamin pill.",
-            "Remind me to put the garbage out at 8pm.",
-            "Remind me to walk the dog in an hour.",
-            "Set a reminder every Friday at 2pm.",
-            "Remind me to stretch in 10 minutes."
-        ],
-        "categories": [
-            "Daily"
-        ],
-        "icon": {
-            "icon": "info",
-            "color": "#22a7f0"
-        }
-    },
     "plasma-activities-skill": {
-        "platforms": [
-            "platform_plasmoid"
-        ],
-        "github_username": "AIIX",
-        "title": "Plasma Activites",
-        "description": "This skill integrates plasma-shell activities with mycroft which enables users to control their desktop activities via voice on the go, users can create activities, switch, remove, stop and display activities on their desktops.",
         "credits": [
             {
                 "github_id": "AIIX"
             }
         ],
-        "short_desc": "Control Your Plasmashell Activities",
         "tree": "83b4d2fcc807df6410ee2567ce052f7705df37cb",
+        "name": "plasma-activities-skill",
+        "repo": "https://github.com/AIIX/plasma-activities-skill",
+        "description": "This skill integrates plasma-shell activities with mycroft which enables users to control their desktop activities via voice on the go, users can create activities, switch, remove, stop and display activities on their desktops.",
+        "title": "Plasma Activites",
+        "icon": {
+            "icon": "chalkboard-teacher",
+            "color": "#0099ff"
+        },
+        "short_desc": "Control Your Plasmashell Activities",
+        "categories": [
+            "Productivity"
+        ],
+        "platforms": [
+            "platform_plasmoid"
+        ],
         "tags": [
             "desktop",
             "kde",
@@ -95,8 +29,6 @@
             "plasma",
             "switch"
         ],
-        "name": "plasma-activities-skill",
-        "repo": "https://github.com/AIIX/plasma-activities-skill",
         "examples": [
             "Create new activity 'Activity Name.",
             "Show current Activities.",
@@ -104,179 +36,248 @@
             "Switch to activity 'Activity Name.",
             "Remove activity 'Activity Name."
         ],
-        "categories": [
-            "Productivity"
-        ],
-        "icon": {
-            "icon": "chalkboard-teacher",
-            "color": "#0099ff"
-        }
+        "github_username": "AIIX"
     },
-    "mycroft-speak": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Speak",
-        "description": "Turn Mycroft into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
+    "mycroft-installer": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Make Mycroft repeat whatever you want",
-        "tree": "32c6ee6b5c44330bd14ba72157b2dff891ca1c5b",
+        "tree": "73a6b063e1f233daaab46cc52906016302703bfe",
+        "name": "mycroft-installer",
+        "repo": "https://github.com/MycroftAI/skill-installer",
+        "description": "Add and remove Skills using your voice or from the [Marketplace](https://market.mycroft.ai).\nYou can also assist skill authors in testing new versions of their skills by\nusing \"install prevew version\" to gain access to skills still under development\nand testing.  If you do this, please be consicious the skill may be in an\nunstable development state and report issues to the author appropriately.\n\nYou can also install Skills that are not officially released by entering the\nSkill's GitHub repository URL in the [Installer's web user interface](https://home.mycroft.ai/#/skill).\n\nSkills are ultimately installed using the [Mycroft Skill Manager (msm)](https://mycroft.ai/documentation/msm].  If verbally installing, Mycroft will speak a list of possible matches for\nambiguous names -- just pick the skill you want from the list read to you.",
+        "title": "Installer",
+        "icon": {
+            "icon": "download",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Add and remove Mycroft Skills",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
-            "speak",
-            "say",
-            "repeat"
+            "install",
+            "installer",
+            "download",
+            "add-skill",
+            "skill",
+            "skills",
+            "msm",
+            "system"
         ],
-        "name": "mycroft-speak",
-        "repo": "https://github.com/MycroftAI/skill-speak",
         "examples": [
-            "Say Goodnight, Gracie.",
-            "Repeat Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore.",
-            "Speak I can say anything you'd like!"
+            "Install coin flip.",
+            "Install the preview version of coin flip.",
+            "Uninstall coin flip.",
+            "Remove coin flip.",
+            "Download custom skill."
         ],
+        "github_username": "mycroftai"
+    },
+    "fallback-aiml": {
+        "credits": [
+            {
+                "name": "JarbasAI"
+            },
+            {
+                "name": "nielstron"
+            },
+            {
+                "name": "forslund"
+            }
+        ],
+        "tree": "0ce1b18d575d7032ac5e9d54a7ac35210b7de5ce",
+        "name": "fallback-aiml",
+        "repo": "https://github.com/forslund/fallback-aiml",
+        "description": "",
+        "title": "AIML Fallback Skill",
+        "short_desc": "",
+        "categories": [],
+        "platforms": [
+            "all"
+        ],
+        "tags": [],
+        "examples": [
+            "Are you a robot?",
+            "What is the name of my dog?"
+        ],
+        "github_username": "forslund"
+    },
+    "mycroft-weather": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "4be98ccc53656feb295d2d37b61708aa71c26741",
+        "name": "mycroft-weather",
+        "repo": "https://github.com/MycroftAI/skill-weather",
+        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default it will tell\nyou about your default location, or you can ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nFor **enclosures** with screen support, conditions are briefly shown using visemes.\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences set in your [https://home.mycroft.ai](https://home.mycroft.ai) account.",
+        "title": "Weather",
+        "icon": {
+            "icon": "sun",
+            "color": "#FEE255"
+        },
+        "short_desc": "Weather conditions and forecasts",
         "categories": [
             "Daily"
         ],
-        "icon": {
-            "icon": "bullhorn",
-            "color": "#22a7f0"
-        }
-    },
-    "fallback-wolfram-alpha": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Wolfram Alpha Fallback",
-        "description": "Ask general-knowledge queries of your Mycroft device.  If no other Skills can handle the _Intent_, [Wolfram Alpha](https://wolframalpha.com) will be queried\nto see if it can find an answer.  You'll be surprised by how much it knows!\n\nFor deeper exploration, you can also request the sources behind the answer. An email will be sent to your registered account linking you to all the details within Wolfram Alpha's website.",
+        "tags": [
+            "weather",
+            "forecast",
+            "rain",
+            "humidity",
+            "snow",
+            "temperature"
+        ],
+        "examples": [
+            "What is the weather?",
+            "What is the forecast tomorrow?",
+            "What is the weather going to be like Tuesday?",
+            "What is the weather in Houston?",
+            "When will it rain next?",
+            "How windy is it?",
+            "What's the humidity?",
+            "Is it going to snow?",
+            "What's the temperature?"
+        ],
+        "github_username": "mycroftai"
+    },
+    "cocktails": {
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "github_id": "forslund"
             }
         ],
-        "short_desc": "General knowledge fallback handler",
-        "tree": "d0c0fb35f875474ea920da309bfd9af62227b83c",
-        "tags": [
-            "wolfram-alpha",
-            "fallback",
-            "query",
-            "general-knowledge",
-            "information"
-        ],
-        "name": "fallback-wolfram-alpha",
-        "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
-        "examples": [
-            "How tall is Mount Everest?",
-            "When was The Rocky Horror Picture Show released?",
-            "What is Madonna's real name?",
-            "What's 18 times 4?",
-            "How many inches in a meter?",
-            "Send me the source on that."
-        ],
+        "tree": "2812a55414666e98af5ffa7f1d8bc7a84dd6e0b6",
+        "name": "cocktails",
+        "repo": "https://github.com/forslund/skill-cocktail",
+        "description": "Let Mycroft help you mix better and more fun drinks and cocktails. When asked Mycroft provides ingredients and mixing instructions for various drinks. The skill uses the fabulous [theCocktailDB](https://thecocktaildb.com/).",
+        "title": "Cocktails",
+        "icon": {
+            "icon": "cocktail",
+            "color": "#0080b0"
+        },
+        "short_desc": "Get help mixing drinks",
         "categories": [
             "Information"
         ],
-        "icon": {
-            "icon": "question",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-naptime": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Naptime",
-        "description": "Tell Mycroft to sleep when you don't want to be disturbed in any way.\nThis stops all calls to Speech to Text system, guaranteeing your voice won't\nbe sent anywhere on an accidental activation.\n\nWhen sleeping, Mycroft will only listen locally for the phrase \"Hey Mycroft,\nwake up\". Otherwise the system will be totally silent and won't bother you.\n\nOn a Mark 1 this also dims the eyes.",
+        "tags": [
+            "drinks",
+            "recipies",
+            "cocktails"
+        ],
+        "examples": [
+            "How do I mix a Moscow Mule.",
+            "How do I make a daiquiri."
+        ],
+        "github_username": "forslund"
+    },
+    "decide-skill": {
+        "credits": [
+            {
+                "name": "Laurie Hannon lhannon), laurie.hannon@sftsrc.com"
+            }
+        ],
+        "tree": "e2ebba9271324b8b60dfa332fbd8938e0e176ef9",
+        "name": "decide-skill",
+        "repo": "https://github.com/lhannon/decide-skill",
+        "description": "This skill makes a random choice between two specified options. You can ask who is going to win the game, what should you wear, what you should eat, or simply \"decide\" between two options.",
+        "title": "",
+        "icon": {
+            "icon": "exchange-alt",
+            "color": "#40dbb0"
+        },
+        "short_desc": "Randomly choose between two specified options",
+        "categories": [
+            "Entertainment"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "oscon",
+            "oscon2018"
+        ],
+        "examples": [
+            "Who is going to win tonight's game, Villanova or Duke?",
+            "What should I eat for lunch, burger or sushi?",
+            "What should I wear, t-shirt or polo?",
+            "Decide heads or tails."
+        ],
+        "github_username": "lhannon"
+    },
+    "mycroft-npr-news": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Put Mycroft to sleep when you don't want to be disturbed",
-        "tree": "deee7aa345a68c3a34adf6556e84ac2d5691c18c",
-        "tags": [
-            "nap",
-            "naptime",
-            "sleep",
-            "donotdisturb",
-            "do-not-disturb"
-        ],
-        "name": "mycroft-naptime",
-        "repo": "https://github.com/MycroftAI/skill-naptime",
-        "examples": [
-            "Go to sleep.",
-            "Nap time.",
-            "Wake up."
-        ],
+        "tree": "1c027b146eb6cb535be9a0781c9f11b2ca30c967",
+        "name": "mycroft-npr-news",
+        "repo": "https://github.com/MycroftAI/skill-npr-news",
+        "description": "Play the latest news from an RSS audio feed.  The National Public Radio (NPR)\nHourly News is the default feed, or you can chose\nfrom the BBC, Associated Press, CBC.ca, CNN, PBS or\nFox.  Select your favorite at:\n[home.mycroft.ai](https://home.mycroft.ai/#/skill).",
+        "title": "Latest news",
+        "icon": {
+            "icon": "newspaper",
+            "color": "#000000"
+        },
+        "short_desc": "Listen to the latest news report from your favorite broadcast",
         "categories": [
             "Daily",
-            "Configuration"
+            "Information"
         ],
-        "icon": {
-            "icon": "bed",
-            "color": "#22a7f0"
-        }
-    },
-    "email-skill": {
         "platforms": [
             "all"
         ],
-        "github_username": "linuss1",
-        "title": "Email",
-        "description": "With this skill, Mycroft can check your email. When you ask him, he can list your new emails. He will say the sender and the subject of each email.\n\nTo configure this skill go [to the skill wiki](https://github.com/LinusS1/email-skill/wiki/Configuration)",
-        "credits": [
-            {
-                "name": "Linus S",
-                "github_id": "LinusS1"
-            }
-        ],
-        "short_desc": "Have Mycroft check your email",
-        "tree": "e6f695ba4ce5867b0ac32a9067a8f9a0dd205ee9",
         "tags": [
-            "email",
-            "mail",
-            "emails"
+            "news",
+            "headlines"
         ],
-        "name": "email-skill",
-        "repo": "https://github.com/LinusS1/email-skill",
         "examples": [
-            "Check my email.",
-            "Do I have any email?",
-            "Do I have any new emails?",
-            "Check my mail."
+            "Play the news.",
+            "Tell me the news.",
+            "What's the news?"
         ],
-        "categories": [
-            "Productivity",
-            "Daily"
-        ],
-        "icon": {
-            "icon": "envelope",
-            "color": "#BDC3C7"
-        }
+        "github_username": "mycroftai"
     },
     "mycroft-support-helper": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Support",
-        "description": "This Skill generates a package with debugging information and emails it to the email address registered in your [home.mycroft.ai](https://home.mycroft.ai) account. This package can be used for debugging issues yourself, or alternatively it can be emailed to Mycroft to create a support request.\n\nThe package contains all of your `mycroft-core` logs on the Device, and information about active Skills and Intents at the time the support request was generated.\n\nThis uses the [termbin.com](http://termbin.com/) service for storing the debugging information.",
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Generate log and status information that can be emailed to Mycroft to create a support ticket",
         "tree": "938188ad1d7ba42dc9c1b2d70ffab2f858c8419d",
+        "name": "mycroft-support-helper",
+        "repo": "https://github.com/MycroftAI/skill-support",
+        "description": "This Skill generates a package with debugging information and emails it to the email address registered in your [home.mycroft.ai](https://home.mycroft.ai) account. This package can be used for debugging issues yourself, or alternatively it can be emailed to Mycroft to create a support request.\n\nThe package contains all of your `mycroft-core` logs on the Device, and information about active Skills and Intents at the time the support request was generated.\n\nThis uses the [termbin.com](http://termbin.com/) service for storing the debugging information.",
+        "title": "Support",
+        "icon": {
+            "icon": "life-ring",
+            "color": "#FD8E4C"
+        },
+        "short_desc": "Generate log and status information that can be emailed to Mycroft to create a support ticket",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
             "support",
             "support-request",
@@ -285,115 +286,79 @@
             "logs",
             "troubleshooting"
         ],
-        "name": "mycroft-support-helper",
-        "repo": "https://github.com/MycroftAI/skill-support",
         "examples": [
             "Create a support ticket.",
             "You're not working!",
             "Send me debug info."
         ],
-        "categories": [
-            "Configuration"
-        ],
-        "icon": {
-            "icon": "life-ring",
-            "color": "#FD8E4C"
-        }
+        "github_username": "mycroftai"
     },
-    "mycroft-timer": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Timer",
-        "description": "Use Mycroft when your hands are messy or you need more that the one timer in your kitchen.  Multiple timers are easy to set and track with conversational interactions.\n\nOn a Mark 1 you'll see visual feedback as the timer runs, and you can use\nthe top button to stop the beeping once a timer expires.",
+    "mycroft-date-time": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more",
-        "tree": "4e503621399761b2910068d275b269916359ce5f",
-        "tags": [
-            "timer",
-            "kitchen-timer"
-        ],
-        "name": "mycroft-timer",
-        "repo": "https://github.com/MycroftAI/mycroft-timer",
-        "examples": [
-            "Start a timer for 30 seconds.",
-            "Set a timer for 1 minute.",
-            "Set a timer for 3 hours called turkey.",
-            "Start a timer.",
-            "Cancel the timer.",
-            "How long is left on the timer?",
-            "How long is left on the turkey timer?",
-            "Mute the timer."
-        ],
+        "tree": "6f14ab66d6031c851eef8aa8dee5adc97bcbc1c5",
+        "name": "mycroft-date-time",
+        "repo": "https://github.com/MycroftAI/skill-date-time",
+        "description": "Get the local time or time for major cities around the world.  Times\nare given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the\nTime Format setting at [Home](https://home.mycroft.ai/#/setting/basic)\n\nTime can optionally be shown on a display, like a digital clock.  See\nthe [Skill Setting](https://home.mycroft.ai/#/skill).",
+        "title": "Date and Time",
+        "icon": {
+            "icon": "calendar",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Get the time, date, day of the week",
         "categories": [
             "Daily"
         ],
-        "icon": {
-            "icon": "stopwatch",
-            "color": "#40DBB0"
-        }
-    },
-    "mycroft-npr-news": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Latest news",
-        "description": "Play the latest news from an RSS audio feed.  The National Public Radio (NPR)\nHourly News is the default feed, or you can chose\nfrom the BBC, Associated Press, CBC.ca, CNN, PBS or\nFox.  Select your favorite at:\n[home.mycroft.ai](https://home.mycroft.ai/#/skill).",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Listen to the latest news report from your favorite broadcast",
-        "tree": "1c027b146eb6cb535be9a0781c9f11b2ca30c967",
         "tags": [
-            "news",
-            "headlines"
+            "date",
+            "time",
+            "clock",
+            "world-time",
+            "world-clock",
+            "date-time"
         ],
-        "name": "mycroft-npr-news",
-        "repo": "https://github.com/MycroftAI/skill-npr-news",
         "examples": [
-            "Play the news.",
-            "Tell me the news.",
-            "What's the news?"
+            "What time is it?",
+            "What time is it in Paris?",
+            "Show me the time.",
+            "What's the date?",
+            "Tell me the day of the week."
         ],
-        "categories": [
-            "Daily",
-            "Information"
-        ],
-        "icon": {
-            "icon": "newspaper",
-            "color": "#000000"
-        }
+        "github_username": "mycroftai"
     },
     "mycroft-alarm": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Set alarms",
-        "description": "Set a single use alarm, daily alarms, or weekly recurring alarms.\n\nYou can choose from five different alarm sounds:\n* Constant Beep\n* Four rapid beeps\n* Escalating beeps\n* Alarm bell\n* Gentle chimes.",
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Set alarms with Mycroft",
         "tree": "e6ccee38f67a3eaa4f3d50ea0963b7d70a485c4c",
+        "name": "mycroft-alarm",
+        "repo": "https://github.com/MycroftAI/skill-alarm",
+        "description": "Set a single use alarm, daily alarms, or weekly recurring alarms.\n\nYou can choose from five different alarm sounds:\n* Constant Beep\n* Four rapid beeps\n* Escalating beeps\n* Alarm bell\n* Gentle chimes.",
+        "title": "Set alarms",
+        "icon": {
+            "icon": "clock",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Set alarms with Mycroft",
+        "categories": [
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
             "alarm"
         ],
-        "name": "mycroft-alarm",
-        "repo": "https://github.com/MycroftAI/skill-alarm",
         "examples": [
             "Set an alarm for 9:30 am.",
             "Set an alarm.",
@@ -406,175 +371,187 @@
             "Cancel my 10:00 am alarm.",
             "Snooze for 30 minutes."
         ],
+        "github_username": "mycroftai"
+    },
+    "fallback-unknown": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "f45e48edd7173863441df77dce9c07e82a2b8868",
+        "name": "fallback-unknown",
+        "repo": "https://github.com/MycroftAI/fallback-unknown",
+        "description": "Mycroft doesn't know how to do or answer everything (yet).  This _Fallback_ is how Mycroft lets you know that, unfortunately, it can't help with what you asked for.\n\nBut wait, there is still hope!  Mycroft is working to get smarter with help from friends.  For who have selected to [Opt In to the Open Dataset](https://home.mycroft.ai/#/setting/basic#opendataset), these missed phrases are aggregated and analyzed to help identify what the world _wants_ their voice assistant to do that it can't yet.  So if millions of people start asking for guava growing tips, we'll promote this as an idea to be handled as a default Skill.",
+        "title": "Unknown fallback",
+        "icon": {
+            "icon": "question",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Fallback handler to deal with unknown _Utterances_ that can't be handled by existing _Intents_",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "fallback",
+            "unknown"
+        ],
+        "examples": [
+            "How do I make my guava blue?",
+            "I need a pizza.",
+            "Show me the money."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-hello-world": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "a542a086649c9dfedf8090f844ad3b8cc6b3fc22",
+        "name": "mycroft-hello-world",
+        "repo": "https://github.com/MycroftAI/skill-hello-world",
+        "description": "This is a basic Hello Word Skill that takes an _Utterance_ from the user and provides a voice response - a _Dialog_. This Skill demonstrates the basic directory and file structure of a Mycroft Skill, and is a good first Skill to study if you are interested in developing Skills for the Mycroft ecosystem.\n\nIf you want to write **Skills** for Mycroft, Documentation is available:\n\n* [Mycroft Skills Kit](https://mycroft.ai/documentation/skills/msk/)\n* [Developing a new Skill](https://mycroft.ai/documentation/skills/introduction-developing-skills/)\n* [Skill Settings](https://mycroft.ai/documentation/skills/skill-settings/)\n* [Automatic testing of your Mycroft Skill](https://mycroft.ai/documentation/skills/automatic-testing/)\n* [Skill Acceptance Process](https://mycroft.ai/documentation/skills/skills-acceptance-process/)\n* [Mycroft Skills Manager](https://mycroft.ai/documentation/msm/)\n* [Mycroft Message Bus](https://mycroft.ai/documentation/message-bus/)",
+        "title": "Hello World",
+        "icon": {
+            "icon": "smile",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Introductory Skill so that Skill Authors can see how a Mycroft Skill is put together",
         "categories": [
             "Daily"
         ],
-        "icon": {
-            "icon": "clock",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-release-test": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Release Test",
-        "description": "When a new release is being tested, this skill is installed to verify the\ninstallation mechanism functions properly.  Additionally, the following line\nis edited to verify that the skill update process occurs as intended.\n\nTest line:  2018/07/06 - 03:30 CST.",
+        "tags": [
+            "helloworld",
+            "first-skill",
+            "hello",
+            "greeting"
+        ],
+        "examples": [
+            "Hello world.",
+            "How are you?",
+            "Thank you."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-configuration": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Tool used by Mycroft  internal Quality Assurance team when validating a new `mycroft-core` release",
-        "tree": "6c187f8e9147b921f672afcea54337f435f0e8c6",
-        "tags": [
-            "release",
-            "release-test",
-            "quality-assurance",
-            "testing",
-            "qa",
-            "ci",
-            "cd"
-        ],
-        "name": "mycroft-release-test",
-        "repo": "https://github.com/MycroftAI/skill-release-test",
-        "examples": [
-            "Run the release test (should respond with 'Test passed')",
-            "Release test."
-        ],
+        "tree": "303dd753d6c716c8ece5641b10b1a11cf4afb8fc",
+        "name": "mycroft-configuration",
+        "repo": "https://github.com/MycroftAI/skill-configuration",
+        "description": "User and device settings from [home.mycroft.ai](https://home.mycroft.ai) are\nsynchronized with your Devices.  This Skill performs that synchronization and\nallows you to check your settings.\n\nYou can also change the technology used to perform Wake Word spotting.  This is\nthe system that wakes the device up when you say \"Hey Mycroft\".\n\n__Wake word listener__\n> Values are 'PocketSphinx'/'Default' or 'Precise'.\n> [Precise](https://mycroft.ai/documentation/precise) is the newest technology from Mycroft -- a much more sensitive,\n> continuously updated listener.  It learns from those who have chosen to\n> Opt In (thank you!)\n>\n> For now, Precise only handles the \"Hey Mycroft\" keyword.",
+        "title": "Device Configuration",
+        "icon": {
+            "icon": "cogs",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Synchronize your Device Settings with [home.mycroft.ai](https://home.mycroft.ai)",
         "categories": [
             "Configuration"
         ],
-        "icon": {
-            "icon": "check-double",
-            "color": "#22a7f0"
-        }
-    },
-    "cocktails": {
         "platforms": [
             "all"
         ],
-        "github_username": "forslund",
-        "title": "Cocktails",
-        "description": "Let Mycroft help you mix better and more fun drinks and cocktails. When asked Mycroft provides ingredients and mixing instructions for various drinks. The skill uses the fabulous [theCocktailDB](https://thecocktaildb.com/).",
+        "tags": [
+            "configuration",
+            "update-config",
+            "config"
+        ],
+        "examples": [
+            "Configuration update.",
+            "Update config.",
+            "What's your location?",
+            "What's your name?",
+            "What's the current Listener?",
+            "Set the Listener to Precise.",
+            "Set the Listener to default."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-wiki": {
         "credits": [
             {
-                "github_id": "forslund"
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Get help mixing drinks",
-        "tree": "2812a55414666e98af5ffa7f1d8bc7a84dd6e0b6",
-        "tags": [
-            "drinks",
-            "recipies",
-            "cocktails"
-        ],
-        "name": "cocktails",
-        "repo": "https://github.com/forslund/skill-cocktail",
-        "examples": [
-            "How do I mix a Moscow Mule.",
-            "How do I make a daiquiri."
-        ],
+        "tree": "3ac92e80fa00078b3b4912c7abfdb04c807490ac",
+        "name": "mycroft-wiki",
+        "repo": "https://github.com/MycroftAI/skill-wiki",
+        "description": "Query [Wikipedia](https://www.wikipedia.org) for answers to all your questions.  Get just a summary, or ask for more to get in-depth information.\n\nThis Skill uses the [Wikimedia API](https://en.wikipedia.org/w/api.php).",
+        "title": "Wikipedia",
+        "icon": {
+            "icon": "wikipedia-w",
+            "color": "#000000"
+        },
+        "short_desc": "Wikipedia",
         "categories": [
             "Information"
         ],
-        "icon": {
-            "icon": "cocktail",
-            "color": "#0080b0"
-        }
-    },
-    "mycroft-pairing": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Pairing",
-        "description": "The default backend to provide services for Mycroft users is\n[Home](https://home.mycroft.ai/).  Pairing a device with Home provides access\nto privacy-protecting Speech to Text, Wolfram Alpha and other such services,\nas well as easy configuration for all your Mycroft devices.",
+        "tags": [
+            "wikipedia",
+            "encyclopedia",
+            "general-knowledge",
+            "wiki",
+            "question",
+            "query"
+        ],
+        "examples": [
+            "Tell me about Elon Musk.",
+            "Tell me about beans.",
+            "Check Wikipedia for beans.",
+            "Tell me about the Pembroke Welsh Corgi.",
+            "Search for chocolate.",
+            "More information.",
+            "Tell me More."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-mark-1": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Connect your device to the Mycroft server - [home.mycroft.ai](https://home.mycroft.ai/)",
-        "tree": "5f7c76237b0bb22f9b6cbf98e8c3f78869ee46b8",
-        "tags": [
-            "pair",
-            "pairing",
-            "connectivity"
-        ],
-        "name": "mycroft-pairing",
-        "repo": "https://github.com/MycroftAI/skill-pairing",
-        "examples": [
-            "Pair my device."
-        ],
+        "tree": "0c4d896c70b42142ee328ee8f94bb1b71ccc712a",
+        "name": "mycroft-mark-1",
+        "repo": "https://github.com/MycroftAI/mycroft-mark-1",
+        "description": "The Mycroft Mark 1 has several unique capabilities which this Skill lets you control.\n\n### Eye Color\nThe Mark 1 has beautiful eyes -- and you get to pick their color!  Set them to\na named color (\"blue\", \"magenta\", \"teal\", etc) or any color using RGB values.\nPleas see the [color](https://github.com/MycroftAI/mycroft-mark-1/blob/dev/dialog/en-us/colors.value)\nlist for more options\n\n###  Faceplate Brightness\nSet the faceplate to a specific brightness, or allow it to automatically adjust\nits brightness level to dim at night.",
+        "title": "Mycroft Mark 1",
+        "icon": {
+            "icon": "cog",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Customize your Mark 1",
         "categories": [
             "Configuration"
         ],
-        "icon": {
-            "icon": "handshake",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-singing": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Singing",
-        "description": "Mycroft will speak the lyrics to a random pop music song using text to speech.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Mycroft sings lyrics to some popular songs",
-        "tree": "1b657bb0bbf7a9097f1afba7deb5a5afd82db9a7",
-        "tags": [
-            "sing",
-            "singing",
-            "lyrics",
-            "song",
-            "music"
-        ],
-        "name": "mycroft-singing",
-        "repo": "https://github.com/MycroftAI/skill-singing",
-        "examples": [
-            "Sing."
-        ],
-        "categories": [
-            "Entertainment"
-        ],
-        "icon": {
-            "icon": "laugh-beam",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-mark-1": {
         "platforms": [
             "platform_mark1"
         ],
-        "github_username": "MycroftAI",
-        "title": "Mycroft Mark 1",
-        "description": "The Mycroft Mark 1 has several unique capabilities which this Skill lets you control.\n\n### Eye Color\nThe Mark 1 has beautiful eyes -- and you get to pick their color!  Set them to\na named color (\"blue\", \"magenta\", \"teal\", etc) or any color using RGB values.\nPleas see the [color](https://github.com/MycroftAI/mycroft-mark-1/blob/dev/dialog/en-us/colors.value)\nlist for more options\n\n###  Faceplate Brightness\nSet the faceplate to a specific brightness, or allow it to automatically adjust\nits brightness level to dim at night.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Customize your Mark 1",
-        "tree": "0c4d896c70b42142ee328ee8f94bb1b71ccc712a",
         "tags": [
             "mark1",
             "configuration",
             "settings"
         ],
-        "name": "mycroft-mark-1",
-        "repo": "https://github.com/MycroftAI/mycroft-mark-1",
         "examples": [
             "Set your eye color to pink.",
             "Change your eye color to the default.",
@@ -583,404 +560,318 @@
             "Change to low brightness.",
             "Dim to 50%"
         ],
-        "categories": [
-            "Configuration"
-        ],
-        "icon": {
-            "icon": "cog",
-            "color": "#22a7f0"
-        }
+        "github_username": "MycroftAI"
     },
-    "mycroft-spelling": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Spelling",
-        "description": "Mycroft can spell any word which is understood by speech-to-text.  The proper spelling is pronounced on all platforms, as well as displayed by devices such as the Mark 1.",
+    "mycroft-singing": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Let Mycroft help you spell words",
+        "tree": "1b657bb0bbf7a9097f1afba7deb5a5afd82db9a7",
+        "name": "mycroft-singing",
+        "repo": "https://github.com/MycroftAI/skill-singing",
+        "description": "Mycroft will speak the lyrics to a random pop music song using text to speech.",
+        "title": "Singing",
+        "icon": {
+            "icon": "laugh-beam",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Mycroft sings lyrics to some popular songs",
+        "categories": [
+            "Entertainment"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "sing",
+            "singing",
+            "lyrics",
+            "song",
+            "music"
+        ],
+        "examples": [
+            "Sing."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-naptime": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "deee7aa345a68c3a34adf6556e84ac2d5691c18c",
+        "name": "mycroft-naptime",
+        "repo": "https://github.com/MycroftAI/skill-naptime",
+        "description": "Tell Mycroft to sleep when you don't want to be disturbed in any way.\nThis stops all calls to Speech to Text system, guaranteeing your voice won't\nbe sent anywhere on an accidental activation.\n\nWhen sleeping, Mycroft will only listen locally for the phrase \"Hey Mycroft,\nwake up\". Otherwise the system will be totally silent and won't bother you.\n\nOn a Mark 1 this also dims the eyes.",
+        "title": "Naptime",
+        "icon": {
+            "icon": "bed",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Put Mycroft to sleep when you don't want to be disturbed",
+        "categories": [
+            "Daily",
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "nap",
+            "naptime",
+            "sleep",
+            "donotdisturb",
+            "do-not-disturb"
+        ],
+        "examples": [
+            "Go to sleep.",
+            "Nap time.",
+            "Wake up."
+        ],
+        "github_username": "mycroftai"
+    },
+    "email-skill": {
+        "credits": [
+            {
+                "name": "Linus S",
+                "github_id": "LinusS1"
+            }
+        ],
+        "tree": "e6f695ba4ce5867b0ac32a9067a8f9a0dd205ee9",
+        "name": "email-skill",
+        "repo": "https://github.com/LinusS1/email-skill",
+        "description": "With this skill, Mycroft can check your email. When you ask him, he can list your new emails. He will say the sender and the subject of each email.\n\nTo configure this skill go [to the skill wiki](https://github.com/LinusS1/email-skill/wiki/Configuration)",
+        "title": "Email",
+        "icon": {
+            "icon": "envelope",
+            "color": "#BDC3C7"
+        },
+        "short_desc": "Have Mycroft check your email",
+        "categories": [
+            "Productivity",
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "email",
+            "mail",
+            "emails"
+        ],
+        "examples": [
+            "Check my email.",
+            "Do I have any email?",
+            "Do I have any new emails?",
+            "Check my mail."
+        ],
+        "github_username": "linuss1"
+    },
+    "mycroft-spelling": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
         "tree": "a7543b60821d89d187942d533565825acf3aa0b1",
+        "name": "mycroft-spelling",
+        "repo": "https://github.com/MycroftAI/skill-spelling",
+        "description": "Mycroft can spell any word which is understood by speech-to-text.  The proper spelling is pronounced on all platforms, as well as displayed by devices such as the Mark 1.",
+        "title": "Spelling",
+        "icon": {
+            "icon": "book-reader",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Let Mycroft help you spell words",
+        "categories": [
+            "Information"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
             "spell",
             "spelling"
         ],
-        "name": "mycroft-spelling",
-        "repo": "https://github.com/MycroftAI/skill-spelling",
         "examples": [
             "How do you spell aardvark?",
             "Spell succotash.",
             "How do you spell bureacracy?",
             "Spell omnipotence."
         ],
-        "categories": [
-            "Information"
-        ],
-        "icon": {
-            "icon": "book-reader",
-            "color": "#22a7f0"
-        }
+        "github_username": "mycroftai"
     },
-    "mycroft-personal": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Mycroft's Personal Background",
-        "description": "Ask about the \"birth\" and parentage of Mycroft and get a taste of the community\nwho is fostering this open source artificial intelligence.",
+    "fallback-wolfram-alpha": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
-            },
-            {
-                "name": "Poem penned by community member Jelmer Prins"
             }
         ],
-        "short_desc": "Learn history and personality of Mycroft",
-        "tree": "a9c20495917faa4aa9005a44540324a0199e6558",
+        "tree": "d0c0fb35f875474ea920da309bfd9af62227b83c",
+        "name": "fallback-wolfram-alpha",
+        "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
+        "description": "Ask general-knowledge queries of your Mycroft device.  If no other Skills can handle the _Intent_, [Wolfram Alpha](https://wolframalpha.com) will be queried\nto see if it can find an answer.  You'll be surprised by how much it knows!\n\nFor deeper exploration, you can also request the sources behind the answer. An email will be sent to your registered account linking you to all the details within Wolfram Alpha's website.",
+        "title": "Wolfram Alpha Fallback",
+        "icon": {
+            "icon": "question",
+            "color": "#22a7f0"
+        },
+        "short_desc": "General knowledge fallback handler",
+        "categories": [
+            "Information"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
-            "personality",
-            "persona"
+            "wolfram-alpha",
+            "fallback",
+            "query",
+            "general-knowledge",
+            "information"
         ],
-        "name": "mycroft-personal",
-        "repo": "https://github.com/MycroftAI/skill-personal",
         "examples": [
-            "When were you created?",
-            "What are you?",
-            "Where were you born?",
-            "Who made you?",
-            "Do you even rhyme?"
+            "How tall is Mount Everest?",
+            "When was The Rocky Horror Picture Show released?",
+            "What is Madonna's real name?",
+            "What's 18 times 4?",
+            "How many inches in a meter?",
+            "Send me the source on that."
         ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-fallback-duck-duck-go": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "68d01e1b5860e5cc0c8ebbe144b853ed6dafda49",
+        "name": "mycroft-fallback-duck-duck-go",
+        "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
+        "description": "Query DuckDuckGo as a fallback when no other Skill can answer the question.\n\nUses the [DuckDuckGo API](https://duckduckgo.com/api) to provide information.",
+        "title": "DuckDuckGo Fallback",
+        "icon": {
+            "icon": "search",
+            "color": "#de5833"
+        },
+        "short_desc": "Asks DuckDuckGo questions as a fallback",
+        "categories": [
+            "Information"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "duckduckgo",
+            "query",
+            "fallback",
+            "search-engine",
+            "searchengine"
+        ],
+        "examples": [
+            "Who is george washington?",
+            "What is plasma?",
+            "Who's madonna?"
+        ],
+        "github_username": "mycroftai"
+    },
+    "game-zork": {
+        "credits": [
+            {
+                "github_id": "forslund"
+            }
+        ],
+        "tree": "4281f377e8402e7e3c396b09c0dad05c458ec0f4",
+        "name": "game-zork",
+        "repo": "https://github.com/forslund/white-house-adventure",
+        "description": "Zork is one of the classic text based adventure games from an era before high-end graphics circuits, instead it runs on the graphics hardware of your mind!\n\nExplore the white house, the forest surrounding it and the hidden kingdom below it. Moving this from the text domain to the voice domain makes for a curiously engaging experience and if nothing else a fun couple of minutes.\n\nThe skill utilizes the excellent Frotz (http://frotz.sourceforge.net/) Z-Machine interpreter and the Zork data files are from infocom-if (http://infocom-if.org/index2.html).\n\n*Be ware of Grues....*",
+        "title": "Zork",
+        "icon": {
+            "icon": "door-open",
+            "color": "#00ff00"
+        },
+        "short_desc": "Play the adventure game Zork",
         "categories": [
             "Entertainment"
         ],
-        "icon": {
-            "icon": "smile-wink",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-mark-1-demo": {
         "platforms": [
-            "platform_mark1"
+            "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Mark 1 Demo",
-        "description": "The Mycroft Mark 1 menu which appears when you press and hold the top button\nhas a 'DEMO' option.  This Skill implements a simple mode which can be used\nto draw attention at trade shows, stores, etc.\n\nThe demo starts with the unit's eyes dancing around.  Every 2 minutes it will\nsing a song.  The singing is synched to the clock, so multiple units can form\na chorus.\n\nYou can stop the demo by pressing the top button or saying \"Stop\".",
+        "tags": [
+            "adventure",
+            "game",
+            "port"
+        ],
+        "examples": [
+            "Play zork.",
+            "Quit zork.",
+            "Open mailbox."
+        ],
+        "github_username": "forslund"
+    },
+    "mycroft-ip": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Showcase the capabilities of the Mark 1 Devices with this handy DEMO Skill",
-        "tree": "45224ba16a6963e5923e30639197fae9746382c6",
-        "tags": [
-            "demo",
-            "demonstration",
-            "showcase"
-        ],
-        "name": "mycroft-mark-1-demo",
-        "repo": "https://github.com/MycroftAI/skill-mark1-demo",
-        "examples": [
-            "Stop - ends the DEMO."
-        ],
+        "tree": "d96fb8b355bb1fcadc7297e0ab378d38fdb1563c",
+        "name": "mycroft-ip",
+        "repo": "https://github.com/MycroftAI/skill-ip",
+        "description": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
+        "title": "Device IP Address",
+        "icon": {
+            "icon": "info-circle",
+            "color": "#22a7f0"
+        },
+        "short_desc": "",
         "categories": [
             "Configuration"
         ],
-        "icon": {
-            "icon": "chalkboard-teacher",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-stock": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Stock Prices",
-        "description": "Using the [MarkitOnDemand](http://markitondemand.github.io/DataApis/StockQuoteSample/) API, you can ask Mycroft to get the current price of stocks.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Provides current stock prices",
-        "tree": "37fff0fa75ca6cbb3ce9011181830f0b5bfe9c83",
         "tags": [
-            "stocks",
-            "stock-market",
-            "stock-prices",
-            "financial"
+            "IP-address",
+            "IPaddress",
+            "network-address",
+            "network"
         ],
-        "name": "mycroft-stock",
-        "repo": "https://github.com/MycroftAI/skill-stock",
         "examples": [
-            "Stock price of Google.",
-            "Trading at Google."
+            "What's your network address?",
+            "What's your IP address?",
+            "Tell me your IP address.",
+            "Tell me your network address."
         ],
-        "categories": [
-            "Information"
-        ],
-        "icon": {
-            "icon": "money-check-alt",
-            "color": "#85bb65"
-        }
-    },
-    "mycroft-hello-world": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Hello World",
-        "description": "This is a basic Hello Word Skill that takes an _Utterance_ from the user and provides a voice response - a _Dialog_. This Skill demonstrates the basic directory and file structure of a Mycroft Skill, and is a good first Skill to study if you are interested in developing Skills for the Mycroft ecosystem.\n\nIf you want to write **Skills** for Mycroft, Documentation is available:\n\n* [Mycroft Skills Kit](https://mycroft.ai/documentation/skills/msk/)\n* [Developing a new Skill](https://mycroft.ai/documentation/skills/introduction-developing-skills/)\n* [Skill Settings](https://mycroft.ai/documentation/skills/skill-settings/)\n* [Automatic testing of your Mycroft Skill](https://mycroft.ai/documentation/skills/automatic-testing/)\n* [Skill Acceptance Process](https://mycroft.ai/documentation/skills/skills-acceptance-process/)\n* [Mycroft Skills Manager](https://mycroft.ai/documentation/msm/)\n* [Mycroft Message Bus](https://mycroft.ai/documentation/message-bus/)",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Introductory Skill so that Skill Authors can see how a Mycroft Skill is put together",
-        "tree": "a542a086649c9dfedf8090f844ad3b8cc6b3fc22",
-        "tags": [
-            "helloworld",
-            "first-skill",
-            "hello",
-            "greeting"
-        ],
-        "name": "mycroft-hello-world",
-        "repo": "https://github.com/MycroftAI/skill-hello-world",
-        "examples": [
-            "Hello world.",
-            "How are you?",
-            "Thank you."
-        ],
-        "categories": [
-            "Daily"
-        ],
-        "icon": {
-            "icon": "smile",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-stop": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Stop",
-        "description": "This Skill is used by other Skills to stop any active Intent Handlers.\n\nThe user will invoke this Skill, for example, when they have heard enough about a subject (ie Wiki), or heard enough of the news report (News) or music (Spotify)",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Stop the actions of any Skill that is in progress",
-        "tree": "e00b983bdfe974c7f271034f2f512961f941552d",
-        "tags": [
-            "stop",
-            "cancel",
-            "stop-skill",
-            "system"
-        ],
-        "name": "mycroft-stop",
-        "repo": "https://github.com/MycroftAI/skill-stop",
-        "examples": [
-            "Stop.",
-            "Silence.",
-            "Shut up.",
-            "Be quiet."
-        ],
-        "categories": [
-            "Daily"
-        ],
-        "icon": {
-            "icon": "ban",
-            "color": "#EB5757"
-        }
-    },
-    "mycroft-installer": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Installer",
-        "description": "Add and remove Skills using your voice or from the [Marketplace](https://market.mycroft.ai).\nYou can also assist skill authors in testing new versions of their skills by\nusing \"install prevew version\" to gain access to skills still under development\nand testing.  If you do this, please be consicious the skill may be in an\nunstable development state and report issues to the author appropriately.\n\nYou can also install Skills that are not officially released by entering the\nSkill's GitHub repository URL in the [Installer's web user interface](https://home.mycroft.ai/#/skill).\n\nSkills are ultimately installed using the [Mycroft Skill Manager (msm)](https://mycroft.ai/documentation/msm].  If verbally installing, Mycroft will speak a list of possible matches for\nambiguous names -- just pick the skill you want from the list read to you.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Add and remove Mycroft Skills",
-        "tree": "73a6b063e1f233daaab46cc52906016302703bfe",
-        "tags": [
-            "install",
-            "installer",
-            "download",
-            "add-skill",
-            "skill",
-            "skills",
-            "msm",
-            "system"
-        ],
-        "name": "mycroft-installer",
-        "repo": "https://github.com/MycroftAI/skill-installer",
-        "examples": [
-            "Install coin flip.",
-            "Install the preview version of coin flip.",
-            "Uninstall coin flip.",
-            "Remove coin flip.",
-            "Download custom skill."
-        ],
-        "categories": [
-            "Configuration"
-        ],
-        "icon": {
-            "icon": "download",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-date-time": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Date and Time",
-        "description": "Get the local time or time for major cities around the world.  Times\nare given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the\nTime Format setting at [Home](https://home.mycroft.ai/#/setting/basic)\n\nTime can optionally be shown on a display, like a digital clock.  See\nthe [Skill Setting](https://home.mycroft.ai/#/skill).",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Get the time, date, day of the week",
-        "tree": "6f14ab66d6031c851eef8aa8dee5adc97bcbc1c5",
-        "tags": [
-            "date",
-            "time",
-            "clock",
-            "world-time",
-            "world-clock",
-            "date-time"
-        ],
-        "name": "mycroft-date-time",
-        "repo": "https://github.com/MycroftAI/skill-date-time",
-        "examples": [
-            "What time is it?",
-            "What time is it in Paris?",
-            "Show me the time.",
-            "What's the date?",
-            "Tell me the day of the week."
-        ],
-        "categories": [
-            "Daily"
-        ],
-        "icon": {
-            "icon": "calendar",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-audio-record": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Audio Recorder",
-        "description": "This Skill records audio from the microphone and allows you to play back that recording. This Skill is particularly useful when trying to diagnose microphone issues, because it allows you to \"hear\" what Mycroft is hearing.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Record and playback audio",
-        "tree": "e7c3cabfdca67cc2928154f51701b7203bf0ddef",
-        "tags": [
-            "audio",
-            "record",
-            "record-audio",
-            "microphone",
-            "configuration"
-        ],
-        "name": "mycroft-audio-record",
-        "repo": "https://github.com/MycroftAI/skill-audio-record",
-        "examples": [
-            "Start recording.",
-            "Start recording for 40 minutes.",
-            "Play the recording.",
-            "Erase recording."
-        ],
-        "icon_img": "https://rawgit.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/microphone.svg",
-        "categories": [
-            "Configuration"
-        ]
-    },
-    "mycroft-playback-control": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Playback Control",
-        "description": "This Skill doesn't do anything by itself, but it provides an important common language for many audio playback skills.  By handling simple phrases like\n'pause', this one Skill can turn around a rebroadcast the [messagebus](https://mycroft.ai/documentation/message-bus/) command `mycroft.audio.service.pause`  This lets several music services share the\ncommon \"pause\" terminology.\n\nThis capability is used by the [Spotify](https://github.com/forslund/spotify-skill) and [Pandora](https://github.com/mycroftai/pianobar-skill) Skills.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Common playback control system",
-        "tree": "03e6bc0fac9096c1966eaacfd489fe2973395cff",
-        "tags": [
-            "music",
-            "play",
-            "playback",
-            "pause",
-            "resume",
-            "next"
-        ],
-        "name": "mycroft-playback-control",
-        "repo": "https://github.com/MycroftAI/skill-playback-control",
-        "examples": [
-            "Pause.",
-            "Resume.",
-            "Next song.",
-            "Next track.",
-            "Previous track.",
-            "Previous song."
-        ],
-        "categories": [
-            "Music"
-        ],
-        "icon": {
-            "icon": "play",
-            "color": "#22a7f0"
-        }
+        "github_username": "mycroftai"
     },
     "mycroft-pandora": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "MycroftAI",
-        "title": "Pandora",
-        "description": "",
         "credits": [
             {
                 "name": "Mycroft AI"
             }
         ],
-        "short_desc": "Listen to music from the Pandora music service",
         "tree": "a969c43052699d6dc8adf1f1abae8009946251c2",
-        "tags": [],
         "name": "mycroft-pandora",
         "repo": "https://github.com/MycroftAI/pianobar-skill",
+        "description": "",
+        "title": "Pandora",
+        "short_desc": "Listen to music from the Pandora music service",
+        "categories": [],
+        "platforms": [
+            "all"
+        ],
+        "tags": [],
         "examples": [
             "Play Pandora.",
             "Play Today's Hits Radio on Pandora.",
@@ -993,169 +884,71 @@
             "Next station.",
             "Change station to Today's Top Hits on Pandora."
         ],
-        "categories": []
+        "github_username": "MycroftAI"
     },
-    "mycroft-configuration": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Device Configuration",
-        "description": "User and device settings from [home.mycroft.ai](https://home.mycroft.ai) are\nsynchronized with your Devices.  This Skill performs that synchronization and\nallows you to check your settings.\n\nYou can also change the technology used to perform Wake Word spotting.  This is\nthe system that wakes the device up when you say \"Hey Mycroft\".\n\n__Wake word listener__\n> Values are 'PocketSphinx'/'Default' or 'Precise'.\n> [Precise](https://mycroft.ai/documentation/precise) is the newest technology from Mycroft -- a much more sensitive,\n> continuously updated listener.  It learns from those who have chosen to\n> Opt In (thank you!)\n>\n> For now, Precise only handles the \"Hey Mycroft\" keyword.",
+    "mycroft-stock": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Synchronize your Device Settings with [home.mycroft.ai](https://home.mycroft.ai)",
-        "tree": "303dd753d6c716c8ece5641b10b1a11cf4afb8fc",
-        "tags": [
-            "configuration",
-            "update-config",
-            "config"
-        ],
-        "name": "mycroft-configuration",
-        "repo": "https://github.com/MycroftAI/skill-configuration",
-        "examples": [
-            "Configuration update.",
-            "Update config.",
-            "What's your location?",
-            "What's your name?",
-            "What's the current Listener?",
-            "Set the Listener to Precise.",
-            "Set the Listener to default."
-        ],
-        "categories": [
-            "Configuration"
-        ],
+        "tree": "37fff0fa75ca6cbb3ce9011181830f0b5bfe9c83",
+        "name": "mycroft-stock",
+        "repo": "https://github.com/MycroftAI/skill-stock",
+        "description": "Using the [MarkitOnDemand](http://markitondemand.github.io/DataApis/StockQuoteSample/) API, you can ask Mycroft to get the current price of stocks.",
+        "title": "Stock Prices",
         "icon": {
-            "icon": "cogs",
-            "color": "#22a7f0"
-        }
-    },
-    "mycroft-fallback-duck-duck-go": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "DuckDuckGo Fallback",
-        "description": "Query DuckDuckGo as a fallback when no other Skill can answer the question.\n\nUses the [DuckDuckGo API](https://duckduckgo.com/api) to provide information.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Asks DuckDuckGo questions as a fallback",
-        "tree": "68d01e1b5860e5cc0c8ebbe144b853ed6dafda49",
-        "tags": [
-            "duckduckgo",
-            "query",
-            "fallback",
-            "search-engine",
-            "searchengine"
-        ],
-        "name": "mycroft-fallback-duck-duck-go",
-        "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
-        "examples": [
-            "Who is george washington?",
-            "What is plasma?",
-            "Who's madonna?"
-        ],
+            "icon": "money-check-alt",
+            "color": "#85bb65"
+        },
+        "short_desc": "Provides current stock prices",
         "categories": [
             "Information"
         ],
-        "icon": {
-            "icon": "search",
-            "color": "#de5833"
-        }
-    },
-    "fallback-unknown": {
         "platforms": [
             "all"
         ],
-        "github_username": "mycroftai",
-        "title": "Unknown fallback",
-        "description": "Mycroft doesn't know how to do or answer everything (yet).  This _Fallback_ is how Mycroft lets you know that, unfortunately, it can't help with what you asked for.\n\nBut wait, there is still hope!  Mycroft is working to get smarter with help from friends.  For who have selected to [Opt In to the Open Dataset](https://home.mycroft.ai/#/setting/basic#opendataset), these missed phrases are aggregated and analyzed to help identify what the world _wants_ their voice assistant to do that it can't yet.  So if millions of people start asking for guava growing tips, we'll promote this as an idea to be handled as a default Skill.",
+        "tags": [
+            "stocks",
+            "stock-market",
+            "stock-prices",
+            "financial"
+        ],
+        "examples": [
+            "Stock price of Google.",
+            "Trading at Google."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-volume": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Fallback handler to deal with unknown _Utterances_ that can't be handled by existing _Intents_",
-        "tree": "f45e48edd7173863441df77dce9c07e82a2b8868",
-        "tags": [
-            "fallback",
-            "unknown"
-        ],
-        "name": "fallback-unknown",
-        "repo": "https://github.com/MycroftAI/fallback-unknown",
-        "examples": [
-            "How do I make my guava blue?",
-            "I need a pizza.",
-            "Show me the money."
-        ],
-        "categories": [
-            "Configuration"
-        ],
+        "tree": "082c90d0f0b5efd3fe9c6273231cf0a88480e186",
+        "name": "mycroft-volume",
+        "repo": "https://github.com/MycroftAI/skill-volume",
+        "description": "Control the volume of Mycroft with verbal commands or by spinning the physical\nbutton on a Mark 1.",
+        "title": "Volume Control",
         "icon": {
-            "icon": "question",
+            "icon": "volume-down",
             "color": "#22a7f0"
-        }
-    },
-    "fallback-aiml": {
-        "platforms": [
-            "all"
+        },
+        "short_desc": "Control the volume of your system",
+        "categories": [
+            "Music"
         ],
-        "github_username": "forslund",
-        "title": "AIML Fallback Skill",
-        "description": "",
-        "credits": [
-            {
-                "name": "JarbasAI"
-            },
-            {
-                "name": "nielstron"
-            },
-            {
-                "name": "forslund"
-            }
-        ],
-        "short_desc": "",
-        "tree": "0ce1b18d575d7032ac5e9d54a7ac35210b7de5ce",
-        "tags": [],
-        "name": "fallback-aiml",
-        "repo": "https://github.com/forslund/fallback-aiml",
-        "examples": [
-            "Are you a robot?",
-            "What is the name of my dog?"
-        ],
-        "categories": []
-    },
-    "mycroft-volume": {
         "platforms": [
             "platform_mark1"
         ],
-        "github_username": "mycroftai",
-        "title": "Volume Control",
-        "description": "Control the volume of Mycroft with verbal commands or by spinning the physical\nbutton on a Mark 1.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Control the volume of your system",
-        "tree": "082c90d0f0b5efd3fe9c6273231cf0a88480e186",
         "tags": [
             "volume",
             "volume-control",
             "sound"
         ],
-        "name": "mycroft-volume",
-        "repo": "https://github.com/MycroftAI/skill-volume",
         "examples": [
             "Turn up the volume.",
             "Decrease the audio.",
@@ -1163,222 +956,246 @@
             "Set volume to 5.",
             "Set volume to 75 percent."
         ],
-        "categories": [
-            "Music"
+        "github_username": "mycroftai"
+    },
+    "mycroft-mark-1-demo": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
         ],
+        "tree": "45224ba16a6963e5923e30639197fae9746382c6",
+        "name": "mycroft-mark-1-demo",
+        "repo": "https://github.com/MycroftAI/skill-mark1-demo",
+        "description": "The Mycroft Mark 1 menu which appears when you press and hold the top button\nhas a 'DEMO' option.  This Skill implements a simple mode which can be used\nto draw attention at trade shows, stores, etc.\n\nThe demo starts with the unit's eyes dancing around.  Every 2 minutes it will\nsing a song.  The singing is synched to the clock, so multiple units can form\na chorus.\n\nYou can stop the demo by pressing the top button or saying \"Stop\".",
+        "title": "Mark 1 Demo",
         "icon": {
-            "icon": "volume-down",
+            "icon": "chalkboard-teacher",
             "color": "#22a7f0"
-        }
-    },
-    "mycroft-wiki": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Wikipedia",
-        "description": "Query [Wikipedia](https://www.wikipedia.org) for answers to all your questions.  Get just a summary, or ask for more to get in-depth information.\n\nThis Skill uses the [Wikimedia API](https://en.wikipedia.org/w/api.php).",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Wikipedia",
-        "tree": "3ac92e80fa00078b3b4912c7abfdb04c807490ac",
-        "tags": [
-            "wikipedia",
-            "encyclopedia",
-            "general-knowledge",
-            "wiki",
-            "question",
-            "query"
-        ],
-        "name": "mycroft-wiki",
-        "repo": "https://github.com/MycroftAI/skill-wiki",
-        "examples": [
-            "Tell me about Elon Musk.",
-            "Tell me about beans.",
-            "Check Wikipedia for beans.",
-            "Tell me about the Pembroke Welsh Corgi.",
-            "Search for chocolate.",
-            "More information.",
-            "Tell me More."
-        ],
-        "categories": [
-            "Information"
-        ],
-        "icon": {
-            "icon": "wikipedia-w",
-            "color": "#000000"
-        }
-    },
-    "mycroft-weather": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Weather",
-        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default it will tell\nyou about your default location, or you can ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nFor **enclosures** with screen support, conditions are briefly shown using visemes.\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences set in your [https://home.mycroft.ai](https://home.mycroft.ai) account.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "Weather conditions and forecasts",
-        "tree": "4be98ccc53656feb295d2d37b61708aa71c26741",
-        "tags": [
-            "weather",
-            "forecast",
-            "rain",
-            "humidity",
-            "snow",
-            "temperature"
-        ],
-        "name": "mycroft-weather",
-        "repo": "https://github.com/MycroftAI/skill-weather",
-        "examples": [
-            "What is the weather?",
-            "What is the forecast tomorrow?",
-            "What is the weather going to be like Tuesday?",
-            "What is the weather in Houston?",
-            "When will it rain next?",
-            "How windy is it?",
-            "What's the humidity?",
-            "Is it going to snow?",
-            "What's the temperature?"
-        ],
-        "categories": [
-            "Daily"
-        ],
-        "icon": {
-            "icon": "sun",
-            "color": "#FEE255"
-        }
-    },
-    "game-zork": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "forslund",
-        "title": "Zork",
-        "description": "Zork is one of the classic text based adventure games from an era before high-end graphics circuits, instead it runs on the graphics hardware of your mind!\n\nExplore the white house, the forest surrounding it and the hidden kingdom below it. Moving this from the text domain to the voice domain makes for a curiously engaging experience and if nothing else a fun couple of minutes.\n\nThe skill utilizes the excellent Frotz (http://frotz.sourceforge.net/) Z-Machine interpreter and the Zork data files are from infocom-if (http://infocom-if.org/index2.html).\n\n*Be ware of Grues....*",
-        "credits": [
-            {
-                "github_id": "forslund"
-            }
-        ],
-        "short_desc": "Play the adventure game Zork",
-        "tree": "4281f377e8402e7e3c396b09c0dad05c458ec0f4",
-        "tags": [
-            "adventure",
-            "game",
-            "port"
-        ],
-        "name": "game-zork",
-        "repo": "https://github.com/forslund/white-house-adventure",
-        "examples": [
-            "Play zork.",
-            "Quit zork.",
-            "Open mailbox."
-        ],
-        "categories": [
-            "Entertainment"
-        ],
-        "icon": {
-            "icon": "door-open",
-            "color": "#00ff00"
-        }
-    },
-    "mycroft-ip": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Device IP Address",
-        "description": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "short_desc": "",
-        "tree": "d96fb8b355bb1fcadc7297e0ab378d38fdb1563c",
-        "tags": [
-            "IP-address",
-            "IPaddress",
-            "network-address",
-            "network"
-        ],
-        "name": "mycroft-ip",
-        "repo": "https://github.com/MycroftAI/skill-ip",
-        "examples": [
-            "What's your network address?",
-            "What's your IP address?",
-            "Tell me your IP address.",
-            "Tell me your network address."
-        ],
+        },
+        "short_desc": "Showcase the capabilities of the Mark 1 Devices with this handy DEMO Skill",
         "categories": [
             "Configuration"
         ],
-        "icon": {
-            "icon": "info-circle",
-            "color": "#22a7f0"
-        }
+        "platforms": [
+            "platform_mark1"
+        ],
+        "tags": [
+            "demo",
+            "demonstration",
+            "showcase"
+        ],
+        "examples": [
+            "Stop - ends the DEMO."
+        ],
+        "github_username": "mycroftai"
     },
     "mycroft-version-checker": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Version Checker",
-        "description": "Report the version of your Mycroft install (`mycroft-core`) and of the platform you are running on - ie\n> Mycroft Mark 1, version 18.2.13 beta.",
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Report the version of your Mycroft install and the platform you're using",
         "tree": "c12f613f4503904e4391f10ab0a8c2882c71b46b",
+        "name": "mycroft-version-checker",
+        "repo": "https://github.com/MycroftAI/skill-version-checker",
+        "description": "Report the version of your Mycroft install (`mycroft-core`) and of the platform you are running on - ie\n> Mycroft Mark 1, version 18.2.13 beta.",
+        "title": "Version Checker",
+        "icon": {
+            "icon": "code-branch",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Report the version of your Mycroft install and the platform you're using",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
             "version",
             "build",
             "platform",
             "versioning"
         ],
-        "name": "mycroft-version-checker",
-        "repo": "https://github.com/MycroftAI/skill-version-checker",
         "examples": [
             "Check version.",
             "What version are you running?",
             "What's your platform build?"
         ],
-        "categories": [
-            "Configuration"
-        ],
-        "icon": {
-            "icon": "code-branch",
-            "color": "#22a7f0"
-        }
+        "github_username": "mycroftai"
     },
-    "mycroft-joke": {
-        "platforms": [
-            "all"
-        ],
-        "github_username": "mycroftai",
-        "title": "Jokes",
-        "description": "Brighten your day with a little humor.  This draws on the jokes collected by the [PyJokes project](https://github.com/pyjokes/pyjokes) to give you a chuckle.\n\nThe joke categories are:\n* Neutral -- jokes that are safe for work, kids or your grandmother\n* Adult -- nothing horrible, but be ready to cover some ears\n* Chuck Norris -- jokes only a geek can love\n\nBy default it will give you clean and/or geeky jokes, but you can ask a little adult humor if you feel that way.\n\n_WARNING:  Laughter is not guaranteed, but eye rolls are likely._",
+    "mycroft-release-test": {
         "credits": [
             {
                 "name": "Mycroft AI",
                 "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Let Mycroft brighten your day with a little humor",
+        "tree": "6c187f8e9147b921f672afcea54337f435f0e8c6",
+        "name": "mycroft-release-test",
+        "repo": "https://github.com/MycroftAI/skill-release-test",
+        "description": "When a new release is being tested, this skill is installed to verify the\ninstallation mechanism functions properly.  Additionally, the following line\nis edited to verify that the skill update process occurs as intended.\n\nTest line:  2018/07/06 - 03:30 CST.",
+        "title": "Release Test",
+        "icon": {
+            "icon": "check-double",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Tool used by Mycroft  internal Quality Assurance team when validating a new `mycroft-core` release",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "release",
+            "release-test",
+            "quality-assurance",
+            "testing",
+            "qa",
+            "ci",
+            "cd"
+        ],
+        "examples": [
+            "Run the release test (should respond with 'Test passed')",
+            "Release test."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-stop": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "e00b983bdfe974c7f271034f2f512961f941552d",
+        "name": "mycroft-stop",
+        "repo": "https://github.com/MycroftAI/skill-stop",
+        "description": "This Skill is used by other Skills to stop any active Intent Handlers.\n\nThe user will invoke this Skill, for example, when they have heard enough about a subject (ie Wiki), or heard enough of the news report (News) or music (Spotify)",
+        "title": "Stop",
+        "icon": {
+            "icon": "ban",
+            "color": "#EB5757"
+        },
+        "short_desc": "Stop the actions of any Skill that is in progress",
+        "categories": [
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "stop",
+            "cancel",
+            "stop-skill",
+            "system"
+        ],
+        "examples": [
+            "Stop.",
+            "Silence.",
+            "Shut up.",
+            "Be quiet."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-pairing": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "5f7c76237b0bb22f9b6cbf98e8c3f78869ee46b8",
+        "name": "mycroft-pairing",
+        "repo": "https://github.com/MycroftAI/skill-pairing",
+        "description": "The default backend to provide services for Mycroft users is\n[Home](https://home.mycroft.ai/).  Pairing a device with Home provides access\nto privacy-protecting Speech to Text, Wolfram Alpha and other such services,\nas well as easy configuration for all your Mycroft devices.",
+        "title": "Pairing",
+        "icon": {
+            "icon": "handshake",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Connect your device to the Mycroft server - [home.mycroft.ai](https://home.mycroft.ai/)",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "pair",
+            "pairing",
+            "connectivity"
+        ],
+        "examples": [
+            "Pair my device."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-spotify": {
+        "credits": [
+            {
+                "github_id": "forslund"
+            },
+            {
+                "name": "The Mycroft devs"
+            }
+        ],
+        "tree": "07cb663ec317f6b409e23bd22208eda642c104e5",
+        "name": "mycroft-spotify",
+        "repo": "https://github.com/forslund/spotify-skill",
+        "description": "Stream your favorite music from the popular Spotify music service.  Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### API connection to your Spotify account\nAfter installing `mycroft-spotify`, in your [Skill\nsettings for Spotify](https://home.mycroft.ai/#/skill) in home.mycroft.ai you will see settings for the Spotify Skill. You will see a username and password field and a 'Connect' button. Ignore the username and password field for now, and click the 'Connect' button. You will be prompted to log in to Spotify, and to authorize Mycroft AI to use your Spotify account using OAuth. This allows Mycroft access to your account details such as Playlists.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spot-ify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
+        "title": "Spotify",
+        "icon": {
+            "icon": "music",
+            "color": "#40db60"
+        },
+        "short_desc": "Listen to music from your Spotify Premium music account",
+        "categories": [
+            "Music"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "spotify",
+            "music"
+        ],
+        "examples": [
+            "What Spotify devices are available?",
+            "Play discover weekly.",
+            "Search Spotify for Hello Nasty.",
+            "Play something by Coventant.",
+            "Play the album Hello Nasty on Spotify."
+        ],
+        "github_username": "forslund"
+    },
+    "mycroft-joke": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
         "tree": "50ee3da1b8320bb89a0835a58cb3a3b72bd0678a",
+        "name": "mycroft-joke",
+        "repo": "https://github.com/MycroftAI/skill-joke",
+        "description": "Brighten your day with a little humor.  This draws on the jokes collected by the [PyJokes project](https://github.com/pyjokes/pyjokes) to give you a chuckle.\n\nThe joke categories are:\n* Neutral -- jokes that are safe for work, kids or your grandmother\n* Adult -- nothing horrible, but be ready to cover some ears\n* Chuck Norris -- jokes only a geek can love\n\nBy default it will give you clean and/or geeky jokes, but you can ask a little adult humor if you feel that way.\n\n_WARNING:  Laughter is not guaranteed, but eye rolls are likely._",
+        "title": "Jokes",
+        "icon": {
+            "icon": "laugh",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Let Mycroft brighten your day with a little humor",
+        "categories": [
+            "Entertainment"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
             "joke",
             "jokes",
@@ -1386,8 +1203,6 @@
             "humour",
             "funny"
         ],
-        "name": "mycroft-joke",
-        "repo": "https://github.com/MycroftAI/skill-joke",
         "examples": [
             "Make me laugh.",
             "Tell me a joke.",
@@ -1395,46 +1210,231 @@
             "I want to hear a raunchy joke.",
             "How about a neutral joke."
         ],
-        "categories": [
-            "Entertainment"
-        ],
-        "icon": {
-            "icon": "laugh",
-            "color": "#22a7f0"
-        }
+        "github_username": "mycroftai"
     },
-    "decide-skill": {
+    "mycroft-playback-control": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "03e6bc0fac9096c1966eaacfd489fe2973395cff",
+        "name": "mycroft-playback-control",
+        "repo": "https://github.com/MycroftAI/skill-playback-control",
+        "description": "This Skill doesn't do anything by itself, but it provides an important common language for many audio playback skills.  By handling simple phrases like\n'pause', this one Skill can turn around a rebroadcast the [messagebus](https://mycroft.ai/documentation/message-bus/) command `mycroft.audio.service.pause`  This lets several music services share the\ncommon \"pause\" terminology.\n\nThis capability is used by the [Spotify](https://github.com/forslund/spotify-skill) and [Pandora](https://github.com/mycroftai/pianobar-skill) Skills.",
+        "title": "Playback Control",
+        "icon": {
+            "icon": "play",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Common playback control system",
+        "categories": [
+            "Music"
+        ],
         "platforms": [
             "all"
         ],
-        "github_username": "lhannon",
-        "title": "",
-        "description": "This skill makes a random choice between two specified options. You can ask who is going to win the game, what should you wear, what you should eat, or simply \"decide\" between two options.",
+        "tags": [
+            "music",
+            "play",
+            "playback",
+            "pause",
+            "resume",
+            "next"
+        ],
+        "examples": [
+            "Pause.",
+            "Resume.",
+            "Next song.",
+            "Next track.",
+            "Previous track.",
+            "Previous song."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-speak": {
         "credits": [
             {
-                "name": "Laurie Hannon lhannon), laurie.hannon@sftsrc.com"
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
             }
         ],
-        "short_desc": "Randomly choose between two specified options",
-        "tree": "e2ebba9271324b8b60dfa332fbd8938e0e176ef9",
+        "tree": "32c6ee6b5c44330bd14ba72157b2dff891ca1c5b",
+        "name": "mycroft-speak",
+        "repo": "https://github.com/MycroftAI/skill-speak",
+        "description": "Turn Mycroft into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
+        "title": "Speak",
+        "icon": {
+            "icon": "bullhorn",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Make Mycroft repeat whatever you want",
+        "categories": [
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
         "tags": [
-            "oscon",
-            "oscon2018"
+            "speak",
+            "say",
+            "repeat"
         ],
-        "name": "decide-skill",
-        "repo": "https://github.com/lhannon/decide-skill",
         "examples": [
-            "Who is going to win tonight's game, Villanova or Duke?",
-            "What should I eat for lunch, burger or sushi?",
-            "What should I wear, t-shirt or polo?",
-            "Decide heads or tails."
+            "Say Goodnight, Gracie.",
+            "Repeat Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore.",
+            "Speak I can say anything you'd like!"
         ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-personal": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            },
+            {
+                "name": "Poem penned by community member Jelmer Prins"
+            }
+        ],
+        "tree": "a9c20495917faa4aa9005a44540324a0199e6558",
+        "name": "mycroft-personal",
+        "repo": "https://github.com/MycroftAI/skill-personal",
+        "description": "Ask about the \"birth\" and parentage of Mycroft and get a taste of the community\nwho is fostering this open source artificial intelligence.",
+        "title": "Mycroft's Personal Background",
+        "icon": {
+            "icon": "smile-wink",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Learn history and personality of Mycroft",
         "categories": [
             "Entertainment"
         ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "personality",
+            "persona"
+        ],
+        "examples": [
+            "When were you created?",
+            "What are you?",
+            "Where were you born?",
+            "Who made you?",
+            "Do you even rhyme?"
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-timer": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "4e503621399761b2910068d275b269916359ce5f",
+        "name": "mycroft-timer",
+        "repo": "https://github.com/MycroftAI/mycroft-timer",
+        "description": "Use Mycroft when your hands are messy or you need more that the one timer in your kitchen.  Multiple timers are easy to set and track with conversational interactions.\n\nOn a Mark 1 you'll see visual feedback as the timer runs, and you can use\nthe top button to stop the beeping once a timer expires.",
+        "title": "Timer",
         "icon": {
-            "icon": "exchange-alt",
-            "color": "#40dbb0"
-        }
+            "icon": "stopwatch",
+            "color": "#40DBB0"
+        },
+        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more",
+        "categories": [
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "timer",
+            "kitchen-timer"
+        ],
+        "examples": [
+            "Start a timer for 30 seconds.",
+            "Set a timer for 1 minute.",
+            "Set a timer for 3 hours called turkey.",
+            "Start a timer.",
+            "Cancel the timer.",
+            "How long is left on the timer?",
+            "How long is left on the turkey timer?",
+            "Mute the timer."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-reminder": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "8330d1500594b7f406facbbf699afcaaa95e29b1",
+        "name": "mycroft-reminder",
+        "repo": "https://github.com/MycroftAI/skill-reminder",
+        "description": "Flexible reminder Skill, allowing you to set single and repeating reminders for tasks. The reminders are set on the Device, and have no external dependencies.",
+        "title": "Set reminders",
+        "icon": {
+            "icon": "info",
+            "color": "#22a7f0"
+        },
+        "short_desc": "Set single and repeating reminders for tasks",
+        "categories": [
+            "Daily"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "reminder",
+            "reminders"
+        ],
+        "examples": [
+            "Set a reminder every day to take my vitamin pill.",
+            "Remind me to put the garbage out at 8pm.",
+            "Remind me to walk the dog in an hour.",
+            "Set a reminder every Friday at 2pm.",
+            "Remind me to stretch in 10 minutes."
+        ],
+        "github_username": "mycroftai"
+    },
+    "mycroft-audio-record": {
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "tree": "e7c3cabfdca67cc2928154f51701b7203bf0ddef",
+        "icon_img": "https://rawgit.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/microphone.svg",
+        "name": "mycroft-audio-record",
+        "repo": "https://github.com/MycroftAI/skill-audio-record",
+        "description": "This Skill records audio from the microphone and allows you to play back that recording. This Skill is particularly useful when trying to diagnose microphone issues, because it allows you to \"hear\" what Mycroft is hearing.",
+        "title": "Audio Recorder",
+        "short_desc": "Record and playback audio",
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "audio",
+            "record",
+            "record-audio",
+            "microphone",
+            "configuration"
+        ],
+        "examples": [
+            "Start recording.",
+            "Start recording for 40 minutes.",
+            "Play the recording.",
+            "Erase recording."
+        ],
+        "github_username": "mycroftai"
     }
 }

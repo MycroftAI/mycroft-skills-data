@@ -15,6 +15,7 @@
 # limitations under the License.
 #
 import sys
+import urllib.parse
 from collections import OrderedDict
 
 import json
@@ -37,7 +38,7 @@ from typing import Optional
 from msk.util import ask_for_github_credentials, register_git_injector
 from msm import MycroftSkillsManager, SkillEntry, SkillRepo
 
-DEFAULT_BRANCH='18.08'
+DEFAULT_BRANCH = '18.08'
 
 # Enter username and password as strings to avoid typing while testing, etc.
 github_username = None
@@ -83,6 +84,7 @@ class TempClone:
 
     def delete(self):
         shutil.rmtree(self.path)
+
 
 def load_github() -> Github:
     """ Create Github API object """
@@ -212,7 +214,8 @@ def find_examples(sections: dict) -> list:
     Returns: ['How are you?', 'Perform test.']
     """
     return re.findall(
-        string=find_section('examples', sections) or find_section('usage', sections) or '',
+        string=(find_section('examples', sections) or
+                find_section('usage', sections) or ''),
         pattern=r'(?<=[-*]).*', flags=re.MULTILINE
     )
 
@@ -228,8 +231,16 @@ def find_title_info(sections: dict, skill_name: str) -> tuple:
     Returns:
         title (string), short_desc (string)
     """
-    # Get first section's title
-    title_section = next(iter(sections))
+    # Get title from the section with an icon
+    title_section = None
+    for section in sections:
+        if "<img" in section:
+            title_section = section
+            break
+    if not title_section:
+        # Attempt old scheme - first section header is the title
+        title_section = next(iter(sections))
+        return title_section, ""   # Should never be allowed in repo!
 
     # Remove traces of any <img> tag that might exist, get text that follows
     title = title_section.split("/>")[-1].strip()
@@ -237,10 +248,19 @@ def find_title_info(sections: dict, skill_name: str) -> tuple:
     return title, short_desc
 
 
-def find_icon(sections: dict) -> tuple:
+def find_icon(sections: dict, repo: str, tree: str) -> tuple:
     # Get first section's title (icon is in the title itself), like:
     # <img src='https://rawgi...' card_color='maroon' height='50'/> Skill Name
-    title_section = next(iter(sections)).replace('"', "'")
+    # Get first section's title
+
+    # Get section name with the icon
+    title_section = None
+    for section in sections:
+        if "<img" in section:
+            title_section = section
+            break
+    if not title_section:
+        return None, None, None
 
     url = None
     name = None
@@ -260,6 +280,11 @@ def find_icon(sections: dict) -> tuple:
         #   "https://rawgithub...vg/solid/microchip.svg" -> "microchip"
         name = url.split('/')[-1].split(".")[0]
         url = None
+    elif url:
+        if not urllib.parse.urlparse(url).netloc:
+            # Assume this is a local reference, expand it to a full-path
+            url = (repo.replace("github.com", "raw.githubusercontent.com") +
+                   '/' + tree + '/' + url)
 
     return url, name, color
 
@@ -370,13 +395,15 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
         'title': title,
         'short_desc': format_sentence(short_desc.replace('\n',
                                                          ' ')).rstrip('.'),
-        'description': format_sentence(find_section('About',
-                                                    sections) or ''),
+        'description': format_sentence(find_section('About', sections) or
+                                       find_section('Description', sections) or
+                                       ''),
 
         'examples': [parse_example(i) for i in find_examples(sections)],
 
         'credits': make_credits((find_section('Credits',
-                                              sections, 0.9) or caps(skill_entry.author))),
+                                              sections, 0.9) or
+                                 caps(skill_entry.author))),
         'categories': [
             cat.replace('*', '') for cat in sorted((find_section('Category',
                                                     sections,
@@ -387,7 +414,8 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
                               sections) or '').replace('#', '').split()
     }
 
-    icon_url, icon_name, icon_color = find_icon(sections)
+    icon_url, icon_name, icon_color = find_icon(sections, repo_url,
+                                                skill_entry.sha)
     if icon_url:
         entry["icon_img"] = icon_url
     elif icon_name:

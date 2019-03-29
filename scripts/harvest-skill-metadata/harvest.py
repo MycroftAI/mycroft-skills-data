@@ -386,6 +386,7 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
     title, short_desc = find_title_info(sections, skill_entry.name)
 
     entry = {
+        'skill_gid': skill_entry.name+"|"+use_branch,
         'repo': repo_url,
         # 'branch': "18.08",              # TODO: repo.branch,
         'tree': skill_entry.sha,

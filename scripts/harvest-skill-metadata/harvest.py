@@ -321,6 +321,11 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
 
     {
        "mycroft-reminder": {
+            # The global id that can be used to refer to this exact skill from
+            # anywhere.  This includes this repo, the Marketplace or on-board
+            # a Mycroft device.
+            "skill_gid": "skill-reminder|18.08",
+
             # repo url
             "repo": "https://github.com/MycroftAI/skill-reminder",
             # branch of the repo
@@ -331,8 +336,8 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
             "name": "mycroft-reminder",
             "github_username": "mycroftai",
 
-            # Used in titles and for 'Hey Mycroft, install ...'
-            "title": "Set reminders",
+            # Used in GUI titles and for 'Hey Mycroft, install ...'
+            "display-name": "Set reminders",
 
             # One of the following two entries
             "icon" : {"name": "info", "color": "#22a7f0" },
@@ -393,7 +398,8 @@ def generate_summary(github: Github, skill_entry: SkillEntry):
         'name': skill_entry.name,
         'github_username': skill_entry.author,
 
-        'title': title,
+        'title': title,                   # TODO: Remove in 19.08
+        'display_name': title,
         'short_desc': format_sentence(short_desc.replace('\n',
                                                          ' ')).rstrip('.'),
         'description': format_sentence(find_section('About', sections) or

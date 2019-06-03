@@ -275,7 +275,10 @@ def find_icon(sections: dict, repo: str, tree: str) -> tuple:
         prev = part
 
     # Check if URL is a Font Awesome preview image
-    if url and url.startswith("https://rawgithub.com/FortAwesome/Font-Awesome"):
+    icon_urls = ["https://rawgithub.com/FortAwesome/Font-Awesome",
+                 "https://raw.githack.com/FortAwesome/Font-Awesome"]
+
+    if url and any([url.startswith(u) for u in icon_urls]):
         # Break down down just the filename part, e.g.
         #   "https://rawgithub...vg/solid/microchip.svg" -> "microchip"
         name = url.split('/')[-1].split(".")[0]

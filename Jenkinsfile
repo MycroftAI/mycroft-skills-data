@@ -11,9 +11,9 @@ pipeline {
                 //changeset 'skill-metadata.json'
             }
             steps {
-                echo 'Running ETL script...'
+                echo 'Running ETL script against test environment...'
                 sh '''
-                    ssh mycroft@165.22.40.13 << EOF
+                    ssh mycroft@138.197.73.71 << EOF
                         cd /opt/selene/selene-backend/batch/
                         pipenv run python script/load_skill_data.py --core-version 19.02
                     EOF

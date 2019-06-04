@@ -12,7 +12,7 @@ pipeline {
             }
             steps {
                 echo 'Running ETL script against test environment...'
-                sh 'ssh mycroft@138.197.73.71 ssh mycroft@setsbat "cd /opt/selene/selene-backend/batch; pipenv run python script/load_skill_display_data.py --core-version 19.02"'
+                sh 'ssh mycroft@138.197.73.71 "cd /opt/selene/selene-backend/batch; pipenv run python script/load_skill_display_data.py --core-version 19.02"'
             }
         }
     }

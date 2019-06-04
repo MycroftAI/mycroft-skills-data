@@ -15,7 +15,7 @@ pipeline {
                 sh '''
                     ssh mycroft@138.197.73.71 << EOF
                         cd /opt/selene/selene-backend/batch/
-                        pipenv run python script/load_skill_data.py --core-version 19.02
+                        pipenv run python script/load_skill_display_data.py --core-version 19.02
                     EOF
                 '''
             }

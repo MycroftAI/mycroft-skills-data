@@ -8,7 +8,7 @@ pipeline {
         stage('Load 19.02 skills') {
             when {
                 branch '19.02'
-                changeset 'skill-metadata.json'
+                //changeset 'skill-metadata.json'
             }
             steps {
                 echo 'Running ETL script...'

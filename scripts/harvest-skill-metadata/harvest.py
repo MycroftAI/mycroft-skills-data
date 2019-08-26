@@ -79,7 +79,8 @@ class TempClone:
         with open(join(self.path, path), 'w') as f:
             f.write(content)
         self.git.add(path)
-        self.git.commit(message="Automatic update of skill-metadata.json")
+        self.git.commit(message="Automatic update of skill-metadata.json",
+                        author="Mycroft Devs <devs@mycroft.ai>")
         self.git.push()
 
     def delete(self):

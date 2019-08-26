@@ -1,5 +1,5 @@
 msm==0.5.19
 msk==0.3.10
 pygithub
-prettyparse
+prettyparse==0.1.4
 future

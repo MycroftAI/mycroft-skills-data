@@ -2062,7 +2062,7 @@
     "theia-ide": {
         "skill_gid": "theia-ide|19.02",
         "repo": "https://github.com/andlo/theia-ide-skill",
-        "tree": "d0ffa22bf2adb51e3704c9868f6cff2830055301",
+        "tree": "99e3cd6f983539e7c2166ecd3a617d0b873a2fdc",
         "name": "theia-ide",
         "github_username": "andlo",
         "title": "THEIA IDE",
@@ -2093,7 +2093,7 @@
             "dev",
             "vscode"
         ],
-        "icon_img": "https://raw.githubusercontent.com/andlo/theia-ide-skill/d0ffa22bf2adb51e3704c9868f6cff2830055301/theia.png"
+        "icon_img": "https://raw.githubusercontent.com/andlo/theia-ide-skill/99e3cd6f983539e7c2166ecd3a617d0b873a2fdc/theia.png"
     },
     "krunner-search-skill": {
         "skill_gid": "krunner-search-skill|19.02",

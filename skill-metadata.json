@@ -2378,7 +2378,7 @@
     "telegram": {
         "skill_gid": "telegram|19.02",
         "repo": "https://github.com/luke5sky/telegram-skill",
-        "tree": "17b9603147758b27b42e665b96f9af791364273d",
+        "tree": "bf5475e00341afb6f393d06ac2a92a10c289b0ad",
         "name": "telegram",
         "github_username": "luke5sky",
         "title": "Telegram",

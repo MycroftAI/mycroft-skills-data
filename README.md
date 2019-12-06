@@ -1,4 +1,4 @@
-# Mycroft Skills Data, v19.02
+# Mycroft Skills Data, v19.08
 
 This repo holds data related to the Skills submitted and running on the
 Mycroft system.  All data and scripts are available and usable under the

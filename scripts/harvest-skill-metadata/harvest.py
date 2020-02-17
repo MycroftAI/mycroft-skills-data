@@ -38,12 +38,12 @@ from typing import Optional
 from msk.util import ask_for_github_credentials, register_git_injector
 from msm import MycroftSkillsManager, SkillEntry, SkillRepo
 
-DEFAULT_BRANCH = '19.08'
+DEFAULT_BRANCH = '20.02'
 
 # Enter username and password as strings to avoid typing while testing, etc.
 github_username = None
 github_password = None
-use_branch = "19.08"  # defaults to the default branch set on github
+use_branch = "20.02"  # defaults to the default branch set on github
 
 
 usage = '''

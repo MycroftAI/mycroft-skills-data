@@ -880,7 +880,7 @@
     "mycroft-spotify": {
         "skill_gid": "mycroft-spotify|20.02",
         "repo": "https://github.com/forslund/spotify-skill",
-        "tree": "9064746879f318211bde8f725cd035914f7eb57c",
+        "tree": "52791213b4b816356be344bbc0a5c195db3e8c32",
         "name": "mycroft-spotify",
         "github_username": "forslund",
         "title": "Spotify",

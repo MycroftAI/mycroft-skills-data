@@ -2,7 +2,7 @@
     "fallback-unknown": {
         "skill_gid": "fallback-unknown|20.02",
         "repo": "https://github.com/MycroftAI/fallback-unknown",
-        "tree": "b6312b7e457093fec520c3608f37ca9227d78b0c",
+        "tree": "d0be5344d10568ee5c6cef4205c075f590967930",
         "name": "fallback-unknown",
         "github_username": "mycroftai",
         "title": "Unknown Handler",
@@ -287,7 +287,7 @@
     "mycroft-hello-world": {
         "skill_gid": "mycroft-hello-world|20.02",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
-        "tree": "4f47a7b23ed4a5e086001f80f3ca4c3f7f7c061b",
+        "tree": "240e6c7dd5fe9606119dab0782a08957690dc879",
         "name": "mycroft-hello-world",
         "github_username": "mycroftai",
         "title": "Hello World",
@@ -325,7 +325,7 @@
     "mycroft-installer": {
         "skill_gid": "mycroft-installer|20.02",
         "repo": "https://github.com/MycroftAI/skill-installer",
-        "tree": "2f5b2e2cb5ba667e6d8abfe1a8dc126a3e27be55",
+        "tree": "4fcee469974b581393e53fd2618d7121b63db2b7",
         "name": "mycroft-installer",
         "github_username": "mycroftai",
         "title": "Installer",
@@ -369,7 +369,7 @@
     "mycroft-ip": {
         "skill_gid": "mycroft-ip|20.02",
         "repo": "https://github.com/MycroftAI/skill-ip",
-        "tree": "714a6c24ef1c2b7e27f3c67730dc2c2057fc278f",
+        "tree": "0e28eb36b9484150811fdc4b7cd02a49f9776df8",
         "name": "mycroft-ip",
         "github_username": "mycroftai",
         "title": "Device IP Address",
@@ -486,7 +486,7 @@
     "mycroft-mark-1": {
         "skill_gid": "mycroft-mark-1|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-mark-1",
-        "tree": "64b2e437298a14de16b6db729e1e9b89c537d27f",
+        "tree": "3e3335ecaa1bac9cecd0a8e0e18d45ac54271d68",
         "name": "mycroft-mark-1",
         "github_username": "MycroftAI",
         "title": "Mycroft Mark 1",
@@ -527,7 +527,7 @@
     "mycroft-naptime": {
         "skill_gid": "mycroft-naptime|20.02",
         "repo": "https://github.com/MycroftAI/skill-naptime",
-        "tree": "a55965a9880b000eb821361fca29160557e64724",
+        "tree": "3435fa442285185a2eb01fbe9b774ed419e73ff8",
         "name": "mycroft-naptime",
         "github_username": "mycroftai",
         "title": "Naptime",
@@ -606,7 +606,7 @@
     "mycroft-pairing": {
         "skill_gid": "mycroft-pairing|20.02",
         "repo": "https://github.com/MycroftAI/skill-pairing",
-        "tree": "562a44863425809dfee515000a64d601a14fb8be",
+        "tree": "12541f705ac8451c56252ec766cbc25e6fb48cfa",
         "name": "mycroft-pairing",
         "github_username": "mycroftai",
         "title": "Pairing",
@@ -642,7 +642,7 @@
     "mycroft-personal": {
         "skill_gid": "mycroft-personal|20.02",
         "repo": "https://github.com/MycroftAI/skill-personal",
-        "tree": "fd29bdb7daa6b973c333a0f869690aff7b5fbd7b",
+        "tree": "31b8930ac7350fab3c7803d754c945dff616124d",
         "name": "mycroft-personal",
         "github_username": "mycroftai",
         "title": "Mycroft's Background",
@@ -683,7 +683,7 @@
     "mycroft-playback-control": {
         "skill_gid": "mycroft-playback-control|20.02",
         "repo": "https://github.com/MycroftAI/skill-playback-control",
-        "tree": "d62d1019b78076c624bd836d983538a403e756f1",
+        "tree": "1287aca2add0e57a9a069da274a75eca7ed8b48e",
         "name": "mycroft-playback-control",
         "github_username": "mycroftai",
         "title": "Playback Control",
@@ -729,7 +729,7 @@
     "mycroft-reminder": {
         "skill_gid": "mycroft-reminder|20.02",
         "repo": "https://github.com/MycroftAI/skill-reminder",
-        "tree": "0a2901ca13f027fe1f502e80ac642b541f1bce7d",
+        "tree": "7e2532b1720ebfe8dd8dc1be309a5d6383043e04",
         "name": "mycroft-reminder",
         "github_username": "mycroftai",
         "title": "Set reminders",
@@ -767,7 +767,7 @@
     "mycroft-singing": {
         "skill_gid": "mycroft-singing|20.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
-        "tree": "74c591044f167c52a614a11323488e8a82c171e0",
+        "tree": "28bd042ab8988fc715f7a4a71a8b9e4c7649174a",
         "name": "mycroft-singing",
         "github_username": "mycroftai",
         "title": "Singing",
@@ -805,7 +805,7 @@
     "mycroft-speak": {
         "skill_gid": "mycroft-speak|20.02",
         "repo": "https://github.com/MycroftAI/skill-speak",
-        "tree": "46470e3b5a8953d52b2bb7168685432e9377c138",
+        "tree": "41211b51fb6e3926529d1b2fdffeb8d0fe86404c",
         "name": "mycroft-speak",
         "github_username": "mycroftai",
         "title": "Speak",
@@ -843,7 +843,7 @@
     "mycroft-spelling": {
         "skill_gid": "mycroft-spelling|20.02",
         "repo": "https://github.com/MycroftAI/skill-spelling",
-        "tree": "6ba78a7d2d89b33c18284a1191a635767e3d6c24",
+        "tree": "b28e6ec1a02ae2cc173e2fc5fda64767735208ac",
         "name": "mycroft-spelling",
         "github_username": "mycroftai",
         "title": "Spelling",
@@ -918,7 +918,7 @@
     "mycroft-stock": {
         "skill_gid": "mycroft-stock|20.02",
         "repo": "https://github.com/MycroftAI/skill-stock",
-        "tree": "fc628214b950e841d63a4a164e60746aa3fcf86c",
+        "tree": "29f0a39fbe657b054c6d036382669ddbc617ceb3",
         "name": "mycroft-stock",
         "github_username": "mycroftai",
         "title": "Stock Prices",
@@ -955,7 +955,7 @@
     "mycroft-stop": {
         "skill_gid": "mycroft-stop|20.02",
         "repo": "https://github.com/MycroftAI/skill-stop",
-        "tree": "d092baef2550f6798dd1755d33952de621b08ff5",
+        "tree": "e6872b66e264c597ad921b5a358fded5821d265c",
         "name": "mycroft-stop",
         "github_username": "mycroftai",
         "title": "System",
@@ -1117,7 +1117,7 @@
     "mycroft-version-checker": {
         "skill_gid": "mycroft-version-checker|20.02",
         "repo": "https://github.com/MycroftAI/skill-version-checker",
-        "tree": "bb9759302ba1a3424ab12b02f5d86fdf35d3d5bb",
+        "tree": "1cc84563fbb8289d7b61284733addf9e179e26f1",
         "name": "mycroft-version-checker",
         "github_username": "mycroftai",
         "title": "Version Checker",
@@ -1156,7 +1156,7 @@
     "mycroft-wiki": {
         "skill_gid": "mycroft-wiki|20.02",
         "repo": "https://github.com/MycroftAI/skill-wiki",
-        "tree": "b0a36856a652bbcd9d1fbf221f45b95bfd43fe72",
+        "tree": "106264679e386a234df21b06ed9939edbe83480a",
         "name": "mycroft-wiki",
         "github_username": "mycroftai",
         "title": "Wikipedia",
@@ -1350,7 +1350,7 @@
     "fallback-query": {
         "skill_gid": "fallback-query|20.02",
         "repo": "https://github.com/MycroftAI/skill-query",
-        "tree": "9019439a4cd95a6b059e33c89d91fca51d21630a",
+        "tree": "893e21e66b766d17b449fb5a360e23c45ab35596",
         "name": "fallback-query",
         "github_username": "MycroftAI",
         "title": "Query",
@@ -1669,7 +1669,7 @@
     "email-skill": {
         "skill_gid": "email-skill|20.02",
         "repo": "https://github.com/LinusS1/email-skill",
-        "tree": "99716775e2e58f143630002f2ef84289a7475e27",
+        "tree": "5e60cd116f1f8ac269e2b56d42b5c73f1d2899e4",
         "name": "email-skill",
         "github_username": "linuss1",
         "title": "Email",
@@ -1857,7 +1857,7 @@
     "homeassistant": {
         "skill_gid": "homeassistant|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
-        "tree": "6f6bbbabc537035b6bdf40b923250a5871afa739",
+        "tree": "bc816ca67cbbb6acf80e1c18d44ebe283b04dbaf",
         "name": "homeassistant",
         "github_username": "MycroftAI",
         "title": "Home Assistant",
@@ -1893,7 +1893,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/6f6bbbabc537035b6bdf40b923250a5871afa739/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/bc816ca67cbbb6acf80e1c18d44ebe283b04dbaf/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.02",
@@ -2204,12 +2204,12 @@
     "laugh": {
         "skill_gid": "laugh|20.02",
         "repo": "https://github.com/JarbasAl/skill-laugh",
-        "tree": "b3797f992e4ee85296f8be04f784c67e8fa716d0",
+        "tree": "f8e06afcbbda1eb574905068ebe0fcd4d0792178",
         "name": "laugh",
         "github_username": "JarbasAl",
         "title": "Laugh",
         "display_name": "Laugh",
-        "short_desc": "[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8)](https://en.cryptobadges.io/donate/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jarbasai) <span class=\"badge-patreon\"><a href=\"https://www.patreon.com/jarbasAI\" title=\"Donate to this project using Patreon\"><img src=\"https://img.shields.io/badge/patreon-donate-yellow.svg\" alt=\"Patreon donate button\" /></a></span> [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/JarbasAl)  Makes Mycroft laugh like a maniac",
+        "short_desc": "Makes Mycroft laugh like a maniac",
         "description": "Laugh randomly or when requested, gender configurable on home.mycroft.ai.",
         "examples": [
             "Laugh like Alexa.",
@@ -2219,9 +2219,6 @@
         "credits": [
             {
                 "name": "[@JarbasAl](https://jarbasal.github.io"
-            },
-            {
-                "name": "[@Andlo](https://github.com/andlo"
             },
             {
                 "name": "[SoundBible](http://soundbible.com/suggest.php?q=laugh&x=0&y=0"
@@ -2858,7 +2855,7 @@
     "moviemaster": {
         "skill_gid": "moviemaster|20.02",
         "repo": "https://github.com/builderjer/moviemaster",
-        "tree": "2e5f0231ed70b4e9bbdbe17358d625342ad740e8",
+        "tree": "b6585501c6083e79f24aef06f4b6737248bba919",
         "name": "moviemaster",
         "github_username": "builderjer",
         "title": "Movie Master",
@@ -2903,7 +2900,7 @@
             "Mark",
             "I"
         ],
-        "icon_img": "https://raw.githubusercontent.com/builderjer/moviemaster/2e5f0231ed70b4e9bbdbe17358d625342ad740e8/PrimaryLogo_Green.png"
+        "icon_img": "https://raw.githubusercontent.com/builderjer/moviemaster/b6585501c6083e79f24aef06f4b6737248bba919/PrimaryLogo_Green.png"
     },
     "Wiktionary": {
         "skill_gid": "Wiktionary|20.02",

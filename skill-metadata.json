@@ -1510,50 +1510,6 @@
             "color": "#40DBB0"
         }
     },
-    "lifx-mycroft": {
-        "skill_gid": "lifx-mycroft|20.02",
-        "repo": "https://github.com/samclane/lifx-mycroft",
-        "tree": "27e7586b9cde48bf55f37113c5f8f18d4ed36567",
-        "name": "lifx-mycroft",
-        "github_username": "samclane",
-        "title": "lifx-mycroft",
-        "display_name": "lifx-mycroft",
-        "short_desc": "A mycroft skill to control LIFX brand smart-bulbs",
-        "description": "Allows users to interact with the LIFX-brand smartbulbs on their home network through Mycroft. Can change power, brightness, color, and color-temperature of individual Lights and predefined Groups.",
-        "examples": [
-            "Turn off the bedroom light.",
-            "Set the bedroom light yellow.",
-            "Turn down the bedroom light.",
-            "Increase the bedroom light temperature.",
-            "Also uses Contexts.",
-            "Turn on the bedroom light.",
-            "Now turn it red.",
-            "Dim it.",
-            "->"
-        ],
-        "credits": [
-            {
-                "name": "Sawyer McLane",
-                "github_id": "samclane"
-            }
-        ],
-        "categories": [
-            "IoT"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "lifx",
-            "smartbulb",
-            "smartlight",
-            "home-automation"
-        ],
-        "icon": {
-            "icon": "lightbulb",
-            "color": "#440099"
-        }
-    },
     "decide-skill": {
         "skill_gid": "decide-skill|20.02",
         "repo": "https://github.com/lhannon/decide-skill",
@@ -1926,43 +1882,6 @@
             "voicehat"
         ],
         "icon_img": "https://raw.githubusercontent.com/andlo/picroft-google-aiy-voicekit-skill/f7718366ee956620b783bb6ddbf3c311e807ff4d/AIY_logo_blue.png"
-    },
-    "national-park": {
-        "skill_gid": "national-park|20.02",
-        "repo": "https://github.com/richhowley/national-parks-skill",
-        "tree": "c340bec998ae7de772b5091da1fcaa81402be668",
-        "name": "national-park",
-        "github_username": "richhowley",
-        "title": "National Parks",
-        "display_name": "National Parks",
-        "short_desc": "Information on US National Parks",
-        "description": "Get listings of US National Parks by state, have Mycroft read descriptions of  national parks and even test your knowledge of where National Parks are located.\n\nTo use this skill  you will need to obtain an API key from the [National Park Service](https://www.nps.gov/subjects/developer/get-started.htm).  Just follow the link and fill in the form, it's free and you will not be required to create an account.  When the skill is installed there will be a new settings entry in the Skills section of [Mycroft Home](https://home.mycroft.ai) under National Parks.  Paste in your API key and click the Save button.  As soon as the skill picks up the API key it will be able to connect to the NPS servers.\n\nFor the purpose of this skill the term \"National Park\" is used loosely to refer to almost any property managed by the US National Park Service.  Properties with a designation of  National Monument, National Historic Site or National Recreation Area will be included in park listings.   The only designation that is explicitly excluded from park listings is National Historic Trail.  All information is provided by the National Park Service.\n\nWhen asking for a park description the skill will do a search on the words given, so one does not need to say the complete park name.  For example, 'describe Edgar national park\", \"describe Edgar Allan national park\" and \"describe Edgar Allan Poe national park\" will all provide a description of Edgar Allan Poe National Historic Site.\n\nSince definite articles are dropped from speech, searches for descriptions of some properties will fail if they are included.  For example, trying to hear a description of Rosie the Riveter WWII Home Front National Historical Park by saying \"describe Rosie the Riveter national park\" will fail but \"describe Rosie national park\" and \"describe Riveter national park\" will succeed.\n\nAfter asking to be quizzed Mycroft will ask what state a particular National Park Service property is in.  The answer may be spoken after the beep without using the wake word but there will only be a few seconds to answer.  If Mycroft does not respond to the answer use the wake word with \"Repeat national parks quiz\" and answer after the beep.",
-        "examples": [
-            "List national parks in Utah.",
-            "Describe Yellowstone national park.",
-            "Quiz me on national parks.",
-            "Repeat national parks quiz."
-        ],
-        "credits": [
-            {
-                "github_id": "richhowley"
-            }
-        ],
-        "categories": [
-            "Information"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "nationalparks",
-            "parks",
-            "vacation"
-        ],
-        "icon": {
-            "icon": "tree",
-            "color": "#40DBB0"
-        }
     },
     "wikiquote": {
         "skill_gid": "wikiquote|20.02",
@@ -2502,56 +2421,6 @@
             "esa"
         ],
         "icon_img": "https://raw.githubusercontent.com/andlo/iss-tracker-skill/cd7ac9836175bb0847503ebad30ef2471be6c232/iss.png"
-    },
-    "mycroft-chat": {
-        "skill_gid": "mycroft-chat|20.02",
-        "repo": "https://github.com/domcross/mycroft-chat-skill",
-        "tree": "c7c2adb4aa49fcb8d6de5c9326abb5dba47ca8b5",
-        "name": "mycroft-chat",
-        "github_username": "domcross",
-        "title": "Mycroft Chat",
-        "display_name": "Mycroft Chat",
-        "short_desc": "The [Mycroft Chat](https://chat.mycroft.ai) allows you to interact with other community users. This skill allows you to monitor Mycroft Chat and find out if you have been mentioned or if there are unread messages. The messages can be read to you by Mycroft as well",
-        "description": "In your [skill settings](https://home.mycroft.ai) you must enter your username (as given in your Mycroft Chat account settings) and your personal access token.\nIn case you do not have a token you can specify your login-id (usually that is your email) and your password.\nNOTE: your password will be stored in clear text in your settings.json!)\n\nThere is also the option to set the time interval between refresh/check for updates.\nWhen monitoring is active the skill will use that time period for automated checking.\nThe option \"notify on updates\" is only applicable when monitoring is active -\nwhen the option is activated Mycroft willl speak out loud the number of unread messages and mentions.",
-        "examples": [
-            "Are there unread messages on Mycroft Chat.",
-            "Name Mycroft Chat channels with unread messages.",
-            "Read all unread Mycroft Chat messages.",
-            "Read messages for the channel {name}",
-            "Begin monitoring of Mycroft Chat.",
-            "Stop monitoring of Mycroft Chat."
-        ],
-        "credits": [
-            {
-                "name": "Dominik",
-                "github_id": "domcross"
-            },
-            {
-                "name": "Skill [suggested](https://community.mycroft.ai/t/mattermost-for-mycroft/5293 by Andreas Lorenson",
-                "github_id": "andlo"
-            }
-        ],
-        "categories": [
-            "Productivity",
-            "Daily",
-            "Information"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "chat",
-            "mattermost",
-            "[![Say",
-            "Thanks",
-            "to",
-            "the",
-            "author",
-            "of",
-            "this",
-            "skill!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/domcross)"
-        ],
-        "icon_img": "https://raw.githubusercontent.com/domcross/mycroft-chat-skill/c7c2adb4aa49fcb8d6de5c9326abb5dba47ca8b5/icon.png"
     },
     "dice-skill": {
         "skill_gid": "dice-skill|20.02",

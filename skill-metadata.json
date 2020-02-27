@@ -1241,7 +1241,7 @@
     "mycroft-pandora": {
         "skill_gid": "mycroft-pandora|20.02",
         "repo": "https://github.com/MycroftAI/pianobar-skill",
-        "tree": "11d04e7621570b3e7f7c1896db05710372511670",
+        "tree": "16875241376e51aeb87c9dee1115d58e46ae779d",
         "name": "mycroft-pandora",
         "github_username": "MycroftAI",
         "title": "Pandora",

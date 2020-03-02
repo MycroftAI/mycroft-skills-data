@@ -1813,7 +1813,7 @@
     "homeassistant": {
         "skill_gid": "homeassistant|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
-        "tree": "bc816ca67cbbb6acf80e1c18d44ebe283b04dbaf",
+        "tree": "985c4013205d0ef3a55fc7aa3859f52cf1796e9b",
         "name": "homeassistant",
         "github_username": "MycroftAI",
         "title": "Home Assistant",
@@ -1849,7 +1849,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/bc816ca67cbbb6acf80e1c18d44ebe283b04dbaf/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.02",

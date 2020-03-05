@@ -81,7 +81,7 @@
     "mycroft-alarm": {
         "skill_gid": "mycroft-alarm|20.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
-        "tree": "5f53934ef88973a02a697ca23e269f0a6707e426",
+        "tree": "56ac98f16d4c99d760319e63dd8beaa452daa1a2",
         "name": "mycroft-alarm",
         "github_username": "mycroftai",
         "title": "Set alarms",
@@ -890,8 +890,8 @@
         "examples": [
             "What Spotify devices are available?",
             "Play discover weekly.",
-            "Search Spotify for Hello Nasty.",
-            "Play something by Coventant.",
+            "Play Hello Nasty on Spotify.",
+            "Play something by Covenant.",
             "Play the album Hello Nasty on Spotify.",
             "Play my liked songs."
         ],

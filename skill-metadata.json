@@ -3052,5 +3052,49 @@
             "icon": "tree",
             "color": "#40DBB0"
         }
+    },
+    "lifx-mycroft": {
+        "skill_gid": "lifx-mycroft|20.02",
+        "repo": "https://github.com/samclane/lifx-mycroft",
+        "tree": "4ce8dabf2fa2d198289cdfd04ebc78ec2e616dc1",
+        "name": "lifx-mycroft",
+        "github_username": "samclane",
+        "title": "lifx-mycroft",
+        "display_name": "lifx-mycroft",
+        "short_desc": "A mycroft skill to control LIFX brand smart-bulbs",
+        "description": "Allows users to interact with the LIFX-brand smartbulbs on their home network through Mycroft. Can change power, brightness, color, and color-temperature of individual Lights and predefined Groups.",
+        "examples": [
+            "Turn off the bedroom light.",
+            "Set the bedroom light yellow.",
+            "Turn down the bedroom light.",
+            "Increase the bedroom light temperature.",
+            "Also uses Contexts.",
+            "Turn on the bedroom light.",
+            "Now turn it red.",
+            "Dim it.",
+            "->"
+        ],
+        "credits": [
+            {
+                "name": "Sawyer McLane",
+                "github_id": "samclane"
+            }
+        ],
+        "categories": [
+            "IoT"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "lifx",
+            "smartbulb",
+            "smartlight",
+            "home-automation"
+        ],
+        "icon": {
+            "icon": "lightbulb",
+            "color": "#440099"
+        }
     }
 }

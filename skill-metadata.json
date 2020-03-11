@@ -767,7 +767,7 @@
     "mycroft-singing": {
         "skill_gid": "mycroft-singing|20.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
-        "tree": "28bd042ab8988fc715f7a4a71a8b9e4c7649174a",
+        "tree": "ab81b2b8e83239e5c34b1577f8e391aa07d00588",
         "name": "mycroft-singing",
         "github_username": "mycroftai",
         "title": "Singing",

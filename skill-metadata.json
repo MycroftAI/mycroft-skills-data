@@ -1201,7 +1201,7 @@
     "mycroft-volume": {
         "skill_gid": "mycroft-volume|20.02",
         "repo": "https://github.com/MycroftAI/skill-volume",
-        "tree": "a84beae3e1a57ebb4cd22814871c309b73d1fec5",
+        "tree": "a5aaf928de334fa340a7126b81d93becaf99d724",
         "name": "mycroft-volume",
         "github_username": "mycroftai",
         "title": "Volume Control",

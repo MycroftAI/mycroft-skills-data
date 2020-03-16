@@ -205,7 +205,7 @@
     "mycroft-date-time": {
         "skill_gid": "mycroft-date-time|20.02",
         "repo": "https://github.com/MycroftAI/skill-date-time",
-        "tree": "ff39391ce6dde81a0e2b76b87cee137172f12298",
+        "tree": "4c6c9cb941852f46f9c383550b3ee880ca6ce2c7",
         "name": "mycroft-date-time",
         "github_username": "mycroftai",
         "title": "Date and Time",

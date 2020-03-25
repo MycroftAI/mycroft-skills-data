@@ -683,7 +683,7 @@
     "mycroft-playback-control": {
         "skill_gid": "mycroft-playback-control|20.02",
         "repo": "https://github.com/MycroftAI/skill-playback-control",
-        "tree": "1287aca2add0e57a9a069da274a75eca7ed8b48e",
+        "tree": "f27ab11efc80cfeb556baf420e83bcd4c31b412f",
         "name": "mycroft-playback-control",
         "github_username": "mycroftai",
         "title": "Playback Control",

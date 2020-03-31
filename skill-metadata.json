@@ -1854,7 +1854,7 @@
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.02",
         "repo": "https://github.com/andlo/picroft-google-aiy-voicekit-skill",
-        "tree": "f7718366ee956620b783bb6ddbf3c311e807ff4d",
+        "tree": "60a87f7854956ce177718d206f1f75f6e0e955f1",
         "name": "picroft-google-aiy-voicekit",
         "github_username": "andlo",
         "title": "Google AIY voicekit",
@@ -1881,7 +1881,7 @@
             "voicekit",
             "voicehat"
         ],
-        "icon_img": "https://raw.githubusercontent.com/andlo/picroft-google-aiy-voicekit-skill/f7718366ee956620b783bb6ddbf3c311e807ff4d/AIY_logo_blue.png"
+        "icon_img": "https://raw.githubusercontent.com/andlo/picroft-google-aiy-voicekit-skill/60a87f7854956ce177718d206f1f75f6e0e955f1/AIY_logo_blue.png"
     },
     "wikiquote": {
         "skill_gid": "wikiquote|20.02",

@@ -2909,40 +2909,6 @@
             "color": "#40DBB0"
         }
     },
-    "mozilla-webthings-gateway-skill": {
-        "skill_gid": "mozilla-webthings-gateway-skill|20.02",
-        "repo": "https://github.com/mozilla-iot/mozilla-webthings-gateway-skill",
-        "tree": "c0182320badd3c84f01f370ed7e18988316816d0",
-        "name": "mozilla-webthings-gateway-skill",
-        "github_username": "mozilla-iot",
-        "title": "Mozilla WebThings Gateway",
-        "display_name": "Mozilla WebThings Gateway",
-        "short_desc": "Controls the Mozilla WebThings Gateway",
-        "description": "Enables voice control of the Mozilla WebThings Gateway. To use, configure with\nyour local gateway's information either through the one-click \"Configure\"\nbutton or manually through the gateway's developer local token service.",
-        "examples": [
-            "Turn on the kitchen light.",
-            "Dim the hallway light by five percent.",
-            "Turn the table light red."
-        ],
-        "credits": [
-            {
-                "name": "Mozilla IoT Team",
-                "github_id": "mozilla-iot"
-            }
-        ],
-        "categories": [
-            "IoT"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "mozilla",
-            "webthings",
-            "iot"
-        ],
-        "icon_img": "https://mozilla-iot.github.io/mozilla-webthings-gateway-skill/icon.png"
-    },
     "fallback-recommendations-skill": {
         "skill_gid": "fallback-recommendations-skill|20.02",
         "repo": "https://github.com/LinusS1/fallback-recommendations-skill",

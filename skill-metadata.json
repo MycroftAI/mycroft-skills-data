@@ -2309,7 +2309,7 @@
     "speedtest": {
         "skill_gid": "speedtest|20.02",
         "repo": "https://github.com/luke5sky/speedtest-skill",
-        "tree": "da20c4c8c5656506be76d28e483d688d625b42ef",
+        "tree": "47c4cc05237562f81b5c25c2883aa66f91f64280",
         "name": "speedtest",
         "github_username": "luke5sky",
         "title": "Speedtest",
@@ -2949,8 +2949,8 @@
         "tree": "cac27e622ff530b3a6c5d29e88f614bc16585749",
         "name": "fallback-recommendations-skill",
         "github_username": "linuss1",
-        "title": "Recommendations Fallback Skill",
-        "display_name": "Recommendations Fallback Skill",
+        "title": "Skill Recommendations",
+        "display_name": "Skill Recommendations",
         "short_desc": "When Mycroft doesn't know something, look up and download a skill that can handle that request",
         "description": "When Mycroft doesn't know something, this fallback skill will look up skills from the Marketplace that could help you complete your request. If it finds an appropriate skill, this will be downloaded to your device.",
         "examples": [

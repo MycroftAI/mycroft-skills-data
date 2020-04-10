@@ -1350,7 +1350,7 @@
     "fallback-query": {
         "skill_gid": "fallback-query|20.02",
         "repo": "https://github.com/MycroftAI/skill-query",
-        "tree": "f8206713077a6856028bfbe9ec06a068ce5cbc2d",
+        "tree": "8122f664ea5faf4e8dc07208188f1fbfcbce139b",
         "name": "fallback-query",
         "github_username": "MycroftAI",
         "title": "Query",

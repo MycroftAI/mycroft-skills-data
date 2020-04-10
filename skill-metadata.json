@@ -924,7 +924,7 @@
         "title": "Stock Prices",
         "display_name": "Stock Prices",
         "short_desc": "Provides current stock prices",
-        "description": "Using the [Financial Modeling Prep](https://financialmodelingprep.com/api/v3/) API, you can ask Mycroft to get the current price of stocks.",
+        "description": "Using the [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) API, you can ask Mycroft to get the current price of stocks.",
         "examples": [
             "Stock price of Google.",
             "Trading at Google."

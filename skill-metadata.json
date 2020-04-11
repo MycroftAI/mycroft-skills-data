@@ -410,7 +410,7 @@
     "mycroft-joke": {
         "skill_gid": "mycroft-joke|20.02",
         "repo": "https://github.com/MycroftAI/skill-joke",
-        "tree": "17b9649a71ab7a2b98042ff4e4cd313e90f34cac",
+        "tree": "c796553722f8b76239900e482e4a2aa378d8660c",
         "name": "mycroft-joke",
         "github_username": "mycroftai",
         "title": "Jokes",

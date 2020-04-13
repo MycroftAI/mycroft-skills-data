@@ -81,7 +81,7 @@
     "mycroft-alarm": {
         "skill_gid": "mycroft-alarm|20.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
-        "tree": "2d0ca9468e0827c45d00f0d08e93608ea7220dc1",
+        "tree": "33ed8fab32204b6d66d4693f6a28b3075ef46fb8",
         "name": "mycroft-alarm",
         "github_username": "mycroftai",
         "title": "Set alarms",
@@ -2557,7 +2557,7 @@
         "title": "Learning",
         "display_name": "Learning",
         "short_desc": "Teach Mycroft knowledge and humor",
-        "description": "This Skill helps to give Mycroft a personality by learning any new information that you provide.\nif mycroft not understood mycroft you. you can immediately train the previous request by saying \"I want to explain it\" or \"houmor is probably not your strength\".\nthen you do not have to do everything from the beginning.\nif you say \"use the alarm skill\" you have the possibility to extend existing intents and save them to /.mycroft/skills/learning/skills.\nI would like to set up an integration of intents into existing skills. currently only intents are processed and no voc.",
+        "description": "This Skill helps to give Mycroft a personality by learning any new information that you provide.\nif mycroft not understood mycroft you. you can immediately train the previous request by saying \"I want to explain it\" or \"houmor is probably not your strength\".\nthen you do not have to do everything from the beginning.",
         "examples": [
             "Do you want to learn something.",
             "Do you already know this.",
@@ -2567,8 +2567,7 @@
             "I tell you something private.",
             "Please do not say what I'm talking about.",
             "I want to explain it.",
-            "Houmor is probably not your strength.",
-            "Use the alarm skill."
+            "Houmor is probably not your strength."
         ],
         "credits": [
             {
@@ -2609,9 +2608,6 @@
             },
             {
                 "name": "Save Data To ~/.mycroft/skills/LearningSkill/public/humor/en-us/vocab/know.siri.intent"
-            },
-            {
-                "name": "Save Data To ~/.mycroft/skills/LearningSkill/skills/{skillname}/en-us/vocab/{filename}.intent"
             },
             {
                 "name": "You can edit the path at home.mycroft.ai."

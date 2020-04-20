@@ -1281,7 +1281,7 @@
     "mycroft-release-test": {
         "skill_gid": "mycroft-release-test|20.02",
         "repo": "https://github.com/MycroftAI/skill-release-test",
-        "tree": "84559d397a7c7654a8d2463a2480501026054721",
+        "tree": "4acb24d83684e1f7c68e75a8c94e24449bbee742",
         "name": "mycroft-release-test",
         "github_username": "mycroftai",
         "title": "Release Test",
@@ -2574,6 +2574,9 @@
                 "name": "Andreas Reinle(@gras64"
             },
             {
+                "name": "Use Conversation 1"
+            },
+            {
                 "name": "you \"Do you want to learn something\""
             },
             {
@@ -2611,6 +2614,60 @@
             },
             {
                 "name": "You can edit the path at home.mycroft.ai."
+            },
+            {
+                "name": "Use Conversation 2"
+            },
+            {
+                "name": "you \"how does jack norris pay for the tram\""
+            },
+            {
+                "name": "mycroft \"i don't understand\""
+            },
+            {
+                "name": "you \"that you should humor\""
+            },
+            {
+                "name": "mycroft \"give me keywords\""
+            },
+            {
+                "name": "you \"Juck tram\""
+            },
+            {
+                "name": "mycroft \"what should I know about it\""
+            },
+            {
+                "name": "you \"bach doesn't pay him at all\""
+            },
+            {
+                "name": "mycroft \"So I'm supposed to answer the question \"how does jack norris pay for the tram\" with \"bach doesn't pay him at all\""
+            },
+            {
+                "name": "Use Conversation 3"
+            },
+            {
+                "name": "you \"recording my voice for 30 seconds\""
+            },
+            {
+                "name": "mycroft \"i don't understand\""
+            },
+            {
+                "name": "you \"use the audio-record skill\""
+            },
+            {
+                "name": "mycroft \"I found a variable {time} you can give it to me\""
+            },
+            {
+                "name": "you \"30 seconds\""
+            },
+            {
+                "name": "mycroft \"should I add the sentence: recording my voice for {time}"
+            },
+            {
+                "name": "you \"yes\""
+            },
+            {
+                "name": "mycroft \"Recording audio for 30 seconds\""
             }
         ],
         "categories": [

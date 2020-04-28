@@ -163,7 +163,7 @@
     "mycroft-configuration": {
         "skill_gid": "mycroft-configuration|20.02",
         "repo": "https://github.com/MycroftAI/skill-configuration",
-        "tree": "5c5193cb762676928d4bc5c7924f396efdd10087",
+        "tree": "cb7eb2e9763eb3f52282000c91d75a521e58ab90",
         "name": "mycroft-configuration",
         "github_username": "mycroftai",
         "title": "Device Configuration",
@@ -2661,13 +2661,37 @@
                 "name": "you \"30 seconds\""
             },
             {
-                "name": "mycroft \"should I add the sentence: recording my voice for {time}"
+                "name": "mycroft \"should I add the sentence: recording my voice for {time}\""
             },
             {
                 "name": "you \"yes\""
             },
             {
                 "name": "mycroft \"Recording audio for 30 seconds\""
+            },
+            {
+                "name": "Use Conversation 4"
+            },
+            {
+                "name": "you \"how are you\""
+            },
+            {
+                "name": "mycroft \"i am good\""
+            },
+            {
+                "name": "you \"complete also sometimes your answers\""
+            },
+            {
+                "name": "mycroft \"how would you say that Replace Varaiblen with your own placeholders such as time or temperature.\""
+            },
+            {
+                "name": "you \"better than you\""
+            },
+            {
+                "name": "mycroft \"should I add the sentence: recording my voice for {time}\""
+            },
+            {
+                "name": "you \"yes\""
             }
         ],
         "categories": [

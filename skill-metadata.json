@@ -2692,6 +2692,39 @@
             },
             {
                 "name": "you \"yes\""
+            },
+            {
+                "name": "Use Conversation 5"
+            },
+            {
+                "name": "you \"can you edit your dialogues in personal skill\""
+            },
+            {
+                "name": "mycroft \"I will tell you sentences. If I'm right say yes\""
+            },
+            {
+                "name": "mycroft \"I am an open source artificial intelligence.\""
+            },
+            {
+                "name": "you \"yes\""
+            },
+            {
+                "name": "mycroft \"how would you say that Replace Varaiblen with your own placeholders such as time or temperature.\""
+            },
+            {
+                "name": "you \"I'm just another AI developed by Mycroft\""
+            },
+            {
+                "name": "mycroft \"should I add the sentence: I'm just another AI developed by Mycroft\""
+            },
+            {
+                "name": "you \"yes\""
+            },
+            {
+                "name": "mycroft \"do you want to continue?\""
+            },
+            {
+                "name": "you \"no\""
             }
         ],
         "categories": [
@@ -3139,5 +3172,47 @@
             "icon": "lightbulb",
             "color": "#440099"
         }
+    },
+    "myepisodes": {
+        "skill_gid": "myepisodes|20.02",
+        "repo": "https://github.com/brezuicabogdan/myepisodes-skill",
+        "tree": "4f338b91d32bc0ddc57a582b8aabf56863002bcd",
+        "name": "myepisodes",
+        "github_username": "brezuicabogdan",
+        "title": "Myepisodes",
+        "display_name": "Myepisodes",
+        "short_desc": "Check the status of your [myepisodes.com](http://www.myepisodes.com) show list",
+        "description": "You will be able to ask mycroft to check the status of your shows list handled by [myepisodes.com](http://www.myepisodes.com).\n\nmycroft will be able to give you the number of episodes not acquired and optionally the number of episodes acquired but not watched.\n\nalso you will be able to find out the unacquired seasons and episdes numbers.",
+        "examples": [
+            "Check my episodes.",
+            "Any new episodes.",
+            "Check tv shows.",
+            "Any new episodes.",
+            "Anything new on my episodes."
+        ],
+        "credits": [
+            {
+                "name": "Bogdan Brezuica",
+                "github_id": "brezuicabogdan"
+            }
+        ],
+        "categories": [
+            "Information",
+            "Entertainment",
+            "Media",
+            "Series",
+            "Tv",
+            "shows"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "Tv",
+            "Episodes",
+            "Myepisodes.com",
+            "Myepisodes",
+            "Series"
+        ]
     }
 }

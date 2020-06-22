@@ -767,7 +767,7 @@
     "mycroft-singing": {
         "skill_gid": "mycroft-singing|20.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
-        "tree": "ab81b2b8e83239e5c34b1577f8e391aa07d00588",
+        "tree": "5daa788263b3c278fb10c1e07db5b1c77ec552f5",
         "name": "mycroft-singing",
         "github_username": "mycroftai",
         "title": "Singing",
@@ -2122,13 +2122,13 @@
     },
     "laugh": {
         "skill_gid": "laugh|20.02",
-        "repo": "https://github.com/JarbasAl/skill-laugh",
+        "repo": "https://github.com/JarbasSkills/skill-laugh",
         "tree": "f8e06afcbbda1eb574905068ebe0fcd4d0792178",
         "name": "laugh",
         "github_username": "JarbasAl",
         "title": "Laugh",
         "display_name": "Laugh",
-        "short_desc": "Makes Mycroft laugh like a maniac",
+        "short_desc": "Makes Mycroft laugh like a maniac  ![](./sshot.png)",
         "description": "Laugh randomly or when requested, gender configurable on home.mycroft.ai.",
         "examples": [
             "Laugh like Alexa.",
@@ -2572,159 +2572,6 @@
         "credits": [
             {
                 "name": "Andreas Reinle(@gras64"
-            },
-            {
-                "name": "Use Conversation 1"
-            },
-            {
-                "name": "you \"Do you want to learn something\""
-            },
-            {
-                "name": "mycroft \"I like to learn. Which category is it?\""
-            },
-            {
-                "name": "you \"humor\""
-            },
-            {
-                "name": "mycroft \"what is your question\""
-            },
-            {
-                "name": "you \"do you know siri\""
-            },
-            {
-                "name": "mycroft \"give me keywords\""
-            },
-            {
-                "name": "you \"know siri\""
-            },
-            {
-                "name": "mycroft \"what should I know about it\""
-            },
-            {
-                "name": "you \"I have never seen her\""
-            },
-            {
-                "name": "mycroft \"So I'm supposed to answer the question \"do you know siri\" with \"I have never seen her\"?"
-            },
-            {
-                "name": "Save Data To ~/.mycroft/skills/LearningSkill/public/humor/en-us/dialog/know.siri.dialog"
-            },
-            {
-                "name": "Save Data To ~/.mycroft/skills/LearningSkill/public/humor/en-us/vocab/know.siri.intent"
-            },
-            {
-                "name": "You can edit the path at home.mycroft.ai."
-            },
-            {
-                "name": "Use Conversation 2"
-            },
-            {
-                "name": "you \"how does jack norris pay for the tram\""
-            },
-            {
-                "name": "mycroft \"i don't understand\""
-            },
-            {
-                "name": "you \"that you should humor\""
-            },
-            {
-                "name": "mycroft \"give me keywords\""
-            },
-            {
-                "name": "you \"Juck tram\""
-            },
-            {
-                "name": "mycroft \"what should I know about it\""
-            },
-            {
-                "name": "you \"bach doesn't pay him at all\""
-            },
-            {
-                "name": "mycroft \"So I'm supposed to answer the question \"how does jack norris pay for the tram\" with \"bach doesn't pay him at all\""
-            },
-            {
-                "name": "Use Conversation 3"
-            },
-            {
-                "name": "you \"recording my voice for 30 seconds\""
-            },
-            {
-                "name": "mycroft \"i don't understand\""
-            },
-            {
-                "name": "you \"use the audio-record skill\""
-            },
-            {
-                "name": "mycroft \"I found a variable {time} you can give it to me\""
-            },
-            {
-                "name": "you \"30 seconds\""
-            },
-            {
-                "name": "mycroft \"should I add the sentence: recording my voice for {time}\""
-            },
-            {
-                "name": "you \"yes\""
-            },
-            {
-                "name": "mycroft \"Recording audio for 30 seconds\""
-            },
-            {
-                "name": "Use Conversation 4"
-            },
-            {
-                "name": "you \"how are you\""
-            },
-            {
-                "name": "mycroft \"i am good\""
-            },
-            {
-                "name": "you \"complete also sometimes your answers\""
-            },
-            {
-                "name": "mycroft \"how would you say that Replace Varaiblen with your own placeholders such as time or temperature.\""
-            },
-            {
-                "name": "you \"better than you\""
-            },
-            {
-                "name": "mycroft \"should I add the sentence: recording my voice for {time}\""
-            },
-            {
-                "name": "you \"yes\""
-            },
-            {
-                "name": "Use Conversation 5"
-            },
-            {
-                "name": "you \"can you edit your dialogues in personal skill\""
-            },
-            {
-                "name": "mycroft \"I will tell you sentences. If I'm right say yes\""
-            },
-            {
-                "name": "mycroft \"I am an open source artificial intelligence.\""
-            },
-            {
-                "name": "you \"yes\""
-            },
-            {
-                "name": "mycroft \"how would you say that Replace Varaiblen with your own placeholders such as time or temperature.\""
-            },
-            {
-                "name": "you \"I'm just another AI developed by Mycroft\""
-            },
-            {
-                "name": "mycroft \"should I add the sentence: I'm just another AI developed by Mycroft\""
-            },
-            {
-                "name": "you \"yes\""
-            },
-            {
-                "name": "mycroft \"do you want to continue?\""
-            },
-            {
-                "name": "you \"no\""
             }
         ],
         "categories": [

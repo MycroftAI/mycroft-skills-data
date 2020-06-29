@@ -527,7 +527,7 @@
     "mycroft-naptime": {
         "skill_gid": "mycroft-naptime|20.02",
         "repo": "https://github.com/MycroftAI/skill-naptime",
-        "tree": "3435fa442285185a2eb01fbe9b774ed419e73ff8",
+        "tree": "8493bc4fe2bb318fe249b9f205fc0de0a0b317e7",
         "name": "mycroft-naptime",
         "github_username": "mycroftai",
         "title": "Naptime",

@@ -2831,7 +2831,7 @@
     "dismissal-skill": {
         "skill_gid": "dismissal-skill|20.02",
         "repo": "https://github.com/ChanceNCounter/dismissal-skill",
-        "tree": "d2233875e934b36633f3accbec822573593caf04",
+        "tree": "5572b6c89039d7dc2f640d81dfea31ece68c8f5f",
         "name": "dismissal-skill",
         "github_username": "ChanceNCounter",
         "title": "Dismissal",
@@ -2850,6 +2850,9 @@
             },
             {
                 "github_id": "krisgesling"
+            },
+            {
+                "github_id": "AIDungeonWiXAnon"
             }
         ],
         "categories": [

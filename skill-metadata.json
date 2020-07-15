@@ -410,18 +410,17 @@
     "mycroft-joke": {
         "skill_gid": "mycroft-joke|20.02",
         "repo": "https://github.com/MycroftAI/skill-joke",
-        "tree": "c796553722f8b76239900e482e4a2aa378d8660c",
+        "tree": "c5b4fcd95bc7aa0fa57fe3a06c9169c1f7ff7981",
         "name": "mycroft-joke",
         "github_username": "mycroftai",
         "title": "Jokes",
         "display_name": "Jokes",
         "short_desc": "Let Mycroft brighten your day with a little humor",
-        "description": "Brighten your day with a little humor.  This draws on the jokes collected by the [PyJokes project](https://github.com/pyjokes/pyjokes) to give you a chuckle.\n\nThe joke categories are:\n* Neutral -- jokes that are safe for work, kids or your grandmother\n* Adult -- nothing horrible, but be ready to cover some ears\n* Chuck Norris -- jokes only a geek can love\n\nBy default it will give you clean and/or geeky jokes, but you can ask a little adult humor if you feel that way.\n\n_WARNING:  Laughter is not guaranteed, but eye rolls are likely._",
+        "description": "Brighten your day with a little humor.  This draws on the jokes collected by the [PyJokes project](https://github.com/pyjokes/pyjokes) to give you a chuckle.\n\nThe joke categories are:\n* Neutral -- jokes that are safe for work, kids or your grandmother\n* Chuck Norris -- jokes only a geek can love\n\n_WARNING:  Laughter is not guaranteed, but eye rolls are likely._",
         "examples": [
             "Make me laugh.",
             "Tell me a joke.",
             "Tell me a Chuck Norris joke.",
-            "I want to hear a raunchy joke.",
             "How about a neutral joke."
         ],
         "credits": [

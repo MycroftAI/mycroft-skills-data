@@ -1029,7 +1029,7 @@
     "mycroft-timer": {
         "skill_gid": "mycroft-timer|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-timer",
-        "tree": "6f3d3392864238fe9e6e55fdf71572f56bcfa908",
+        "tree": "4357156e705222b4b3eb15e16db98997354b00a1",
         "name": "mycroft-timer",
         "github_username": "mycroftai",
         "title": "Timer",

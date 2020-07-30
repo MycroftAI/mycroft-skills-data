@@ -81,7 +81,7 @@
     "mycroft-alarm": {
         "skill_gid": "mycroft-alarm|20.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
-        "tree": "33ed8fab32204b6d66d4693f6a28b3075ef46fb8",
+        "tree": "f17d68d8ac84ab2c485eb72568b6bdeddeda37e0",
         "name": "mycroft-alarm",
         "github_username": "mycroftai",
         "title": "Set alarms",

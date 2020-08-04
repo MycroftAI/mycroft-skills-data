@@ -566,7 +566,7 @@
     "mycroft-npr-news": {
         "skill_gid": "mycroft-npr-news|20.02",
         "repo": "https://github.com/MycroftAI/skill-npr-news",
-        "tree": "2e8bf4d35f6d6e2380685a1d998e3deb76eb95a9",
+        "tree": "b37c76ec385838a7efe6902b918c28c3cd1ebcaf",
         "name": "mycroft-npr-news",
         "github_username": "mycroftai",
         "title": "Latest news",
@@ -1822,7 +1822,8 @@
         "examples": [
             "Turn on the office light.",
             "Turn off bedroom lights.",
-            "Turn on on the AC."
+            "Turn on on the AC.",
+            "Read bedroom temperature."
         ],
         "credits": [
             {

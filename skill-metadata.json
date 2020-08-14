@@ -1155,7 +1155,7 @@
     "mycroft-wiki": {
         "skill_gid": "mycroft-wiki|20.02",
         "repo": "https://github.com/MycroftAI/skill-wiki",
-        "tree": "7e6f83fca167793df98259ae9480827c2bbafc2c",
+        "tree": "12d5833e7d98eccccbafd5037cda09c0a879ae68",
         "name": "mycroft-wiki",
         "github_username": "mycroftai",
         "title": "Wikipedia",

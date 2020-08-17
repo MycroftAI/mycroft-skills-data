@@ -485,7 +485,7 @@
     "mycroft-mark-1": {
         "skill_gid": "mycroft-mark-1|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-mark-1",
-        "tree": "3e3335ecaa1bac9cecd0a8e0e18d45ac54271d68",
+        "tree": "a60eec3a9a9377a3c224f446e98c4b05e37ac19a",
         "name": "mycroft-mark-1",
         "github_username": "MycroftAI",
         "title": "Mycroft Mark 1",

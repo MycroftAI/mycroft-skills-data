@@ -566,7 +566,7 @@
     "mycroft-npr-news": {
         "skill_gid": "mycroft-npr-news|20.02",
         "repo": "https://github.com/MycroftAI/skill-npr-news",
-        "tree": "b37c76ec385838a7efe6902b918c28c3cd1ebcaf",
+        "tree": "f34e8484dcc1a8c3d42b5bd3a4f58c771c0c1271",
         "name": "mycroft-npr-news",
         "github_username": "mycroftai",
         "title": "Latest news",

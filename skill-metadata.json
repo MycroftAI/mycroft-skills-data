@@ -1,6 +1,6 @@
 {
     "fallback-unknown": {
-        "skill_gid": "fallback-unknown|20.02",
+        "skill_gid": "fallback-unknown|20.08",
         "repo": "https://github.com/MycroftAI/fallback-unknown",
         "tree": "d0be5344d10568ee5c6cef4205c075f590967930",
         "name": "fallback-unknown",
@@ -37,7 +37,7 @@
         }
     },
     "fallback-wolfram-alpha": {
-        "skill_gid": "fallback-wolfram-alpha|20.02",
+        "skill_gid": "fallback-wolfram-alpha|20.08",
         "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
         "tree": "453e61427c7674f02a7383f082189b38eccd7f1c",
         "name": "fallback-wolfram-alpha",
@@ -79,7 +79,7 @@
         }
     },
     "mycroft-alarm": {
-        "skill_gid": "mycroft-alarm|20.02",
+        "skill_gid": "mycroft-alarm|20.08",
         "repo": "https://github.com/MycroftAI/skill-alarm",
         "tree": "f17d68d8ac84ab2c485eb72568b6bdeddeda37e0",
         "name": "mycroft-alarm",
@@ -121,7 +121,7 @@
         }
     },
     "mycroft-audio-record": {
-        "skill_gid": "mycroft-audio-record|20.02",
+        "skill_gid": "mycroft-audio-record|20.08",
         "repo": "https://github.com/MycroftAI/skill-audio-record",
         "tree": "d8b560250a3457a3fddd0303c7a54f26118ccd9a",
         "name": "mycroft-audio-record",
@@ -161,7 +161,7 @@
         }
     },
     "mycroft-configuration": {
-        "skill_gid": "mycroft-configuration|20.02",
+        "skill_gid": "mycroft-configuration|20.08",
         "repo": "https://github.com/MycroftAI/skill-configuration",
         "tree": "cb7eb2e9763eb3f52282000c91d75a521e58ab90",
         "name": "mycroft-configuration",
@@ -203,7 +203,7 @@
         }
     },
     "mycroft-date-time": {
-        "skill_gid": "mycroft-date-time|20.02",
+        "skill_gid": "mycroft-date-time|20.08",
         "repo": "https://github.com/MycroftAI/skill-date-time",
         "tree": "2b9bceb28f9d725032e882c8d738652e8af8e909",
         "name": "mycroft-date-time",
@@ -246,7 +246,7 @@
         }
     },
     "mycroft-fallback-duck-duck-go": {
-        "skill_gid": "mycroft-fallback-duck-duck-go|20.02",
+        "skill_gid": "mycroft-fallback-duck-duck-go|20.08",
         "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
         "tree": "0b9e3c7d0786621d2847ba77d5e4d492f0139531",
         "name": "mycroft-fallback-duck-duck-go",
@@ -285,7 +285,7 @@
         }
     },
     "mycroft-hello-world": {
-        "skill_gid": "mycroft-hello-world|20.02",
+        "skill_gid": "mycroft-hello-world|20.08",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
         "tree": "240e6c7dd5fe9606119dab0782a08957690dc879",
         "name": "mycroft-hello-world",
@@ -323,7 +323,7 @@
         }
     },
     "mycroft-installer": {
-        "skill_gid": "mycroft-installer|20.02",
+        "skill_gid": "mycroft-installer|20.08",
         "repo": "https://github.com/MycroftAI/skill-installer",
         "tree": "15d7cae35650370c28261e24ffd8ca9f91e891f8",
         "name": "mycroft-installer",
@@ -367,7 +367,7 @@
         }
     },
     "mycroft-ip": {
-        "skill_gid": "mycroft-ip|20.02",
+        "skill_gid": "mycroft-ip|20.08",
         "repo": "https://github.com/MycroftAI/skill-ip",
         "tree": "0e28eb36b9484150811fdc4b7cd02a49f9776df8",
         "name": "mycroft-ip",
@@ -408,7 +408,7 @@
         }
     },
     "mycroft-joke": {
-        "skill_gid": "mycroft-joke|20.02",
+        "skill_gid": "mycroft-joke|20.08",
         "repo": "https://github.com/MycroftAI/skill-joke",
         "tree": "c5b4fcd95bc7aa0fa57fe3a06c9169c1f7ff7981",
         "name": "mycroft-joke",
@@ -448,7 +448,7 @@
         }
     },
     "mycroft-mark-1-demo": {
-        "skill_gid": "mycroft-mark-1-demo|20.02",
+        "skill_gid": "mycroft-mark-1-demo|20.08",
         "repo": "https://github.com/MycroftAI/skill-mark1-demo",
         "tree": "2e110288ee85b73bba0673d465ae687d570522fd",
         "name": "mycroft-mark-1-demo",
@@ -483,7 +483,7 @@
         }
     },
     "mycroft-mark-1": {
-        "skill_gid": "mycroft-mark-1|20.02",
+        "skill_gid": "mycroft-mark-1|20.08",
         "repo": "https://github.com/MycroftAI/mycroft-mark-1",
         "tree": "e099be4fad58b0fc06b8967d0567a0d206e31b8d",
         "name": "mycroft-mark-1",
@@ -524,7 +524,7 @@
         }
     },
     "mycroft-naptime": {
-        "skill_gid": "mycroft-naptime|20.02",
+        "skill_gid": "mycroft-naptime|20.08",
         "repo": "https://github.com/MycroftAI/skill-naptime",
         "tree": "8493bc4fe2bb318fe249b9f205fc0de0a0b317e7",
         "name": "mycroft-naptime",
@@ -564,7 +564,7 @@
         }
     },
     "mycroft-npr-news": {
-        "skill_gid": "mycroft-npr-news|20.02",
+        "skill_gid": "mycroft-npr-news|20.08",
         "repo": "https://github.com/MycroftAI/skill-npr-news",
         "tree": "f34e8484dcc1a8c3d42b5bd3a4f58c771c0c1271",
         "name": "mycroft-npr-news",
@@ -603,7 +603,7 @@
         }
     },
     "mycroft-pairing": {
-        "skill_gid": "mycroft-pairing|20.02",
+        "skill_gid": "mycroft-pairing|20.08",
         "repo": "https://github.com/MycroftAI/skill-pairing",
         "tree": "bcf0908bb3b35014fcfa104f29792b7fa2a9d2f8",
         "name": "mycroft-pairing",
@@ -639,7 +639,7 @@
         }
     },
     "mycroft-personal": {
-        "skill_gid": "mycroft-personal|20.02",
+        "skill_gid": "mycroft-personal|20.08",
         "repo": "https://github.com/MycroftAI/skill-personal",
         "tree": "31b8930ac7350fab3c7803d754c945dff616124d",
         "name": "mycroft-personal",
@@ -680,7 +680,7 @@
         }
     },
     "mycroft-playback-control": {
-        "skill_gid": "mycroft-playback-control|20.02",
+        "skill_gid": "mycroft-playback-control|20.08",
         "repo": "https://github.com/MycroftAI/skill-playback-control",
         "tree": "445b809835a0b0bda185aa985f8094f1b5b498e2",
         "name": "mycroft-playback-control",
@@ -726,7 +726,7 @@
         }
     },
     "mycroft-reminder": {
-        "skill_gid": "mycroft-reminder|20.02",
+        "skill_gid": "mycroft-reminder|20.08",
         "repo": "https://github.com/MycroftAI/skill-reminder",
         "tree": "7e2532b1720ebfe8dd8dc1be309a5d6383043e04",
         "name": "mycroft-reminder",
@@ -764,7 +764,7 @@
         }
     },
     "mycroft-singing": {
-        "skill_gid": "mycroft-singing|20.02",
+        "skill_gid": "mycroft-singing|20.08",
         "repo": "https://github.com/MycroftAI/skill-singing",
         "tree": "5daa788263b3c278fb10c1e07db5b1c77ec552f5",
         "name": "mycroft-singing",
@@ -802,7 +802,7 @@
         }
     },
     "mycroft-speak": {
-        "skill_gid": "mycroft-speak|20.02",
+        "skill_gid": "mycroft-speak|20.08",
         "repo": "https://github.com/MycroftAI/skill-speak",
         "tree": "41211b51fb6e3926529d1b2fdffeb8d0fe86404c",
         "name": "mycroft-speak",
@@ -840,7 +840,7 @@
         }
     },
     "mycroft-spelling": {
-        "skill_gid": "mycroft-spelling|20.02",
+        "skill_gid": "mycroft-spelling|20.08",
         "repo": "https://github.com/MycroftAI/skill-spelling",
         "tree": "b28e6ec1a02ae2cc173e2fc5fda64767735208ac",
         "name": "mycroft-spelling",
@@ -877,7 +877,7 @@
         }
     },
     "mycroft-spotify": {
-        "skill_gid": "mycroft-spotify|20.02",
+        "skill_gid": "mycroft-spotify|20.08",
         "repo": "https://github.com/forslund/spotify-skill",
         "tree": "3b003beea093618007554e05b66a6749848fc75e",
         "name": "mycroft-spotify",
@@ -915,7 +915,7 @@
         "icon_img": "https://rawcdn.githack.com/forslund/spotify-skill/05c19c0fba8a4af150c6eb8cf2e955d59ac83d15/Spotify_Icon.png"
     },
     "mycroft-stock": {
-        "skill_gid": "mycroft-stock|20.02",
+        "skill_gid": "mycroft-stock|20.08",
         "repo": "https://github.com/MycroftAI/skill-stock",
         "tree": "d65028c0e3b1b54a226ddf9a85e06ddd7580870c",
         "name": "mycroft-stock",
@@ -952,7 +952,7 @@
         }
     },
     "mycroft-stop": {
-        "skill_gid": "mycroft-stop|20.02",
+        "skill_gid": "mycroft-stop|20.08",
         "repo": "https://github.com/MycroftAI/skill-stop",
         "tree": "e6872b66e264c597ad921b5a358fded5821d265c",
         "name": "mycroft-stop",
@@ -989,7 +989,7 @@
         }
     },
     "mycroft-support-helper": {
-        "skill_gid": "mycroft-support-helper|20.02",
+        "skill_gid": "mycroft-support-helper|20.08",
         "repo": "https://github.com/MycroftAI/skill-support",
         "tree": "743fb3525748d025093b29cbaf01e48e65395337",
         "name": "mycroft-support-helper",
@@ -1027,7 +1027,7 @@
         "icon_img": "https://rawgit.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg"
     },
     "mycroft-timer": {
-        "skill_gid": "mycroft-timer|20.02",
+        "skill_gid": "mycroft-timer|20.08",
         "repo": "https://github.com/MycroftAI/mycroft-timer",
         "tree": "4357156e705222b4b3eb15e16db98997354b00a1",
         "name": "mycroft-timer",
@@ -1068,7 +1068,7 @@
         }
     },
     "mycroft-weather": {
-        "skill_gid": "mycroft-weather|20.02",
+        "skill_gid": "mycroft-weather|20.08",
         "repo": "https://github.com/MycroftAI/skill-weather",
         "tree": "93bdd8c2f91033ea3f4a09fc992083f1d9f19e28",
         "name": "mycroft-weather",
@@ -1114,7 +1114,7 @@
         }
     },
     "mycroft-version-checker": {
-        "skill_gid": "mycroft-version-checker|20.02",
+        "skill_gid": "mycroft-version-checker|20.08",
         "repo": "https://github.com/MycroftAI/skill-version-checker",
         "tree": "1cc84563fbb8289d7b61284733addf9e179e26f1",
         "name": "mycroft-version-checker",
@@ -1153,7 +1153,7 @@
         }
     },
     "mycroft-wiki": {
-        "skill_gid": "mycroft-wiki|20.02",
+        "skill_gid": "mycroft-wiki|20.08",
         "repo": "https://github.com/MycroftAI/skill-wiki",
         "tree": "12d5833e7d98eccccbafd5037cda09c0a879ae68",
         "name": "mycroft-wiki",
@@ -1198,7 +1198,7 @@
         }
     },
     "mycroft-volume": {
-        "skill_gid": "mycroft-volume|20.02",
+        "skill_gid": "mycroft-volume|20.08",
         "repo": "https://github.com/MycroftAI/skill-volume",
         "tree": "5777b2e57928247cf24d96267e55c123c5aa651c",
         "name": "mycroft-volume",
@@ -1238,7 +1238,7 @@
         }
     },
     "mycroft-pandora": {
-        "skill_gid": "mycroft-pandora|20.02",
+        "skill_gid": "mycroft-pandora|20.08",
         "repo": "https://github.com/MycroftAI/pianobar-skill",
         "tree": "16875241376e51aeb87c9dee1115d58e46ae779d",
         "name": "mycroft-pandora",
@@ -1278,7 +1278,7 @@
         }
     },
     "mycroft-release-test": {
-        "skill_gid": "mycroft-release-test|20.02",
+        "skill_gid": "mycroft-release-test|20.08",
         "repo": "https://github.com/MycroftAI/skill-release-test",
         "tree": "695772127d21529d6d7a7a44fcd4ebf6df894757",
         "name": "mycroft-release-test",
@@ -1318,7 +1318,7 @@
         }
     },
     "skill-finished-booting": {
-        "skill_gid": "skill-finished-booting|20.02",
+        "skill_gid": "skill-finished-booting|20.08",
         "repo": "https://github.com/zelmon64/skill-finished-booting",
         "tree": "f4d2c7ad9ceb33537378e1413586b2a7bdce4c96",
         "name": "skill-finished-booting",
@@ -1347,7 +1347,7 @@
         }
     },
     "fallback-query": {
-        "skill_gid": "fallback-query|20.02",
+        "skill_gid": "fallback-query|20.08",
         "repo": "https://github.com/MycroftAI/skill-query",
         "tree": "73386e110e00f0115c9daaeaa0ba9afbdd8ae8b0",
         "name": "fallback-query",
@@ -1382,7 +1382,7 @@
         }
     },
     "mycroft-wink-iot": {
-        "skill_gid": "mycroft-wink-iot|20.02",
+        "skill_gid": "mycroft-wink-iot|20.08",
         "repo": "https://github.com/MycroftAI/skill-wink-iot",
         "tree": "9ba66d93ab86891a56ccd3dedee1dfaebc229847",
         "name": "mycroft-wink-iot",
@@ -1430,7 +1430,7 @@
         }
     },
     "game-zork": {
-        "skill_gid": "game-zork|20.02",
+        "skill_gid": "game-zork|20.08",
         "repo": "https://github.com/forslund/white-house-adventure",
         "tree": "6eba5df187bc8a7735b05e93a28a6390b8c6f40c",
         "name": "game-zork",
@@ -1466,7 +1466,7 @@
         }
     },
     "fallback-aiml": {
-        "skill_gid": "fallback-aiml|20.02",
+        "skill_gid": "fallback-aiml|20.08",
         "repo": "https://github.com/forslund/fallback-aiml",
         "tree": "68a322e77c56c7afa19cf41ea1370c3e20e8c291",
         "name": "fallback-aiml",
@@ -1510,7 +1510,7 @@
         }
     },
     "decide-skill": {
-        "skill_gid": "decide-skill|20.02",
+        "skill_gid": "decide-skill|20.08",
         "repo": "https://github.com/lhannon/decide-skill",
         "tree": "7be7be8a2d8389f91e2187cd22ecb203f776c861",
         "name": "decide-skill",
@@ -1546,7 +1546,7 @@
         }
     },
     "cocktails": {
-        "skill_gid": "cocktails|20.02",
+        "skill_gid": "cocktails|20.08",
         "repo": "https://github.com/forslund/skill-cocktail",
         "tree": "7976c0eb0069903de24877d79a3047f7db14e018",
         "name": "cocktails",
@@ -1581,7 +1581,7 @@
         }
     },
     "plasma-activities-skill": {
-        "skill_gid": "plasma-activities-skill|20.02",
+        "skill_gid": "plasma-activities-skill|20.08",
         "repo": "https://github.com/AIIX/plasma-activities-skill",
         "tree": "83b4d2fcc807df6410ee2567ce052f7705df37cb",
         "name": "plasma-activities-skill",
@@ -1622,7 +1622,7 @@
         }
     },
     "email-skill": {
-        "skill_gid": "email-skill|20.02",
+        "skill_gid": "email-skill|20.08",
         "repo": "https://github.com/LinusS1/email-skill",
         "tree": "198e0bce1c182a06d6d8503bebc26f0924d391f3",
         "name": "email-skill",
@@ -1663,7 +1663,7 @@
         }
     },
     "emby": {
-        "skill_gid": "emby|20.02",
+        "skill_gid": "emby|20.08",
         "repo": "https://github.com/rickyphewitt/emby-skill",
         "tree": "9363d25e8f5a7c00c2437939dd032d60960ebe18",
         "name": "emby",
@@ -1694,7 +1694,7 @@
         ]
     },
     "skill-number-guess": {
-        "skill_gid": "skill-number-guess|20.02",
+        "skill_gid": "skill-number-guess|20.08",
         "repo": "https://github.com/Arc676/Number-Guess-Mycroft-Skill",
         "tree": "d4144a1ff15621d5690f2520cff477e1092fad4f",
         "name": "skill-number-guess",
@@ -1733,7 +1733,7 @@
         }
     },
     "skill-crystal-ball": {
-        "skill_gid": "skill-crystal-ball|20.02",
+        "skill_gid": "skill-crystal-ball|20.08",
         "repo": "https://github.com/Arc676/Crystal-Ball-Mycroft-Skill",
         "tree": "806358203de38af5f1178de50d724047c24874e6",
         "name": "skill-crystal-ball",
@@ -1770,7 +1770,7 @@
         }
     },
     "tronald-dump-skill": {
-        "skill_gid": "tronald-dump-skill|20.02",
+        "skill_gid": "tronald-dump-skill|20.08",
         "repo": "https://github.com/krisgesling/tronald-dump-skill",
         "tree": "77ad58fd536b753bbe3e59bae8c0d34237c24793",
         "name": "tronald-dump-skill",
@@ -1810,7 +1810,7 @@
         "icon_img": "https://rawcdn.githack.com/FortAwesome/Font-Awesome/ce084cb3463f15fd6b001eb70622d00a0e43c56c/svgs/solid/meh-rolling-eyes.svg"
     },
     "homeassistant": {
-        "skill_gid": "homeassistant|20.02",
+        "skill_gid": "homeassistant|20.08",
         "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
         "tree": "985c4013205d0ef3a55fc7aa3859f52cf1796e9b",
         "name": "homeassistant",
@@ -1852,7 +1852,7 @@
         "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
-        "skill_gid": "picroft-google-aiy-voicekit|20.02",
+        "skill_gid": "picroft-google-aiy-voicekit|20.08",
         "repo": "https://github.com/andlo/picroft-google-aiy-voicekit-skill",
         "tree": "60a87f7854956ce177718d206f1f75f6e0e955f1",
         "name": "picroft-google-aiy-voicekit",
@@ -1884,7 +1884,7 @@
         "icon_img": "https://raw.githubusercontent.com/andlo/picroft-google-aiy-voicekit-skill/60a87f7854956ce177718d206f1f75f6e0e955f1/AIY_logo_blue.png"
     },
     "wikiquote": {
-        "skill_gid": "wikiquote|20.02",
+        "skill_gid": "wikiquote|20.08",
         "repo": "https://github.com/danielwine/wikiquote-skill",
         "tree": "a9ade81df2f5fd483e4cbba5f560204c07bc32b2",
         "name": "wikiquote",
@@ -1924,7 +1924,7 @@
         }
     },
     "theia-ide": {
-        "skill_gid": "theia-ide|20.02",
+        "skill_gid": "theia-ide|20.08",
         "repo": "https://github.com/andlo/theia-ide-skill",
         "tree": "99e3cd6f983539e7c2166ecd3a617d0b873a2fdc",
         "name": "theia-ide",
@@ -1960,7 +1960,7 @@
         "icon_img": "https://raw.githubusercontent.com/andlo/theia-ide-skill/99e3cd6f983539e7c2166ecd3a617d0b873a2fdc/theia.png"
     },
     "krunner-search-skill": {
-        "skill_gid": "krunner-search-skill|20.02",
+        "skill_gid": "krunner-search-skill|20.08",
         "repo": "https://github.com/AIIX/krunner-search-skill",
         "tree": "6847d2122103365d7d6eeca596d0b02ad51bb045",
         "name": "krunner-search-skill",
@@ -2004,7 +2004,7 @@
         }
     },
     "cut-up-skill": {
-        "skill_gid": "cut-up-skill|20.02",
+        "skill_gid": "cut-up-skill|20.08",
         "repo": "https://github.com/JonStratton/cut-up-skill",
         "tree": "39f3aeb5b7c21677b04333fba9593e6dd7ed04be",
         "name": "cut-up-skill",
@@ -2039,7 +2039,7 @@
         }
     },
     "skill-aircrack": {
-        "skill_gid": "skill-aircrack|20.02",
+        "skill_gid": "skill-aircrack|20.08",
         "repo": "https://github.com/JonStratton/skill-aircrack",
         "tree": "017a10ea5f8e022a4084c6a069213301c0260284",
         "name": "skill-aircrack",
@@ -2082,7 +2082,7 @@
         }
     },
     "remember": {
-        "skill_gid": "remember|20.02",
+        "skill_gid": "remember|20.08",
         "repo": "https://github.com/luke5sky/remember-skill",
         "tree": "63cc03b69260e47de2b5b7060a9abc2ffee27399",
         "name": "remember",
@@ -2121,7 +2121,7 @@
         }
     },
     "laugh": {
-        "skill_gid": "laugh|20.02",
+        "skill_gid": "laugh|20.08",
         "repo": "https://github.com/JarbasSkills/skill-laugh",
         "tree": "f8e06afcbbda1eb574905068ebe0fcd4d0792178",
         "name": "laugh",
@@ -2164,7 +2164,7 @@
         }
     },
     "auto-volume": {
-        "skill_gid": "auto-volume|20.02",
+        "skill_gid": "auto-volume|20.08",
         "repo": "https://github.com/andlo/auto-volume-skill",
         "tree": "c18d145c32e8da5aa7ce6d4ff2cc32a4c761f8f5",
         "name": "auto-volume",
@@ -2198,7 +2198,7 @@
         "icon_img": "https://raw.githubusercontent.com/andlo/auto-volume-skill/c18d145c32e8da5aa7ce6d4ff2cc32a4c761f8f5/icon.png"
     },
     "telegram": {
-        "skill_gid": "telegram|20.02",
+        "skill_gid": "telegram|20.08",
         "repo": "https://github.com/luke5sky/telegram-skill",
         "tree": "2d0c743aaf6a6cd94bd1ee61e4efae57f349aa75",
         "name": "telegram",
@@ -2232,7 +2232,7 @@
         }
     },
     "count": {
-        "skill_gid": "count|20.02",
+        "skill_gid": "count|20.08",
         "repo": "https://github.com/andlo/count-skill",
         "tree": "e9871e5a73e4d1612df8959da17154c6c795814f",
         "name": "count",
@@ -2270,7 +2270,7 @@
         }
     },
     "fairytalez": {
-        "skill_gid": "fairytalez|20.02",
+        "skill_gid": "fairytalez|20.08",
         "repo": "https://github.com/andlo/fairytalez-skill",
         "tree": "768d5561247c3060b82288b33cbe6405efc1ccb3",
         "name": "fairytalez",
@@ -2307,7 +2307,7 @@
         "icon_img": "https://raw.githubusercontent.com/andlo/fairytalez-skill/768d5561247c3060b82288b33cbe6405efc1ccb3/story-512.png"
     },
     "speedtest": {
-        "skill_gid": "speedtest|20.02",
+        "skill_gid": "speedtest|20.08",
         "repo": "https://github.com/luke5sky/speedtest-skill",
         "tree": "47c4cc05237562f81b5c25c2883aa66f91f64280",
         "name": "speedtest",
@@ -2345,7 +2345,7 @@
         }
     },
     "pick-number": {
-        "skill_gid": "pick-number|20.02",
+        "skill_gid": "pick-number|20.08",
         "repo": "https://github.com/pcwii/skill-pick-number",
         "tree": "bd2fcd1c26b028b7e478803939650276bd2ead37",
         "name": "pick-number",
@@ -2382,7 +2382,7 @@
         }
     },
     "iss-tracker": {
-        "skill_gid": "iss-tracker|20.02",
+        "skill_gid": "iss-tracker|20.08",
         "repo": "https://github.com/andlo/iss-tracker-skill",
         "tree": "cd7ac9836175bb0847503ebad30ef2471be6c232",
         "name": "iss-tracker",
@@ -2423,7 +2423,7 @@
         "icon_img": "https://raw.githubusercontent.com/andlo/iss-tracker-skill/cd7ac9836175bb0847503ebad30ef2471be6c232/iss.png"
     },
     "dice-skill": {
-        "skill_gid": "dice-skill|20.02",
+        "skill_gid": "dice-skill|20.08",
         "repo": "https://github.com/Dragoncraft89/dice-skill",
         "tree": "f48a57904f982a48c1ba8a40feb482c36c499281",
         "name": "dice-skill",
@@ -2459,7 +2459,7 @@
         }
     },
     "pokemon": {
-        "skill_gid": "pokemon|20.02",
+        "skill_gid": "pokemon|20.08",
         "repo": "https://github.com/retrodaredevil/pokemon-skill",
         "tree": "5ef03dce7f373e821f05eb03a7d9e1af3590f285",
         "name": "pokemon",
@@ -2510,7 +2510,7 @@
         "icon_img": "https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_960_720.png"
     },
     "mycroft-mark-2": {
-        "skill_gid": "mycroft-mark-2|20.02",
+        "skill_gid": "mycroft-mark-2|20.08",
         "repo": "https://github.com/MycroftAI/skill-mark-2",
         "tree": "1e608db1db4e241838ce8a5d44b35286d7e8b23b",
         "name": "mycroft-mark-2",
@@ -2549,7 +2549,7 @@
         }
     },
     "learning": {
-        "skill_gid": "learning|20.02",
+        "skill_gid": "learning|20.08",
         "repo": "https://github.com/gras64/learning-skill",
         "tree": "9bb85d707433ca9454d0d6b4795dfae8dc0a153b",
         "name": "learning",
@@ -2592,7 +2592,7 @@
         }
     },
     "list-manager": {
-        "skill_gid": "list-manager|20.02",
+        "skill_gid": "list-manager|20.08",
         "repo": "https://github.com/lb803/list-manager-skill",
         "tree": "10bf9d51b84c7153adec658894757252621b6685",
         "name": "list-manager",
@@ -2631,7 +2631,7 @@
         }
     },
     "Gui-Examples": {
-        "skill_gid": "Gui-Examples|20.02",
+        "skill_gid": "Gui-Examples|20.08",
         "repo": "https://github.com/AIIX/Skill-Gui-Examples",
         "tree": "5fc646f305b53e073274548f464459e9f938913e",
         "name": "Gui-Examples",
@@ -2679,7 +2679,7 @@
         }
     },
     "moviemaster": {
-        "skill_gid": "moviemaster|20.02",
+        "skill_gid": "moviemaster|20.08",
         "repo": "https://github.com/builderjer/moviemaster",
         "tree": "b6585501c6083e79f24aef06f4b6737248bba919",
         "name": "moviemaster",
@@ -2729,7 +2729,7 @@
         "icon_img": "https://raw.githubusercontent.com/builderjer/moviemaster/b6585501c6083e79f24aef06f4b6737248bba919/PrimaryLogo_Green.png"
     },
     "Wiktionary": {
-        "skill_gid": "Wiktionary|20.02",
+        "skill_gid": "Wiktionary|20.08",
         "repo": "https://github.com/TREE-Ind/Wiktionary-Skill",
         "tree": "7753861a826035aecd894a26fcb9180d4d62c22c",
         "name": "Wiktionary",
@@ -2764,7 +2764,7 @@
         }
     },
     "bark-skill": {
-        "skill_gid": "bark-skill|20.02",
+        "skill_gid": "bark-skill|20.08",
         "repo": "https://github.com/padresb/bark-skill",
         "tree": "bf31ed404a597289ba24132494b82ff7e26397d4",
         "name": "bark-skill",
@@ -2796,7 +2796,7 @@
         ]
     },
     "today-in-history": {
-        "skill_gid": "today-in-history|20.02",
+        "skill_gid": "today-in-history|20.08",
         "repo": "https://github.com/austin-carnahan/days-in-history-skill",
         "tree": "1a1fd8f562de97bcdc5b0ff0a94654d310df1128",
         "name": "today-in-history",
@@ -2829,7 +2829,7 @@
         ]
     },
     "dismissal-skill": {
-        "skill_gid": "dismissal-skill|20.02",
+        "skill_gid": "dismissal-skill|20.08",
         "repo": "https://github.com/ChanceNCounter/dismissal-skill",
         "tree": "5572b6c89039d7dc2f640d81dfea31ece68c8f5f",
         "name": "dismissal-skill",
@@ -2870,7 +2870,7 @@
         }
     },
     "fallback-recommendations-skill": {
-        "skill_gid": "fallback-recommendations-skill|20.02",
+        "skill_gid": "fallback-recommendations-skill|20.08",
         "repo": "https://github.com/LinusS1/fallback-recommendations-skill",
         "tree": "cac27e622ff530b3a6c5d29e88f614bc16585749",
         "name": "fallback-recommendations-skill",
@@ -2909,7 +2909,7 @@
         "icon_img": "https://rawgit.com/FortAwesome/Font-Awesome/master/svgs/solid/brain.svg"
     },
     "mbta-bus-tracking": {
-        "skill_gid": "mbta-bus-tracking|20.02",
+        "skill_gid": "mbta-bus-tracking|20.08",
         "repo": "https://github.com/richhowley/mbta-bus-tracking-skill",
         "tree": "90e6b5726600e8a90a0fb24d3ba47ea8298e0361",
         "name": "mbta-bus-tracking",
@@ -2943,7 +2943,7 @@
         }
     },
     "national-parks": {
-        "skill_gid": "national-parks|20.02",
+        "skill_gid": "national-parks|20.08",
         "repo": "https://github.com/richhowley/national-parks-skill",
         "tree": "6139714e5a5c0d7e723b1aaffd912eef09954085",
         "name": "national-parks",
@@ -2980,7 +2980,7 @@
         }
     },
     "lifx-mycroft": {
-        "skill_gid": "lifx-mycroft|20.02",
+        "skill_gid": "lifx-mycroft|20.08",
         "repo": "https://github.com/samclane/lifx-mycroft",
         "tree": "4ce8dabf2fa2d198289cdfd04ebc78ec2e616dc1",
         "name": "lifx-mycroft",
@@ -3024,7 +3024,7 @@
         }
     },
     "myepisodes": {
-        "skill_gid": "myepisodes|20.02",
+        "skill_gid": "myepisodes|20.08",
         "repo": "https://github.com/brezuicabogdan/myepisodes-skill",
         "tree": "4f338b91d32bc0ddc57a582b8aabf56863002bcd",
         "name": "myepisodes",

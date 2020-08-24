@@ -1769,46 +1769,6 @@
             "color": "#40dbb0"
         }
     },
-    "tronald-dump-skill": {
-        "skill_gid": "tronald-dump-skill|20.08",
-        "repo": "https://github.com/krisgesling/tronald-dump-skill",
-        "tree": "77ad58fd536b753bbe3e59bae8c0d34237c24793",
-        "name": "tronald-dump-skill",
-        "github_username": "krisgesling",
-        "title": "Tronald Dump",
-        "display_name": "Tronald Dump",
-        "short_desc": "Talk to the President of the USA",
-        "description": "Ask Tronald Dump, President of the USA, about a range of topics. Quotes courtesy of the tronalddump.io API.",
-        "examples": [
-            "Tronald talk about guns?",
-            "Tronald Dump what do you think about Hillary?",
-            "What does Tronald Dump think about Obama?",
-            "What does Tronald have to say about the economy?"
-        ],
-        "credits": [
-            {
-                "name": "Kris Gesling [@KrisGesling](https://twitter.com/KrisGesling"
-            },
-            {
-                "name": "TronaldDump.io API by Mathias Schilling [@MatChilling](https://twitter.com/MatChilling"
-            },
-            {
-                "name": "German Translation by Andreas Reinle [@gras64](https://github.com/gras64"
-            }
-        ],
-        "categories": [
-            "Entertainment"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "trump",
-            "tronald",
-            "tronalddump"
-        ],
-        "icon_img": "https://rawcdn.githack.com/FortAwesome/Font-Awesome/ce084cb3463f15fd6b001eb70622d00a0e43c56c/svgs/solid/meh-rolling-eyes.svg"
-    },
     "homeassistant": {
         "skill_gid": "homeassistant|20.08",
         "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
@@ -2831,7 +2791,7 @@
     "dismissal-skill": {
         "skill_gid": "dismissal-skill|20.08",
         "repo": "https://github.com/ChanceNCounter/dismissal-skill",
-        "tree": "5572b6c89039d7dc2f640d81dfea31ece68c8f5f",
+        "tree": "cebca301e4856c720d5022621cc7232f3dbea6f2",
         "name": "dismissal-skill",
         "github_username": "ChanceNCounter",
         "title": "Dismissal",

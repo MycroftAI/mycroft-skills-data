@@ -1583,7 +1583,7 @@
     "plasma-activities-skill": {
         "skill_gid": "plasma-activities-skill|20.08",
         "repo": "https://github.com/AIIX/plasma-activities-skill",
-        "tree": "83b4d2fcc807df6410ee2567ce052f7705df37cb",
+        "tree": "ec7854dd86658c68606e06b378547e3196a36af1",
         "name": "plasma-activities-skill",
         "github_username": "AIIX",
         "title": "Plasma Activites",

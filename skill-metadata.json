@@ -884,7 +884,7 @@
         "github_username": "forslund",
         "title": "Play Spotify",
         "display_name": "Play Spotify",
-        "short_desc": "Listen to music from your Spotify Premium music account",
+        "short_desc": "**Spotify has disabled my API access for the skill, it was violating their Terms of Service by enabling voice control. I must have missed this back in 2017 when I created the skill.**  Listen to music from your Spotify Premium music account",
         "description": "Stream your favorite music from the popular Spotify music service. Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### API connection to your Spotify account\nAfter installing `mycroft-spotify`, in your [Skill\nsettings for Spotify](https://home.mycroft.ai/#/skill) in home.mycroft.ai you will see settings for the Spotify Skill. You will see a username and password field and a 'Connect' button. Ignore the username and password field for now, and click the 'Connect' button. You will be prompted to log in to Spotify, and to authorize Mycroft AI to use your Spotify account using OAuth. This allows Mycroft access to your account details such as Playlists.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spot-ify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
         "examples": [
             "What Spotify devices are available?",
@@ -2641,7 +2641,7 @@
     "moviemaster": {
         "skill_gid": "moviemaster|20.08",
         "repo": "https://github.com/builderjer/moviemaster",
-        "tree": "b6585501c6083e79f24aef06f4b6737248bba919",
+        "tree": "c46a3eb5817f2ce98f47100c6770705e081c5cc2",
         "name": "moviemaster",
         "github_username": "builderjer",
         "title": "Movie Master",
@@ -2686,7 +2686,7 @@
             "Mark",
             "I"
         ],
-        "icon_img": "https://raw.githubusercontent.com/builderjer/moviemaster/b6585501c6083e79f24aef06f4b6737248bba919/PrimaryLogo_Green.png"
+        "icon_img": "https://raw.githubusercontent.com/builderjer/moviemaster/c46a3eb5817f2ce98f47100c6770705e081c5cc2/PrimaryLogo_Green.png"
     },
     "Wiktionary": {
         "skill_gid": "Wiktionary|20.08",

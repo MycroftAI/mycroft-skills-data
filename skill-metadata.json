@@ -1280,7 +1280,7 @@
     "mycroft-release-test": {
         "skill_gid": "mycroft-release-test|20.08",
         "repo": "https://github.com/MycroftAI/skill-release-test",
-        "tree": "695772127d21529d6d7a7a44fcd4ebf6df894757",
+        "tree": "56fa211d19bb6cca935c91ca048e4c03b08538a2",
         "name": "mycroft-release-test",
         "github_username": "mycroftai",
         "title": "Release Test",

@@ -1116,7 +1116,7 @@
     "mycroft-version-checker": {
         "skill_gid": "mycroft-version-checker|20.08",
         "repo": "https://github.com/MycroftAI/skill-version-checker",
-        "tree": "1cc84563fbb8289d7b61284733addf9e179e26f1",
+        "tree": "6d99910147a50a179d5ccacf1d42e5f3cdc72380",
         "name": "mycroft-version-checker",
         "github_username": "mycroftai",
         "title": "Version Checker",

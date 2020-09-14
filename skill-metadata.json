@@ -369,7 +369,7 @@
     "mycroft-ip": {
         "skill_gid": "mycroft-ip|20.08",
         "repo": "https://github.com/MycroftAI/skill-ip",
-        "tree": "0e28eb36b9484150811fdc4b7cd02a49f9776df8",
+        "tree": "99006b5f99e8c524793980682f7352004de28851",
         "name": "mycroft-ip",
         "github_username": "mycroftai",
         "title": "Device IP Address",

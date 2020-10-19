@@ -1029,7 +1029,7 @@
     "mycroft-timer": {
         "skill_gid": "mycroft-timer|20.08",
         "repo": "https://github.com/MycroftAI/mycroft-timer",
-        "tree": "4357156e705222b4b3eb15e16db98997354b00a1",
+        "tree": "6a44fe88135dab2ee1673886c8a243a0c13e3645",
         "name": "mycroft-timer",
         "github_username": "mycroftai",
         "title": "Timer",
@@ -1809,7 +1809,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.08",

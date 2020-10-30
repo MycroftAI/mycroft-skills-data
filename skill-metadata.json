@@ -917,7 +917,7 @@
     "mycroft-stock": {
         "skill_gid": "mycroft-stock|20.08",
         "repo": "https://github.com/MycroftAI/skill-stock",
-        "tree": "d65028c0e3b1b54a226ddf9a85e06ddd7580870c",
+        "tree": "7d61ac88ce5557e9f26503611d10d771c1f73e7d",
         "name": "mycroft-stock",
         "github_username": "mycroftai",
         "title": "Stock Prices",
@@ -1771,7 +1771,7 @@
     },
     "homeassistant": {
         "skill_gid": "homeassistant|20.08",
-        "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
+        "repo": "https://github.com/MycroftAI/skill-homeassistant",
         "tree": "985c4013205d0ef3a55fc7aa3859f52cf1796e9b",
         "name": "homeassistant",
         "github_username": "MycroftAI",
@@ -1809,7 +1809,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/MycroftAI/skill-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.08",
@@ -2092,8 +2092,7 @@
         "description": "Laugh randomly or when requested, gender configurable on home.mycroft.ai.",
         "examples": [
             "Laugh like Alexa.",
-            "Random laughter.",
-            "Do the evil laugh."
+            "Can you laugh."
         ],
         "credits": [
             {
@@ -2118,10 +2117,7 @@
             "entertainment",
             "repeating"
         ],
-        "icon": {
-            "icon": "laugh",
-            "color": "#40DBB0"
-        }
+        "icon_img": "https://raw.githubusercontent.com/JarbasSkills/skill-laugh/f8e06afcbbda1eb574905068ebe0fcd4d0792178/./res/icon/laugh_icon.png"
     },
     "auto-volume": {
         "skill_gid": "auto-volume|20.08",

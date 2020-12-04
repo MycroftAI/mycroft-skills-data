@@ -39,7 +39,7 @@
     "fallback-wolfram-alpha": {
         "skill_gid": "fallback-wolfram-alpha|20.08",
         "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
-        "tree": "453e61427c7674f02a7383f082189b38eccd7f1c",
+        "tree": "139180207ff016ac6e015a9362325802666699be",
         "name": "fallback-wolfram-alpha",
         "github_username": "mycroftai",
         "title": "Wolfram Alpha",
@@ -1349,7 +1349,7 @@
     "fallback-query": {
         "skill_gid": "fallback-query|20.08",
         "repo": "https://github.com/MycroftAI/skill-query",
-        "tree": "227f2e03c23910f9ddeaa4b5c381c4e6bdf9ff71",
+        "tree": "39f1812c4c90c4bba46460eab49b5d1809863d95",
         "name": "fallback-query",
         "github_username": "MycroftAI",
         "title": "Query",

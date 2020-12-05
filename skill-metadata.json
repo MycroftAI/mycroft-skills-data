@@ -605,7 +605,7 @@
     "mycroft-pairing": {
         "skill_gid": "mycroft-pairing|20.08",
         "repo": "https://github.com/MycroftAI/skill-pairing",
-        "tree": "bcf0908bb3b35014fcfa104f29792b7fa2a9d2f8",
+        "tree": "bd46046922a4c1a756cb7748a2f58d7372069361",
         "name": "mycroft-pairing",
         "github_username": "mycroftai",
         "title": "Pairing",

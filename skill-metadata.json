@@ -2,7 +2,7 @@
     "fallback-unknown": {
         "skill_gid": "fallback-unknown|20.08",
         "repo": "https://github.com/MycroftAI/fallback-unknown",
-        "tree": "d0be5344d10568ee5c6cef4205c075f590967930",
+        "tree": "11cda482b2e8c0b69ef3258611038d095cd31802",
         "name": "fallback-unknown",
         "github_username": "mycroftai",
         "title": "Unknown Handler",

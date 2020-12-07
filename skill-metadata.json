@@ -163,7 +163,7 @@
     "mycroft-configuration": {
         "skill_gid": "mycroft-configuration|20.08",
         "repo": "https://github.com/MycroftAI/skill-configuration",
-        "tree": "f7d827eae004575f31f5fe8862cd86792a0e5c8e",
+        "tree": "9231778e959c65a4f8156923fb26d11483d72ea0",
         "name": "mycroft-configuration",
         "github_username": "mycroftai",
         "title": "Device Configuration",

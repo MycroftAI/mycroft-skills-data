@@ -641,7 +641,7 @@
     "mycroft-personal": {
         "skill_gid": "mycroft-personal|20.08",
         "repo": "https://github.com/MycroftAI/skill-personal",
-        "tree": "31b8930ac7350fab3c7803d754c945dff616124d",
+        "tree": "ed99a6a26f14383bd1a42beb29f137f1a53c4954",
         "name": "mycroft-personal",
         "github_username": "mycroftai",
         "title": "Mycroft's Background",

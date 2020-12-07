@@ -287,7 +287,7 @@
     "mycroft-hello-world": {
         "skill_gid": "mycroft-hello-world|20.08",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
-        "tree": "240e6c7dd5fe9606119dab0782a08957690dc879",
+        "tree": "4eda2b92760d9209318c5acc04e40395d013eea1",
         "name": "mycroft-hello-world",
         "github_username": "mycroftai",
         "title": "Hello World",

@@ -842,7 +842,7 @@
     "mycroft-spelling": {
         "skill_gid": "mycroft-spelling|20.08",
         "repo": "https://github.com/MycroftAI/skill-spelling",
-        "tree": "b28e6ec1a02ae2cc173e2fc5fda64767735208ac",
+        "tree": "89c154850cf79f3b2544337e42874adc9e0c7520",
         "name": "mycroft-spelling",
         "github_username": "mycroftai",
         "title": "Spelling",

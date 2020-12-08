@@ -954,7 +954,7 @@
     "mycroft-stop": {
         "skill_gid": "mycroft-stop|20.08",
         "repo": "https://github.com/MycroftAI/skill-stop",
-        "tree": "63142cf841d58d73372b8fb445e2dbe59f721681",
+        "tree": "e33d0c8ac8d276bd06aefa6ff67ef6de76909759",
         "name": "mycroft-stop",
         "github_username": "mycroftai",
         "title": "System",

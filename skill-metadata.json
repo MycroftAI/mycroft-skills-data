@@ -917,7 +917,7 @@
     "mycroft-stock": {
         "skill_gid": "mycroft-stock|20.08",
         "repo": "https://github.com/MycroftAI/skill-stock",
-        "tree": "7d61ac88ce5557e9f26503611d10d771c1f73e7d",
+        "tree": "4ba6ea9860e374b2e09a1582f33bc0b46a911ae3",
         "name": "mycroft-stock",
         "github_username": "mycroftai",
         "title": "Stock Prices",

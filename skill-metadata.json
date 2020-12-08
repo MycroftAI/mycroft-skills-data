@@ -39,7 +39,7 @@
     "fallback-wolfram-alpha": {
         "skill_gid": "fallback-wolfram-alpha|20.08",
         "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
-        "tree": "139180207ff016ac6e015a9362325802666699be",
+        "tree": "eface55448c473a4138024cf9859f631ecd9c426",
         "name": "fallback-wolfram-alpha",
         "github_username": "mycroftai",
         "title": "Wolfram Alpha",

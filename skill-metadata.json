@@ -325,7 +325,7 @@
     "mycroft-installer": {
         "skill_gid": "mycroft-installer|20.08",
         "repo": "https://github.com/MycroftAI/skill-installer",
-        "tree": "15d7cae35650370c28261e24ffd8ca9f91e891f8",
+        "tree": "1ab239b65e66d46cc289ab4954dc36e57309afa3",
         "name": "mycroft-installer",
         "github_username": "mycroftai",
         "title": "Installer",

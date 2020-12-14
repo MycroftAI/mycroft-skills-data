@@ -1697,7 +1697,7 @@
     "skill-number-guess": {
         "skill_gid": "skill-number-guess|20.08",
         "repo": "https://github.com/Arc676/Number-Guess-Mycroft-Skill",
-        "tree": "d4144a1ff15621d5690f2520cff477e1092fad4f",
+        "tree": "7307465da8db10bd0d536883d8cb52b8c5888d51",
         "name": "skill-number-guess",
         "github_username": "Arc676",
         "title": "Number Guess",
@@ -1736,7 +1736,7 @@
     "skill-crystal-ball": {
         "skill_gid": "skill-crystal-ball|20.08",
         "repo": "https://github.com/Arc676/Crystal-Ball-Mycroft-Skill",
-        "tree": "806358203de38af5f1178de50d724047c24874e6",
+        "tree": "f2d23f3ae8c0e38a669cb43bfab67887ffaea02d",
         "name": "skill-crystal-ball",
         "github_username": "Arc676",
         "title": "Crystal Ball",

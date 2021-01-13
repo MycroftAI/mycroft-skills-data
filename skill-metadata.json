@@ -123,7 +123,7 @@
     "mycroft-audio-record": {
         "skill_gid": "mycroft-audio-record|20.08",
         "repo": "https://github.com/MycroftAI/skill-audio-record",
-        "tree": "d8b560250a3457a3fddd0303c7a54f26118ccd9a",
+        "tree": "048fe123aac6a161fc4d4b252551f1d00cd565c7",
         "name": "mycroft-audio-record",
         "github_username": "mycroftai",
         "title": "Audio Recorder",

@@ -410,7 +410,7 @@
     "mycroft-joke": {
         "skill_gid": "mycroft-joke|20.08",
         "repo": "https://github.com/MycroftAI/skill-joke",
-        "tree": "c5b4fcd95bc7aa0fa57fe3a06c9169c1f7ff7981",
+        "tree": "3d361925654857989ccf0c7d9a34a113150aa180",
         "name": "mycroft-joke",
         "github_username": "mycroftai",
         "title": "Jokes",
@@ -1200,7 +1200,7 @@
     "mycroft-volume": {
         "skill_gid": "mycroft-volume|20.08",
         "repo": "https://github.com/MycroftAI/skill-volume",
-        "tree": "5777b2e57928247cf24d96267e55c123c5aa651c",
+        "tree": "d6527214faf8797b06c8db7ca271f9884c4fa01f",
         "name": "mycroft-volume",
         "github_username": "mycroftai",
         "title": "Volume Control",

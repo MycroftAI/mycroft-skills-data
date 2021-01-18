@@ -1384,7 +1384,7 @@
     "mycroft-wink-iot": {
         "skill_gid": "mycroft-wink-iot|20.08",
         "repo": "https://github.com/MycroftAI/skill-wink-iot",
-        "tree": "9ba66d93ab86891a56ccd3dedee1dfaebc229847",
+        "tree": "3ed66d835eed32a716bb088f1bf7cd75aea338ee",
         "name": "mycroft-wink-iot",
         "github_username": "MycroftAI",
         "title": "Wink IoT",

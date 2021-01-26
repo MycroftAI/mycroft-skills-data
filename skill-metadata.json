@@ -991,7 +991,7 @@
     "mycroft-support-helper": {
         "skill_gid": "mycroft-support-helper|20.08",
         "repo": "https://github.com/MycroftAI/skill-support",
-        "tree": "743fb3525748d025093b29cbaf01e48e65395337",
+        "tree": "fee18367917cc67b09fb5db9cb24fa5ce7429916",
         "name": "mycroft-support-helper",
         "github_username": "mycroftai",
         "title": "Support",

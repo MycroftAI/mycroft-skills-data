@@ -1070,7 +1070,7 @@
     "mycroft-weather": {
         "skill_gid": "mycroft-weather|20.08",
         "repo": "https://github.com/MycroftAI/skill-weather",
-        "tree": "2ef5eea61dd9ea97ac1d2cc93b4f21d6356da62c",
+        "tree": "b0194125e2e03d010949ed6c89a8cf9ce7931141",
         "name": "mycroft-weather",
         "github_username": "mycroftai",
         "title": "Weather",
@@ -1239,7 +1239,7 @@
     },
     "mycroft-pandora": {
         "skill_gid": "mycroft-pandora|20.08",
-        "repo": "https://github.com/MycroftAI/pianobar-skill",
+        "repo": "https://github.com/MycroftAI/skill-pandora",
         "tree": "16875241376e51aeb87c9dee1115d58e46ae779d",
         "name": "mycroft-pandora",
         "github_username": "MycroftAI",

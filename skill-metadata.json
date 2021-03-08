@@ -1237,46 +1237,6 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-pandora": {
-        "skill_gid": "mycroft-pandora|20.08",
-        "repo": "https://github.com/MycroftAI/skill-pandora",
-        "tree": "16875241376e51aeb87c9dee1115d58e46ae779d",
-        "name": "mycroft-pandora",
-        "github_username": "MycroftAI",
-        "title": "Pandora",
-        "display_name": "Pandora",
-        "short_desc": "Listen to the Pandora music service",
-        "description": "Pandora provides dynamically generated internet radio streams.  Streams are\ninfluenced by the the traits of the music played and the songs you like\nor skip.\n\nUsing this skill does require a [Pandora.com](https://pandora.com) account.\nSign-up is free with ad-supported streams.",
-        "examples": [
-            "Play Pandora.",
-            "Play Today's Hits Radio on Pandora.",
-            "Skip this song.",
-            "Next station.",
-            "Next song.",
-            "List my stations."
-        ],
-        "credits": [
-            {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
-            }
-        ],
-        "categories": [
-            "Music"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "free",
-            "music",
-            "pandora"
-        ],
-        "icon": {
-            "icon": "music",
-            "color": "#224299"
-        }
-    },
     "mycroft-release-test": {
         "skill_gid": "mycroft-release-test|20.08",
         "repo": "https://github.com/MycroftAI/skill-release-test",
@@ -3021,5 +2981,45 @@
             "Myepisodes",
             "Series"
         ]
+    },
+    "pandora": {
+        "skill_gid": "pandora|20.08",
+        "repo": "https://github.com/MycroftAI/skill-pandora",
+        "tree": "b2fdcd287253f6c6642dc08223fae5540e54e40d",
+        "name": "pandora",
+        "github_username": "MycroftAI",
+        "title": "Pandora",
+        "display_name": "Pandora",
+        "short_desc": "Listen to the Pandora music service",
+        "description": "Pandora provides dynamically generated internet radio streams.  Streams are\ninfluenced by the the traits of the music played and the songs you like\nor skip.\n\nUsing this skill does require a [Pandora.com](https://pandora.com) account.\nSign-up is free with ad-supported streams.",
+        "examples": [
+            "Play Pandora.",
+            "Play Today's Hits Radio on Pandora.",
+            "Skip this song.",
+            "Next station.",
+            "Next song.",
+            "List my stations."
+        ],
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "categories": [
+            "Music"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "free",
+            "music",
+            "pandora"
+        ],
+        "icon": {
+            "icon": "music",
+            "color": "#224299"
+        }
     }
 }

@@ -123,7 +123,7 @@
     "mycroft-audio-record": {
         "skill_gid": "mycroft-audio-record|20.08",
         "repo": "https://github.com/MycroftAI/skill-audio-record",
-        "tree": "048fe123aac6a161fc4d4b252551f1d00cd565c7",
+        "tree": "501a960d7957c83f340c58de4d25301ddb85ea51",
         "name": "mycroft-audio-record",
         "github_username": "mycroftai",
         "title": "Audio Recorder",
@@ -369,7 +369,7 @@
     "mycroft-ip": {
         "skill_gid": "mycroft-ip|20.08",
         "repo": "https://github.com/MycroftAI/skill-ip",
-        "tree": "88298d678eca8ee096c09be6db263cced736a95a",
+        "tree": "0e836fb98d8113475c808c64bc10424e8436d5ef",
         "name": "mycroft-ip",
         "github_username": "mycroftai",
         "title": "Device IP Address",

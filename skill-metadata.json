@@ -287,7 +287,7 @@
     "mycroft-hello-world": {
         "skill_gid": "mycroft-hello-world|20.08",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
-        "tree": "4eda2b92760d9209318c5acc04e40395d013eea1",
+        "tree": "5886a2cc7854434630ef49561a6ab2094aec27b2",
         "name": "mycroft-hello-world",
         "github_username": "mycroftai",
         "title": "Hello World",
@@ -526,7 +526,7 @@
     "mycroft-naptime": {
         "skill_gid": "mycroft-naptime|20.08",
         "repo": "https://github.com/MycroftAI/skill-naptime",
-        "tree": "8493bc4fe2bb318fe249b9f205fc0de0a0b317e7",
+        "tree": "e7cc937918cc09c1781fc3b09c0bf5685eafc137",
         "name": "mycroft-naptime",
         "github_username": "mycroftai",
         "title": "Naptime",

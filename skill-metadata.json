@@ -728,7 +728,7 @@
     "mycroft-reminder": {
         "skill_gid": "mycroft-reminder|20.08",
         "repo": "https://github.com/MycroftAI/skill-reminder",
-        "tree": "fac728d103e51612f110187a10da236126ca2677",
+        "tree": "b9ef4a93cbf90e1b4c474f0f6ef93bcabd30cf24",
         "name": "mycroft-reminder",
         "github_username": "mycroftai",
         "title": "Set reminders",

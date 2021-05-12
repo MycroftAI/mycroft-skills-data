@@ -804,7 +804,7 @@
     "mycroft-speak": {
         "skill_gid": "mycroft-speak|20.08",
         "repo": "https://github.com/MycroftAI/skill-speak",
-        "tree": "9d132ea546f56d3c4292b332592c5d6dadb99151",
+        "tree": "6fb04f592950562e700d314f2b34bcbf1754d964",
         "name": "mycroft-speak",
         "github_username": "mycroftai",
         "title": "Speak",

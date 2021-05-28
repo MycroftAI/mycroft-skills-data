@@ -2429,7 +2429,7 @@
     "mycroft-mark-2": {
         "skill_gid": "mycroft-mark-2|21.02",
         "repo": "https://github.com/MycroftAI/skill-mark-2",
-        "tree": "0d1e39d6c23d2825f2742a08125dd6d06683c3b1",
+        "tree": "c7610107f593955cc5c090b81791f007b9ec58a9",
         "name": "mycroft-mark-2",
         "github_username": "mycroftai",
         "title": "Mycroft Mark 2",

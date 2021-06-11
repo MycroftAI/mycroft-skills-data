@@ -3021,5 +3021,46 @@
             "icon": "music",
             "color": "#224299"
         }
+    },
+    "camera": {
+        "skill_gid": "camera|21.02",
+        "repo": "https://github.com/MycroftAI/skill-camera",
+        "tree": "6baee1f142bca76e167b70ce4ff148157ad4cf87",
+        "name": "camera",
+        "github_username": "MycroftAI",
+        "title": "Camera Skill",
+        "display_name": "Camera Skill",
+        "short_desc": "Take photo's",
+        "description": "Take singleshot photographs with the Camera Skill.",
+        "examples": [
+            "Take a selfie.",
+            "Take a photograph.",
+            "Open the camera.",
+            "Start the camera app."
+        ],
+        "credits": [
+            {
+                "name": "Aix",
+                "github_id": "aiix"
+            }
+        ],
+        "categories": [
+            "Media"
+        ],
+        "platforms": [
+            "platform_mark2",
+            "platform_plasmoid"
+        ],
+        "tags": [
+            "Camera",
+            "Photograph",
+            "Images",
+            "Media",
+            "GUI"
+        ],
+        "icon": {
+            "icon": "camera-retro",
+            "color": "#DB4040"
+        }
     }
 }

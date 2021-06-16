@@ -81,7 +81,7 @@
     "mycroft-alarm": {
         "skill_gid": "mycroft-alarm|20.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
-        "tree": "f17d68d8ac84ab2c485eb72568b6bdeddeda37e0",
+        "tree": "33ed8fab32204b6d66d4693f6a28b3075ef46fb8",
         "name": "mycroft-alarm",
         "github_username": "mycroftai",
         "title": "Set alarms",
@@ -163,7 +163,7 @@
     "mycroft-configuration": {
         "skill_gid": "mycroft-configuration|20.02",
         "repo": "https://github.com/MycroftAI/skill-configuration",
-        "tree": "cb7eb2e9763eb3f52282000c91d75a521e58ab90",
+        "tree": "5c5193cb762676928d4bc5c7924f396efdd10087",
         "name": "mycroft-configuration",
         "github_username": "mycroftai",
         "title": "Device Configuration",
@@ -205,7 +205,7 @@
     "mycroft-date-time": {
         "skill_gid": "mycroft-date-time|20.02",
         "repo": "https://github.com/MycroftAI/skill-date-time",
-        "tree": "2b9bceb28f9d725032e882c8d738652e8af8e909",
+        "tree": "0aedbc6d8f660f83d97d4634ba6b423a4064e57a",
         "name": "mycroft-date-time",
         "github_username": "mycroftai",
         "title": "Date and Time",
@@ -325,7 +325,7 @@
     "mycroft-installer": {
         "skill_gid": "mycroft-installer|20.02",
         "repo": "https://github.com/MycroftAI/skill-installer",
-        "tree": "15d7cae35650370c28261e24ffd8ca9f91e891f8",
+        "tree": "4fcee469974b581393e53fd2618d7121b63db2b7",
         "name": "mycroft-installer",
         "github_username": "mycroftai",
         "title": "Installer",
@@ -410,7 +410,7 @@
     "mycroft-joke": {
         "skill_gid": "mycroft-joke|20.02",
         "repo": "https://github.com/MycroftAI/skill-joke",
-        "tree": "c5b4fcd95bc7aa0fa57fe3a06c9169c1f7ff7981",
+        "tree": "c796553722f8b76239900e482e4a2aa378d8660c",
         "name": "mycroft-joke",
         "github_username": "mycroftai",
         "title": "Jokes",
@@ -485,7 +485,7 @@
     "mycroft-mark-1": {
         "skill_gid": "mycroft-mark-1|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-mark-1",
-        "tree": "e099be4fad58b0fc06b8967d0567a0d206e31b8d",
+        "tree": "3e3335ecaa1bac9cecd0a8e0e18d45ac54271d68",
         "name": "mycroft-mark-1",
         "github_username": "MycroftAI",
         "title": "Mycroft Mark 1",
@@ -526,7 +526,7 @@
     "mycroft-naptime": {
         "skill_gid": "mycroft-naptime|20.02",
         "repo": "https://github.com/MycroftAI/skill-naptime",
-        "tree": "8493bc4fe2bb318fe249b9f205fc0de0a0b317e7",
+        "tree": "3435fa442285185a2eb01fbe9b774ed419e73ff8",
         "name": "mycroft-naptime",
         "github_username": "mycroftai",
         "title": "Naptime",
@@ -566,7 +566,7 @@
     "mycroft-npr-news": {
         "skill_gid": "mycroft-npr-news|20.02",
         "repo": "https://github.com/MycroftAI/skill-npr-news",
-        "tree": "f34e8484dcc1a8c3d42b5bd3a4f58c771c0c1271",
+        "tree": "d1f4ce9fdfa7b7276ec9a0be6ecd6ec75ff50b03",
         "name": "mycroft-npr-news",
         "github_username": "mycroftai",
         "title": "Latest news",
@@ -605,7 +605,7 @@
     "mycroft-pairing": {
         "skill_gid": "mycroft-pairing|20.02",
         "repo": "https://github.com/MycroftAI/skill-pairing",
-        "tree": "bcf0908bb3b35014fcfa104f29792b7fa2a9d2f8",
+        "tree": "12541f705ac8451c56252ec766cbc25e6fb48cfa",
         "name": "mycroft-pairing",
         "github_username": "mycroftai",
         "title": "Pairing",
@@ -682,7 +682,7 @@
     "mycroft-playback-control": {
         "skill_gid": "mycroft-playback-control|20.02",
         "repo": "https://github.com/MycroftAI/skill-playback-control",
-        "tree": "445b809835a0b0bda185aa985f8094f1b5b498e2",
+        "tree": "f27ab11efc80cfeb556baf420e83bcd4c31b412f",
         "name": "mycroft-playback-control",
         "github_username": "mycroftai",
         "title": "Playback Control",
@@ -766,7 +766,7 @@
     "mycroft-singing": {
         "skill_gid": "mycroft-singing|20.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
-        "tree": "5daa788263b3c278fb10c1e07db5b1c77ec552f5",
+        "tree": "ab81b2b8e83239e5c34b1577f8e391aa07d00588",
         "name": "mycroft-singing",
         "github_username": "mycroftai",
         "title": "Singing",
@@ -884,8 +884,8 @@
         "github_username": "forslund",
         "title": "Play Spotify",
         "display_name": "Play Spotify",
-        "short_desc": "Listen to music from your Spotify Premium music account",
-        "description": "Stream your favorite music from the popular Spotify music service. Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### API connection to your Spotify account\nAfter installing `mycroft-spotify`, in your [Skill\nsettings for Spotify](https://home.mycroft.ai/#/skill) in home.mycroft.ai you will see settings for the Spotify Skill. You will see a username and password field and a 'Connect' button. Ignore the username and password field for now, and click the 'Connect' button. You will be prompted to log in to Spotify, and to authorize Mycroft AI to use your Spotify account using OAuth. This allows Mycroft access to your account details such as Playlists.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spot-ify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
+        "short_desc": "Listen to music from your Spotify Premium music account.  **Spotify has disabled the API access for the skill, you will need to create your own. Instructions below.**  To use this skill currently you will need to create your own application using [The Spotify developer dashboard](https://developer.spotify.com/dashboard/) due to Spotify policy (see *Spotify Authentication reason* for some details). Detailed instructions are available below under *Personal Access Token*.  Listen to music from your Spotify Premium music account",
+        "description": "Stream your favorite music from the popular Spotify music service. Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### This skill doesn't do any playback\nThis skill works with the Spotify Connect protocol to interact with Spotify devices, but doesn't perform any playback itself. If you want playback on the hosting Mycroft device, you'll need to set up a player yourself.\n\nFor Picroft users, [raspotify](https://github.com/dtcooper/raspotify) is a good choice.\n\nInstall it and then make changes to `/etc/default/raspotify.conf` as follows\n\n- It is recommended to set the DEVICE_NAME to the name of the Mycroft unit (as registered at home.mycroft.ai) for automatic identification:\n\n`DEVICE_NAME=\"<My Mycroft Unit>\"\n\n- set your Spotify username and password under `OPTIONS`\n\n`OPTIONS=\"--username <My Username> --password <My Password>\"`\n\n\nYou make sound work with raspotify you may need to edit `/lib/systemd/system/raspotify.service` and there change `User` and `Group` from `raspotify`to `pi`.\n\n\nFor desktop users the official spotify player works well.\n\nThe exception to this is the Mark-1 which is shipped with a spotify player library.\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### Personal Access Token\n\n##### Creating access token\nFrom the [Spotify developer dashboard](https://developer.spotify.com/dashboard/)\n\n1. Click \"CREATE AN APP\"\n1. Fill out the create application form\n1. Click on the new app and choose EDIT SETTINGS\n1. Under Redirect URIs add `https://localhost:8888`\n\nMore info can be found [here](https://developer.spotify.com/documentation/general/guides/app-settings/).\n\n##### Connecting spotify skill\nAfter installing `mycroft-spotify`, from the mycroft-core folder run the auth.py script in the mycroft-spotify folder\n\n```\nsource venv-activate.sh\npython /opt/mycroft/skills/mycroft-spotify.forslund/auth.py\n```\n\nThe script will try to guide you through connecting a developer account to the skill and store the credentials locally.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spotify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
         "examples": [
             "What Spotify devices are available?",
             "Play discover weekly.",
@@ -917,7 +917,7 @@
     "mycroft-stock": {
         "skill_gid": "mycroft-stock|20.02",
         "repo": "https://github.com/MycroftAI/skill-stock",
-        "tree": "d65028c0e3b1b54a226ddf9a85e06ddd7580870c",
+        "tree": "cc22555bcb7fb147ddfed0c01408d200df2bbdec",
         "name": "mycroft-stock",
         "github_username": "mycroftai",
         "title": "Stock Prices",
@@ -1029,7 +1029,7 @@
     "mycroft-timer": {
         "skill_gid": "mycroft-timer|20.02",
         "repo": "https://github.com/MycroftAI/mycroft-timer",
-        "tree": "4357156e705222b4b3eb15e16db98997354b00a1",
+        "tree": "6f3d3392864238fe9e6e55fdf71572f56bcfa908",
         "name": "mycroft-timer",
         "github_username": "mycroftai",
         "title": "Timer",
@@ -1070,23 +1070,31 @@
     "mycroft-weather": {
         "skill_gid": "mycroft-weather|20.02",
         "repo": "https://github.com/MycroftAI/skill-weather",
-        "tree": "93bdd8c2f91033ea3f4a09fc992083f1d9f19e28",
+        "tree": "a48db3b87508fe7dd88ec7ac600ccf6d0bf22b43",
         "name": "mycroft-weather",
         "github_username": "mycroftai",
         "title": "Weather",
         "display_name": "Weather",
-        "short_desc": "Weather conditions and forecasts",
-        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default it will tell\nyou about your default location, or you can ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nFor **enclosures** with screen support, conditions are briefly shown using visemes.\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences set in your [https://home.mycroft.ai](https://home.mycroft.ai) account.",
+        "short_desc": "Weather conditions and forecasts  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default, it will tell\nyou about your device's configured location. You can also ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences\nset in your [https://home.mycroft.ai](https://home.mycroft.ai) account.  You can ask\nspecifically for a unit that differs from your configuration.",
         "examples": [
             "What is the weather?",
-            "What is the forecast tomorrow?",
-            "What is the weather going to be like Tuesday?",
             "What is the weather in Houston?",
+            "What is the forecast tomorrow?",
+            "What is the forecast in London tomorrow?",
+            "What is the weather going to be like Tuesday?",
+            "What is the weather for the next three days?",
+            "What is the weather this weekend?",
+            "What's the temperature?",
+            "What's the temperature in Paris tomorrow in Celsius?",
+            "What's the high temperature tomorrow?",
+            "Will it be cold on Tuesday.",
             "When will it rain next?",
             "How windy is it?",
             "What's the humidity?",
             "Is it going to snow?",
-            "What's the temperature?"
+            "Is it going to snow in Baltimore?",
+            "When is the sunset?"
         ],
         "credits": [
             {
@@ -1155,7 +1163,7 @@
     "mycroft-wiki": {
         "skill_gid": "mycroft-wiki|20.02",
         "repo": "https://github.com/MycroftAI/skill-wiki",
-        "tree": "12d5833e7d98eccccbafd5037cda09c0a879ae68",
+        "tree": "7e6f83fca167793df98259ae9480827c2bbafc2c",
         "name": "mycroft-wiki",
         "github_username": "mycroftai",
         "title": "Wikipedia",
@@ -1200,7 +1208,7 @@
     "mycroft-volume": {
         "skill_gid": "mycroft-volume|20.02",
         "repo": "https://github.com/MycroftAI/skill-volume",
-        "tree": "5777b2e57928247cf24d96267e55c123c5aa651c",
+        "tree": "a5aaf928de334fa340a7126b81d93becaf99d724",
         "name": "mycroft-volume",
         "github_username": "mycroftai",
         "title": "Volume Control",
@@ -1239,7 +1247,7 @@
     },
     "mycroft-pandora": {
         "skill_gid": "mycroft-pandora|20.02",
-        "repo": "https://github.com/MycroftAI/pianobar-skill",
+        "repo": "https://github.com/MycroftAI/skill-pandora",
         "tree": "16875241376e51aeb87c9dee1115d58e46ae779d",
         "name": "mycroft-pandora",
         "github_username": "MycroftAI",
@@ -1280,7 +1288,7 @@
     "mycroft-release-test": {
         "skill_gid": "mycroft-release-test|20.02",
         "repo": "https://github.com/MycroftAI/skill-release-test",
-        "tree": "695772127d21529d6d7a7a44fcd4ebf6df894757",
+        "tree": "84559d397a7c7654a8d2463a2480501026054721",
         "name": "mycroft-release-test",
         "github_username": "mycroftai",
         "title": "Release Test",
@@ -1349,7 +1357,7 @@
     "fallback-query": {
         "skill_gid": "fallback-query|20.02",
         "repo": "https://github.com/MycroftAI/skill-query",
-        "tree": "73386e110e00f0115c9daaeaa0ba9afbdd8ae8b0",
+        "tree": "8122f664ea5faf4e8dc07208188f1fbfcbce139b",
         "name": "fallback-query",
         "github_username": "MycroftAI",
         "title": "Query",
@@ -1384,7 +1392,7 @@
     "mycroft-wink-iot": {
         "skill_gid": "mycroft-wink-iot|20.02",
         "repo": "https://github.com/MycroftAI/skill-wink-iot",
-        "tree": "9ba66d93ab86891a56ccd3dedee1dfaebc229847",
+        "tree": "e187123911506af105a68b2063408858b42e976d",
         "name": "mycroft-wink-iot",
         "github_username": "MycroftAI",
         "title": "Wink IoT",
@@ -1624,7 +1632,7 @@
     "email-skill": {
         "skill_gid": "email-skill|20.02",
         "repo": "https://github.com/LinusS1/email-skill",
-        "tree": "198e0bce1c182a06d6d8503bebc26f0924d391f3",
+        "tree": "5e60cd116f1f8ac269e2b56d42b5c73f1d2899e4",
         "name": "email-skill",
         "github_username": "linuss1",
         "title": "Email",
@@ -1676,7 +1684,8 @@
             "Play Dance Gavin Dance From Emby.",
             "Play Artist Thrice From Emby.",
             "Play Album Deadweight From Emby.",
-            "Play Playlist Rockin Tunes From Emby."
+            "Play Playlist Rockin Tunes From Emby.",
+            "Play Song Stitch From Emby."
         ],
         "credits": [
             {
@@ -1811,7 +1820,7 @@
     },
     "homeassistant": {
         "skill_gid": "homeassistant|20.02",
-        "repo": "https://github.com/MycroftAI/mycroft-homeassistant",
+        "repo": "https://github.com/MycroftAI/skill-homeassistant",
         "tree": "985c4013205d0ef3a55fc7aa3859f52cf1796e9b",
         "name": "homeassistant",
         "github_username": "MycroftAI",
@@ -1849,7 +1858,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/mycroft-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/MycroftAI/skill-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|20.02",
@@ -2132,8 +2141,7 @@
         "description": "Laugh randomly or when requested, gender configurable on home.mycroft.ai.",
         "examples": [
             "Laugh like Alexa.",
-            "Random laughter.",
-            "Do the evil laugh."
+            "Can you laugh."
         ],
         "credits": [
             {
@@ -2158,10 +2166,7 @@
             "entertainment",
             "repeating"
         ],
-        "icon": {
-            "icon": "laugh",
-            "color": "#40DBB0"
-        }
+        "icon_img": "https://raw.githubusercontent.com/JarbasSkills/skill-laugh/f8e06afcbbda1eb574905068ebe0fcd4d0792178/./res/icon/laugh_icon.png"
     },
     "auto-volume": {
         "skill_gid": "auto-volume|20.02",
@@ -2205,8 +2210,8 @@
         "github_username": "luke5sky",
         "title": "Telegram",
         "display_name": "Telegram",
-        "short_desc": "A skill to connect a telegram bot to MyCroft",
-        "description": "You need to create a telegram bot (via BotFather) and save the Bot Token, your ChatID and your MyCroft Device name on home.mycroft.ai under skill settings.\nAfter this restart your MyCroft Unit.\nYou can now commmunicate with your MyCroft Unit via this bot.\n\nSettings:\n- BOT TOKEN (MANDATORY): Your bot token you got from BotFather\n- MYCROFT DEVICE NAME (MANDATORY): Your Device name you configured on home.mycroft.ai - Devices - Registered Devices\n- BOT TOKEN SECOND MYCROFT DEVICE (OPTIONAL): If you have a second Mycroft Device and you want to use this skill with it -> put your second bot token here (it has to be an other bot than the first one because telegram only allows one device to get updates from one bot)\n- SECOND MYCROFT DEVICE NAME (IF YOU HAVE A SECOND DEVICE): Your Device name from your second Device you configured on home.mycroft.ai - Devices - Registered Devices\n- USERNAME 1 (OPTIONAL): You do not need to put anything here, the skill does not use this field. It is only for yourself to know which Chat ID belongs to whom\n- CHAT ID 1 (MANDATORY): You will get your Chat ID from the Telegram-Skill if you have configured BOT TOKEN (first field) and MYCROFT DEVICE NAME, saved and then write anything to the bot.\n- USERNAME 2 (OPTIONAL): For second User if you have one\n- CHAT ID 2 (IF YOU HAVE A SECOND USER): Same as CHAT ID 1 with Telegram-Account of second user\n\nDetailed HowTo:\n\n- Install this skill on your Mycroft Device\n\n- Create a telegram bot:\nOpen Telegram App on your smartphone, click on the search symbol in the upper right corner<br/>\nSearch for BotFather and click on it<br/>\nNow type /newbot hit enter<br/>\nBotfather should reply with: Alright, a new bot. How are we going to call it? please chosse a name for your bot.<br/>\nGive your bot a displayname like Mycroft<br/>\nBotfather should reply with: Good. Now let's choose a username for your bot. It must end in bot. Like this, for example: TetrisBot or tetris-bot.<br/>\nGive your bot unique username like lukesmycroftbot<br/>\nBotfather should now give you your token for this bot<br/>\nSave this token and don't post it online or send it to people, safety first!<br/>\n\nTelegram documentation on botfather: https://core.telegram.org/bots#6-botfather\n\n- Go to home.mycroft.ai - skills and search for the telegram-skills settings\n\n- Copy/paste your token botfather gave you in the field BOT TOKEN (MANDATORY)\n\n- Copy/paste your device name from home.mycroft.ai - devices in MYCROFT DEVICE NAME (MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- Open Telegram App on your smartphone and search (upper right corner) for your bot (username or displayname) click on it and write test or hello to your bot\nIt should respond with: This is your ChatID: YOURCHATID\n\n- Copy/paste this under CHAT ID 1 (MANDATORY)\n\n- reboot your device to trigger the sync\n\n- Your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use.",
+        "short_desc": "A skill to control your Mycroft instance through a TelegramBot",
+        "description": "You need to create a telegram bot (via BotFather) and save the Bot Token, your ChatID and your MyCroft Device name on home.mycroft.ai under skill settings.\nYou can now commmunicate with your MyCroft Unit via this bot.\n\nSettings:\n- BOT TOKEN (MANDATORY): Your bot token you got from BotFather\n- DEVICE NAME (CASE SENSITIVE | MANDATORY): Your Device name you configured on home.mycroft.ai - Devices - Registered Devices\n- BOT TOKEN SECOND MYCROFT DEVICE (OPTIONAL): If you have a second Mycroft Device and you want to use this skill with it -> put your second bot token here (it has to be an other bot than the first one because telegram only allows one device to get updates from one bot)\n- SECOND MYCROFT DEVICE NAME (IF YOU HAVE A SECOND DEVICE): Your Device name from your second Device you configured on home.mycroft.ai - Devices - Registered Devices\n- PRIMARY USERNAME (OPTIONAL): You do not need to put anything here, the skill does not use this field. It is only for yourself to know which Chat ID belongs to whom\n- PRIMARY CHAT ID (MANDATORY): You will get your Chat ID from the Telegram-Skill if you have configured BOT TOKEN (first field) and DEVICE NAME, saved and then write anything to the bot.\n- SECOND USERNAME (OPTIONAL): For second User if you have one\n- SECOND CHAT ID (IF YOU HAVE A SECOND USER): Same as PRIMARY CHAT ID with Telegram-Account of second user\n\nDetailed HowTo:\n\n- Install this skill on your Mycroft Device\n\n- Create a telegram bot:\nOpen Telegram App on your smartphone, click on the search symbol in the upper right corner<br/>\nSearch for BotFather and click on it<br/>\nNow type /newbot hit enter<br/>\nBotfather should reply with: Alright, a new bot. How are we going to call it? please chosse a name for your bot.<br/>\nGive your bot a displayname like Mycroft<br/>\nBotfather should reply with: Good. Now let's choose a username for your bot. It must end in bot. Like this, for example: TetrisBot or tetris-bot.<br/>\nGive your bot unique username like lukesmycroftbot<br/>\nBotfather should now give you your token for this bot<br/>\nSave this token and don't post it online or send it to people, safety first!<br/>\n\nTelegram documentation on botfather: https://core.telegram.org/bots#6-botfather\n\n- Go to home.mycroft.ai - skills and search for the telegram-skills settings\n\n- Copy/paste your token botfather gave you in the field BOT TOKEN (MANDATORY)\n\n- Copy/paste your device name from home.mycroft.ai - devices in DEVICE NAME (CASE SENSITIVE | MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- Open Telegram App on your smartphone and search (upper right corner) for your bot (username or displayname) click on it and write test or hello to your bot\nIt should respond with: This is your ChatID: YOURCHATID\n\n- Copy/paste this under PRIMARY CHAT ID (MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- On every reboot your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use.",
         "examples": [],
         "credits": [
             {
@@ -2227,7 +2232,7 @@
             "telegram-bot"
         ],
         "icon": {
-            "icon": "telegram-plane",
+            "icon": "paper-plane",
             "color": "#0088CC"
         }
     },
@@ -2831,7 +2836,7 @@
     "dismissal-skill": {
         "skill_gid": "dismissal-skill|20.02",
         "repo": "https://github.com/ChanceNCounter/dismissal-skill",
-        "tree": "5572b6c89039d7dc2f640d81dfea31ece68c8f5f",
+        "tree": "d2233875e934b36633f3accbec822573593caf04",
         "name": "dismissal-skill",
         "github_username": "ChanceNCounter",
         "title": "Dismissal",
@@ -3022,47 +3027,5 @@
             "icon": "lightbulb",
             "color": "#440099"
         }
-    },
-    "myepisodes": {
-        "skill_gid": "myepisodes|20.02",
-        "repo": "https://github.com/brezuicabogdan/myepisodes-skill",
-        "tree": "4f338b91d32bc0ddc57a582b8aabf56863002bcd",
-        "name": "myepisodes",
-        "github_username": "brezuicabogdan",
-        "title": "Myepisodes",
-        "display_name": "Myepisodes",
-        "short_desc": "Check the status of your [myepisodes.com](http://www.myepisodes.com) show list",
-        "description": "You will be able to ask mycroft to check the status of your shows list handled by [myepisodes.com](http://www.myepisodes.com).\n\nmycroft will be able to give you the number of episodes not acquired and optionally the number of episodes acquired but not watched.\n\nalso you will be able to find out the unacquired seasons and episdes numbers.",
-        "examples": [
-            "Check my episodes.",
-            "Any new episodes.",
-            "Check tv shows.",
-            "Any new episodes.",
-            "Anything new on my episodes."
-        ],
-        "credits": [
-            {
-                "name": "Bogdan Brezuica",
-                "github_id": "brezuicabogdan"
-            }
-        ],
-        "categories": [
-            "Information",
-            "Entertainment",
-            "Media",
-            "Series",
-            "Tv",
-            "shows"
-        ],
-        "platforms": [
-            "all"
-        ],
-        "tags": [
-            "Tv",
-            "Episodes",
-            "Myepisodes.com",
-            "Myepisodes",
-            "Series"
-        ]
     }
 }

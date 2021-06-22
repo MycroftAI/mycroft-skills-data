@@ -1075,18 +1075,26 @@
         "github_username": "mycroftai",
         "title": "Weather",
         "display_name": "Weather",
-        "short_desc": "Weather conditions and forecasts",
-        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default it will tell\nyou about your default location, or you can ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nFor **enclosures** with screen support, conditions are briefly shown using visemes.\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences set in your [https://home.mycroft.ai](https://home.mycroft.ai) account.",
+        "short_desc": "Weather conditions and forecasts  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default, it will tell\nyou about your device's configured location. You can also ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences\nset in your [https://home.mycroft.ai](https://home.mycroft.ai) account.  You can ask\nspecifically for a unit that differs from your configuration.",
         "examples": [
             "What is the weather?",
-            "What is the forecast tomorrow?",
-            "What is the weather going to be like Tuesday?",
             "What is the weather in Houston?",
+            "What is the forecast tomorrow?",
+            "What is the forecast in London tomorrow?",
+            "What is the weather going to be like Tuesday?",
+            "What is the weather for the next three days?",
+            "What is the weather this weekend?",
+            "What's the temperature?",
+            "What's the temperature in Paris tomorrow in Celsius?",
+            "What's the high temperature tomorrow?",
+            "Will it be cold on Tuesday.",
             "When will it rain next?",
             "How windy is it?",
             "What's the humidity?",
             "Is it going to snow?",
-            "What's the temperature?"
+            "Is it going to snow in Baltimore?",
+            "When is the sunset?"
         ],
         "credits": [
             {
@@ -1392,7 +1400,7 @@
     "game-zork": {
         "skill_gid": "game-zork|21.02",
         "repo": "https://github.com/forslund/white-house-adventure",
-        "tree": "6eba5df187bc8a7735b05e93a28a6390b8c6f40c",
+        "tree": "ab01cc5abf6b1989812638be377839cebd01971d",
         "name": "game-zork",
         "github_username": "forslund",
         "title": "Zork",
@@ -1401,6 +1409,7 @@
         "description": "Zork is one of the classic text based adventure games from an era before high-end graphics circuits, instead it runs on the graphics hardware of your mind!\n\nExplore the white house, the forest surrounding it and the hidden kingdom below it. Moving this from the text domain to the voice domain makes for a curiously engaging experience and if nothing else a fun couple of minutes.\n\nThe skill utilizes the excellent Frotz (http://frotz.sourceforge.net/) Z-Machine interpreter and the Zork data files are from infocom-if (http://infocom-if.org/index2.html).\n\n*Be ware of Grues....*",
         "examples": [
             "Play zork.",
+            "Go to the white house.",
             "Quit zork.",
             "Open mailbox."
         ],
@@ -3061,6 +3070,45 @@
         "icon": {
             "icon": "camera-retro",
             "color": "#DB4040"
+        }
+    },
+    "homescreen": {
+        "skill_gid": "homescreen|21.02",
+        "repo": "https://github.com/MycroftAI/skill-homescreen",
+        "tree": "b72800a2dd3518029541e092d49c1971f3ef56b6",
+        "name": "homescreen",
+        "github_username": "MycroftAI",
+        "title": "Homescreen",
+        "display_name": "Homescreen",
+        "short_desc": "A configurable homescreen",
+        "description": "Homescreen provides a default display for Mycroft devices with a rich display such as the Mark II.\n\nBy default, the current time and date will be shown. Additional widgets can be activated to display other content such as the current weather.\n\nThe wallpaper may be changed randomly or a custom image can be defined in the Skill settings.",
+        "examples": [
+            "Change the wallpaper."
+        ],
+        "credits": [
+            {
+                "name": "* AIX",
+                "github_id": "AIIX"
+            },
+            {
+                "name": "* Mycroft AI"
+            }
+        ],
+        "categories": [
+            "Configuration"
+        ],
+        "platforms": [
+            "platform_mark2"
+        ],
+        "tags": [
+            "display",
+            "gui",
+            "wallpaper",
+            "homescreen"
+        ],
+        "icon": {
+            "icon": "home",
+            "color": "#22A7F0"
         }
     }
 }

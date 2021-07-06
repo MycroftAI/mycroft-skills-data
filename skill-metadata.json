@@ -1400,7 +1400,7 @@
     "game-zork": {
         "skill_gid": "game-zork|21.02",
         "repo": "https://github.com/forslund/white-house-adventure",
-        "tree": "ab01cc5abf6b1989812638be377839cebd01971d",
+        "tree": "80f65b9df262bb4b28c62e416faacc44e304e076",
         "name": "game-zork",
         "github_username": "forslund",
         "title": "Zork",

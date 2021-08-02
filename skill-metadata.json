@@ -766,7 +766,7 @@
     "mycroft-singing": {
         "skill_gid": "mycroft-singing|21.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
-        "tree": "d181225474d5ad4c63a5dabf4ed1ad1300ac7212",
+        "tree": "3cfd5007ac2b0c728bb5557ca68a99eea20e818f",
         "name": "mycroft-singing",
         "github_username": "mycroftai",
         "title": "Singing",
@@ -917,7 +917,7 @@
     "mycroft-stop": {
         "skill_gid": "mycroft-stop|21.02",
         "repo": "https://github.com/MycroftAI/skill-stop",
-        "tree": "e33d0c8ac8d276bd06aefa6ff67ef6de76909759",
+        "tree": "e28d571f909fd8892fa52064665e9e0ec38de4f8",
         "name": "mycroft-stop",
         "github_username": "mycroftai",
         "title": "System",

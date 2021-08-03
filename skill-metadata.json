@@ -1033,7 +1033,7 @@
     "mycroft-weather": {
         "skill_gid": "mycroft-weather|21.02",
         "repo": "https://github.com/MycroftAI/skill-weather",
-        "tree": "b0194125e2e03d010949ed6c89a8cf9ce7931141",
+        "tree": "b7a4984b457bb9a800de4ec1aa2d5265d540a9b7",
         "name": "mycroft-weather",
         "github_username": "mycroftai",
         "title": "Weather",

@@ -1034,7 +1034,7 @@
         "github_username": "mycroftai",
         "title": "Timer",
         "display_name": "Timer",
-        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more",
+        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more.  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
         "description": "Use Mycroft when your hands are messy or you need more that the one timer in your kitchen.  Multiple timers are easy to set and track with conversational interactions.\n\nOn a Mark 1 you'll see visual feedback as the timer runs, and you can use\nthe top button to stop the beeping once a timer expires.",
         "examples": [
             "Start a timer for 30 seconds.",

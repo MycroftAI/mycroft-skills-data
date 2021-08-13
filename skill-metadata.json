@@ -248,7 +248,7 @@
     "mycroft-fallback-duck-duck-go": {
         "skill_gid": "mycroft-fallback-duck-duck-go|21.02",
         "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
-        "tree": "0b9e3c7d0786621d2847ba77d5e4d492f0139531",
+        "tree": "7228afa108b504fc8e818f2c4e37209be8f4aa0d",
         "name": "mycroft-fallback-duck-duck-go",
         "github_username": "mycroftai",
         "title": "DuckDuckGo",
@@ -997,7 +997,7 @@
         "github_username": "mycroftai",
         "title": "Timer",
         "display_name": "Timer",
-        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more",
+        "short_desc": "Set named timers for cooking, watering plants, brewing tea and more.  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
         "description": "Use Mycroft when your hands are messy or you need more that the one timer in your kitchen.  Multiple timers are easy to set and track with conversational interactions.\n\nOn a Mark 1 you'll see visual feedback as the timer runs, and you can use\nthe top button to stop the beeping once a timer expires.",
         "examples": [
             "Start a timer for 30 seconds.",

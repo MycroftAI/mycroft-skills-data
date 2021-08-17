@@ -81,7 +81,7 @@
     "mycroft-alarm": {
         "skill_gid": "mycroft-alarm|21.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
-        "tree": "745e139219d41c6b15d53f3776033afedbe06b10",
+        "tree": "25ecc0261abee644257a81f20f020bb92f462970",
         "name": "mycroft-alarm",
         "github_username": "mycroftai",
         "title": "Set alarms",
@@ -913,6 +913,43 @@
             "music"
         ],
         "icon_img": "https://rawcdn.githack.com/forslund/spotify-skill/05c19c0fba8a4af150c6eb8cf2e955d59ac83d15/Spotify_Icon.png"
+    },
+    "mycroft-stock": {
+        "skill_gid": "mycroft-stock|21.02",
+        "repo": "https://github.com/MycroftAI/skill-stock",
+        "tree": "",
+        "name": "mycroft-stock",
+        "github_username": "mycroftai",
+        "title": "Stock Prices",
+        "display_name": "Stock Prices",
+        "short_desc": "Provides current stock prices",
+        "description": "Using the [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) API, you can ask Mycroft to get the current price of stocks.",
+        "examples": [
+            "Stock price of Google.",
+            "Trading at Google."
+        ],
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "categories": [
+            "Information"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "stocks",
+            "stock-market",
+            "stock-prices",
+            "financial"
+        ],
+        "icon": {
+            "icon": "money-check-alt",
+            "color": "#85bb65"
+        }
     },
     "mycroft-stop": {
         "skill_gid": "mycroft-stop|21.02",
@@ -2992,86 +3029,6 @@
         "icon": {
             "icon": "music",
             "color": "#224299"
-        }
-    },
-    "camera": {
-        "skill_gid": "camera|21.02",
-        "repo": "https://github.com/MycroftAI/skill-camera",
-        "tree": "a52e306f99d6a4468f3998ae85196f52bbcdad73",
-        "name": "camera",
-        "github_username": "MycroftAI",
-        "title": "Camera Skill",
-        "display_name": "Camera Skill",
-        "short_desc": "Take photo's",
-        "description": "Take singleshot photographs with the Camera Skill.",
-        "examples": [
-            "Take a selfie.",
-            "Take a photograph.",
-            "Open the camera.",
-            "Start the camera app."
-        ],
-        "credits": [
-            {
-                "name": "Aix",
-                "github_id": "aiix"
-            }
-        ],
-        "categories": [
-            "Media"
-        ],
-        "platforms": [
-            "platform_mark2",
-            "platform_plasmoid"
-        ],
-        "tags": [
-            "Camera",
-            "Photograph",
-            "Images",
-            "Media",
-            "GUI"
-        ],
-        "icon": {
-            "icon": "camera-retro",
-            "color": "#DB4040"
-        }
-    },
-    "homescreen": {
-        "skill_gid": "homescreen|21.02",
-        "repo": "https://github.com/MycroftAI/skill-homescreen",
-        "tree": "b72800a2dd3518029541e092d49c1971f3ef56b6",
-        "name": "homescreen",
-        "github_username": "MycroftAI",
-        "title": "Homescreen",
-        "display_name": "Homescreen",
-        "short_desc": "A configurable homescreen",
-        "description": "Homescreen provides a default display for Mycroft devices with a rich display such as the Mark II.\n\nBy default, the current time and date will be shown. Additional widgets can be activated to display other content such as the current weather.\n\nThe wallpaper may be changed randomly or a custom image can be defined in the Skill settings.",
-        "examples": [
-            "Change the wallpaper."
-        ],
-        "credits": [
-            {
-                "name": "* AIX",
-                "github_id": "AIIX"
-            },
-            {
-                "name": "* Mycroft AI"
-            }
-        ],
-        "categories": [
-            "Configuration"
-        ],
-        "platforms": [
-            "platform_mark2"
-        ],
-        "tags": [
-            "display",
-            "gui",
-            "wallpaper",
-            "homescreen"
-        ],
-        "icon": {
-            "icon": "home",
-            "color": "#22A7F0"
         }
     }
 }

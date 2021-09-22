@@ -992,7 +992,7 @@
     "mycroft-timer": {
         "skill_gid": "mycroft-timer|21.02",
         "repo": "https://github.com/MycroftAI/mycroft-timer",
-        "tree": "464142d5aa646fd7f23c51fa6036b7a048726703",
+        "tree": "e69bb4119c37bb00aca27ada5c4944732d8a970c",
         "name": "mycroft-timer",
         "github_username": "mycroftai",
         "title": "Timer",
@@ -1033,7 +1033,7 @@
     "mycroft-weather": {
         "skill_gid": "mycroft-weather|21.02",
         "repo": "https://github.com/MycroftAI/skill-weather",
-        "tree": "711dd23d6c75801f24f78f8e51fc6f9e6e2047b1",
+        "tree": "4bb2385870c4117eb68a0ba4b450527cdc8a3767",
         "name": "mycroft-weather",
         "github_username": "mycroftai",
         "title": "Weather",

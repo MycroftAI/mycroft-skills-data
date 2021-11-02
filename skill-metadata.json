@@ -287,7 +287,7 @@
     "mycroft-hello-world": {
         "skill_gid": "mycroft-hello-world|21.02",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
-        "tree": "5886a2cc7854434630ef49561a6ab2094aec27b2",
+        "tree": "2b84a1ef6d9ea2bf697a6c90b1b227590e538d25",
         "name": "mycroft-hello-world",
         "github_username": "mycroftai",
         "title": "Hello World",
@@ -1033,7 +1033,7 @@
     "mycroft-weather": {
         "skill_gid": "mycroft-weather|21.02",
         "repo": "https://github.com/MycroftAI/skill-weather",
-        "tree": "4bb2385870c4117eb68a0ba4b450527cdc8a3767",
+        "tree": "fb5304b189547c55618f6ced64f9ab8164b22aa2",
         "name": "mycroft-weather",
         "github_username": "mycroftai",
         "title": "Weather",
@@ -1711,7 +1711,7 @@
         "title": "Home Assistant",
         "display_name": "Home Assistant",
         "short_desc": "Awaken your home - Control Home Assistant",
-        "description": "[Home Assistant](https://www.home-assistant.io/) lets you control all your smart devices in a single easy to use interface. This skill uses the open source Home Assistant's APIs to control devices and entities. Control your lights, garage door, thermostats and more using your voice!\n\nCurrently the following entity types are supported: `light`, `switch`, `scene`, `climate`, `groups` and `input_boolean`",
+        "description": "[Home Assistant](https://www.home-assistant.io/) lets you control all your smart devices in a single easy to use interface. This skill uses the open source Home Assistant's APIs to control devices and entities. Control your lights, garage door, thermostats and more using your voice!\n\nCurrently the following entity types are supported: `light`, `switch`, `scene`, `climate`, `groups`, `input_boolean`, `binary_sensor` and `cover`",
         "examples": [
             "Turn on the office light.",
             "Turn off bedroom lights.",

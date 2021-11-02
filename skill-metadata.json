@@ -2,7 +2,7 @@
     "fallback-unknown": {
         "skill_gid": "fallback-unknown|21.02",
         "repo": "https://github.com/MycroftAI/fallback-unknown",
-        "tree": "de219550beccaaccb9310b200943ed5a2b2dbaf2",
+        "tree": "05493156872d9affc98276b41fbc29398d3bc0df",
         "name": "fallback-unknown",
         "github_username": "mycroftai",
         "title": "Unknown Handler",
@@ -325,7 +325,7 @@
     "mycroft-installer": {
         "skill_gid": "mycroft-installer|21.02",
         "repo": "https://github.com/MycroftAI/skill-installer",
-        "tree": "cea3b98808aee400ece730dbdcd8957368d50983",
+        "tree": "88a01f0ee0785456ab41756cc6182846f975f6dc",
         "name": "mycroft-installer",
         "github_username": "mycroftai",
         "title": "Installer",
@@ -526,7 +526,7 @@
     "mycroft-naptime": {
         "skill_gid": "mycroft-naptime|21.02",
         "repo": "https://github.com/MycroftAI/skill-naptime",
-        "tree": "e7cc937918cc09c1781fc3b09c0bf5685eafc137",
+        "tree": "4c0b8a44070b87c8131fa65b577898fe0184646c",
         "name": "mycroft-naptime",
         "github_username": "mycroftai",
         "title": "Naptime",

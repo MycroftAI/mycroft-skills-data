@@ -248,7 +248,7 @@
     "mycroft-fallback-duck-duck-go": {
         "skill_gid": "mycroft-fallback-duck-duck-go|21.02",
         "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
-        "tree": "7228afa108b504fc8e818f2c4e37209be8f4aa0d",
+        "tree": "cb8a4e48fadd3fd0bcdba6db65d037f3fa902b08",
         "name": "mycroft-fallback-duck-duck-go",
         "github_username": "mycroftai",
         "title": "DuckDuckGo",
@@ -2401,7 +2401,7 @@
     "mycroft-mark-2": {
         "skill_gid": "mycroft-mark-2|21.02",
         "repo": "https://github.com/MycroftAI/skill-mark-2",
-        "tree": "8c2ea769c63c17652c057a965c180f8a5152c54f",
+        "tree": "02b9953524367512b55202ddae36dbad1591ee42",
         "name": "mycroft-mark-2",
         "github_username": "mycroftai",
         "title": "Mycroft Mark 2",

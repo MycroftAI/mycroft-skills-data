@@ -1087,7 +1087,7 @@
     "mycroft-version-checker": {
         "skill_gid": "mycroft-version-checker|21.02",
         "repo": "https://github.com/MycroftAI/skill-version-checker",
-        "tree": "0567c4540e274fe6e2b47371fb455877a1042ffe",
+        "tree": "1b04bbee3e7d6019aebb95ccc0333672ef3df01f",
         "name": "mycroft-version-checker",
         "github_username": "mycroftai",
         "title": "Version Checker",
@@ -1716,7 +1716,12 @@
             "Turn on the office light.",
             "Turn off bedroom lights.",
             "Turn on on the AC.",
-            "Read bedroom temperature."
+            "Read bedroom temperature.",
+            "Open the living room blinds.",
+            "Close the garage door.",
+            "Open Home Assistant.",
+            "What is the state of power plug bedroom?",
+            "Has water sensor detected moisture."
         ],
         "credits": [
             {
@@ -2401,7 +2406,7 @@
     "mycroft-mark-2": {
         "skill_gid": "mycroft-mark-2|21.02",
         "repo": "https://github.com/MycroftAI/skill-mark-2",
-        "tree": "02b9953524367512b55202ddae36dbad1591ee42",
+        "tree": "1cc16523cd8959bd45a6eec62a35784c69ad05bc",
         "name": "mycroft-mark-2",
         "github_username": "mycroftai",
         "title": "Mycroft Mark 2",

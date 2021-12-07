@@ -39,7 +39,7 @@
     "fallback-wolfram-alpha": {
         "skill_gid": "fallback-wolfram-alpha|21.02",
         "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
-        "tree": "b953b29991b0baf56ea448c495fbe88e51c1f586",
+        "tree": "10168fb3012862aa6cc064c5fa13e3411a150bb1",
         "name": "fallback-wolfram-alpha",
         "github_username": "mycroftai",
         "title": "Wolfram Alpha",
@@ -605,7 +605,7 @@
     "mycroft-pairing": {
         "skill_gid": "mycroft-pairing|21.02",
         "repo": "https://github.com/MycroftAI/skill-pairing",
-        "tree": "678894209f28c57655f5c98481b1f519155befae",
+        "tree": "05b6841494cbd62046e4a3d4988b11a407f5d995",
         "name": "mycroft-pairing",
         "github_username": "mycroftai",
         "title": "Pairing",
@@ -914,6 +914,43 @@
         ],
         "icon_img": "https://rawcdn.githack.com/forslund/spotify-skill/05c19c0fba8a4af150c6eb8cf2e955d59ac83d15/Spotify_Icon.png"
     },
+    "mycroft-stock": {
+        "skill_gid": "mycroft-stock|21.02",
+        "repo": "https://github.com/MycroftAI/skill-stock",
+        "tree": "",
+        "name": "mycroft-stock",
+        "github_username": "mycroftai",
+        "title": "Stock Prices",
+        "display_name": "Stock Prices",
+        "short_desc": "Provides current stock prices",
+        "description": "Using the [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) API, you can ask Mycroft to get the current price of stocks.",
+        "examples": [
+            "Stock price of Google.",
+            "Trading at Google."
+        ],
+        "credits": [
+            {
+                "name": "Mycroft AI",
+                "github_id": "MycroftAI"
+            }
+        ],
+        "categories": [
+            "Information"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "tags": [
+            "stocks",
+            "stock-market",
+            "stock-prices",
+            "financial"
+        ],
+        "icon": {
+            "icon": "money-check-alt",
+            "color": "#85bb65"
+        }
+    },
     "mycroft-stop": {
         "skill_gid": "mycroft-stop|21.02",
         "repo": "https://github.com/MycroftAI/skill-stop",
@@ -1211,7 +1248,7 @@
     "mycroft-release-test": {
         "skill_gid": "mycroft-release-test|21.02",
         "repo": "https://github.com/MycroftAI/skill-release-test",
-        "tree": "49154fc81fd75448fe63ac71e9ec5b67f8d8ede1",
+        "tree": "99e5ccdd0c1cf8f55dd5cf17f09bdc2920987350",
         "name": "mycroft-release-test",
         "github_username": "mycroftai",
         "title": "Release Test",
@@ -2997,86 +3034,6 @@
         "icon": {
             "icon": "music",
             "color": "#224299"
-        }
-    },
-    "camera": {
-        "skill_gid": "camera|21.02",
-        "repo": "https://github.com/MycroftAI/skill-camera",
-        "tree": "a52e306f99d6a4468f3998ae85196f52bbcdad73",
-        "name": "camera",
-        "github_username": "MycroftAI",
-        "title": "Camera Skill",
-        "display_name": "Camera Skill",
-        "short_desc": "Take photo's",
-        "description": "Take singleshot photographs with the Camera Skill.",
-        "examples": [
-            "Take a selfie.",
-            "Take a photograph.",
-            "Open the camera.",
-            "Start the camera app."
-        ],
-        "credits": [
-            {
-                "name": "Aix",
-                "github_id": "aiix"
-            }
-        ],
-        "categories": [
-            "Media"
-        ],
-        "platforms": [
-            "platform_mark2",
-            "platform_plasmoid"
-        ],
-        "tags": [
-            "Camera",
-            "Photograph",
-            "Images",
-            "Media",
-            "GUI"
-        ],
-        "icon": {
-            "icon": "camera-retro",
-            "color": "#DB4040"
-        }
-    },
-    "homescreen": {
-        "skill_gid": "homescreen|21.02",
-        "repo": "https://github.com/MycroftAI/skill-homescreen",
-        "tree": "b72800a2dd3518029541e092d49c1971f3ef56b6",
-        "name": "homescreen",
-        "github_username": "MycroftAI",
-        "title": "Homescreen",
-        "display_name": "Homescreen",
-        "short_desc": "A configurable home screen",
-        "description": "Provides a feature rich idle display for Mycroft devices with a screen, such as the Mark II.\n\nBy default, the weather, current time and current date will be shown. An alarm icon will\nbe shown in the upper right-hand corner if any alarms are set.\n\nThe wallpaper may be changed randomly via voice command or a custom image can be defined\nin the skill settings.",
-        "examples": [
-            "Change the wallpaper."
-        ],
-        "credits": [
-            {
-                "name": "* AIX",
-                "github_id": "AIIX"
-            },
-            {
-                "name": "* Mycroft AI"
-            }
-        ],
-        "categories": [
-            "Configuration"
-        ],
-        "platforms": [
-            "platform_mark2"
-        ],
-        "tags": [
-            "display",
-            "gui",
-            "wallpaper",
-            "homescreen"
-        ],
-        "icon": {
-            "icon": "home",
-            "color": "#22A7F0"
         }
     }
 }
